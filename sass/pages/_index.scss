@@ -7,40 +7,44 @@
 }
 
 
-.indexgrid {
+.indexcontainer{
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(16, 14vh);
     @media only screen and (max-width: $bp-large){
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(29, 14vh);
+        grid-template-rows: repeat(27, 14vh);
     }
     grid-gap: 2.5rem;
     padding: 10rem 15vw;
 
-    &__modus,
-    &__jeghardeg,
-    &__oslofortwo,
-    &__apenhet,
-    &__researchpaper{
+    &__box{
         border-radius: 1rem;
-        padding: 4rem;
+        padding: 5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows:  min-content;
+        grid-gap: 2.5rem;
+        transition: .3s ease-in-out;
     }
 
+
     &__modus{
-        background-color: #EFEFFF;
+        background-color: #4a52e641;
         grid-row: 2 / 7;
         grid-column: 1 / 2;
-        transition: .3s ease-in-out;
+        
 
         &--img{
-            width: 80%;
+            width: 90%;
             transform: rotate(24deg);
             transition: .8s ease-in-out;
+            justify-self: center;
         }
         &:hover{
             background-color: #4A51E6;
+            color: white;
         }
     }
 
@@ -52,6 +56,11 @@
             grid-row: 7 / 12;
             grid-column: 1 / -1;
         }
+
+        &:hover{
+            background-color: #B42639;
+            color: white;
+        }
     }
     &__oslofortwo{
         background-color: #FFECE6;
@@ -60,6 +69,10 @@
         @media only screen and (max-width: $bp-large){
             grid-row: 12/ 17;
             grid-column: 1 / -1;
+        }
+        &:hover{
+            background-color: #D96464;
+            color: white;
         }
     }
     &__apenhet{
@@ -70,6 +83,10 @@
             grid-row: 17/ 22;
             grid-column: 1 / -1;
         }
+        &:hover{
+            background-color: #2B83D0;
+            color: white;
+        }
     }
     &__researchpaper{
         background-color: #FFFBEA;
@@ -78,6 +95,10 @@
         @media only screen and (max-width: $bp-large){
             grid-row: 22/ 27;
             grid-column: 1 / -1;
+        }
+        &:hover{
+            background-color: #E0B500;
+            color: white;
         }
     }
 }
