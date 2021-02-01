@@ -85,16 +85,26 @@ let apenhetBox = document.querySelector('.indexcontainer__apenhet');
 let apenhetImg = document.querySelector('.indexcontainer__apenhet--img');
 let apenhetH1 = document.querySelector('.apenhet__h1');
 let apenhetH2 = document.querySelector('.apenhet__h2');
+let apenhetTag1 = document.querySelector('.tagapenhet1');
+let apenhetTag2 = document.querySelector('.tagapenhet2');
 
 apenhetBox.addEventListener('mouseover', event=> {
     //jeghardegImg.style.transform = 'rotate(0deg)';
     apenhetH1.style.color = 'white';
     apenhetH2.style.color = 'white';
+    apenhetTag1.style.backgroundColor = 'white';
+    apenhetTag2.style.backgroundColor = 'white';
+    apenhetTag1.style.color = '#064398';
+    apenhetTag2.style.color = '#064398';
 });
 apenhetBox.addEventListener('mouseout', event=> {
     //jeghardegImg.style.transform = 'rotate(24deg)';
     apenhetH1.style.color = '#0E034E';
     apenhetH2.style.color = '#0E034E';
+    apenhetTag1.style.backgroundColor = '#064398bf';
+    apenhetTag2.style.backgroundColor = '#064398bf';
+    apenhetTag1.style.color = 'white';
+    apenhetTag2.style.color = 'white';
 });
 
 // Researchpaper
