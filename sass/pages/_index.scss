@@ -25,6 +25,10 @@
         padding: 12rem 10vw;
         grid-gap: 4rem;
     }
+    @media only screen and (max-width: $bp-small){
+        padding: 12rem 3vw;
+        grid-gap: 2rem;
+    }
     
 
     &__box{
