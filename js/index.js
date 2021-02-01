@@ -58,16 +58,26 @@ let oslofortwoBox = document.querySelector('.indexcontainer__oslofortwo');
 let oslofortwoImg = document.querySelector('.indexcontainer__oslofortwo--img');
 let oslofortwoH1 = document.querySelector('.oslofortwo__h1');
 let oslofortwoH2 = document.querySelector('.oslofortwo__h2');
+let oslofortwoTag1 = document.querySelector('.tagoslofortwo1');
+let oslofortwoTag2 = document.querySelector('.tagoslofortwo2');
 
 oslofortwoBox.addEventListener('mouseover', event=> {
     //jeghardegImg.style.transform = 'rotate(0deg)';
     oslofortwoH1.style.color = 'white';
     oslofortwoH2.style.color = 'white';
+    oslofortwoTag1.style.backgroundColor = 'white';
+    oslofortwoTag2.style.backgroundColor = 'white';
+    oslofortwoTag1.style.color = '#D96464';
+    oslofortwoTag2.style.color = '#D96464';
 });
 oslofortwoBox.addEventListener('mouseout', event=> {
     //jeghardegImg.style.transform = 'rotate(24deg)';
     oslofortwoH1.style.color = '#0E034E';
     oslofortwoH2.style.color = '#0E034E';
+    oslofortwoTag1.style.backgroundColor = '#d9646480';
+    oslofortwoTag2.style.backgroundColor = '#d9646480';
+    oslofortwoTag1.style.color = 'white';
+    oslofortwoTag2.style.color = 'white';
 });
 
 // APENHET
