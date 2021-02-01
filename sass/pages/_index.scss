@@ -10,25 +10,60 @@
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(16, 14vh);
+    grid-template-rows: repeat(17, 14vh);
     grid-gap: 2.5rem;
     padding: 12rem 15vw;
-    @media only screen and (max-width: $bp-largest){
+    @media only screen and (max-width: $bp-large){
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(27, 14vh);
         padding: 12rem 6vw;
     }
-  
+    
+
     &__box{
         border-radius: 1rem;
-        padding: 9rem;
+        padding: 5rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows:  min-content;
-        grid-gap: 2.5rem;
+        grid-template-rows: repeat(3, min-content) 1fr;
+        grid-gap: 2.8rem;
         transition: .3s ease-in-out;
         @media only screen and (max-width: $bp-small){
             padding: 10vw;
+        }
+    }
+
+    &__heading1{
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+    }
+    &__tags {
+        &--tag{
+            color: #fffaf8;
+            font-size: 2rem;
+            font-weight: 200;
+            padding-top: .7rem;
+            padding-bottom: .5rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            margin-right: .5rem;
+            border-radius: .6rem;
+        }
+
+        &--modus{
+            background-color: #4a52e6aa;
+        }
+        &--jeghardeg{
+            background-color: #b5293c85;
+        }
+        &--apenhet{
+            background-color: #064398bf;
+        }
+        &--oslofortwo{
+            background-color: #d964648e;
+        }
+        &--researchpaper{
+            background-color: #e0b300bf;
         }
     }
 
@@ -36,12 +71,10 @@
         background-color: #4a52e641;
         grid-row: 2 / 7;
         grid-column: 1 / 2;
-        @media only screen and (max-width: $bp-largest){
+        @media only screen and (max-width: $bp-large){
             grid-row: 2 / 7;
             grid-column: 1 / -1;
         }
-        
-
         &--img{
             width: 90%;
             transform: rotate(24deg);
@@ -58,26 +91,27 @@
         background-color: #FFEBEE;
         grid-row: 2 / 6;
         grid-column: 2 / -1;
-        @media only screen and (max-width: $bp-largest){
+        @media only screen and (max-width: $bp-large){
             grid-row: 7 / 12;
             grid-column: 1 / -1;
         }
         &--img{
-            width: 90%;
+            width: 60%;
             transform: rotate(24deg);
             transition: .8s ease-in-out;
             justify-self: center;
+            align-self: center;
         }
-
         &:hover{
             background-color: #B42639;
         }
     }
+
     &__oslofortwo{
         background-color: #FFECE6;
         grid-row: 7 / 11;
         grid-column: 1 / 2;
-        @media only screen and (max-width: $bp-largest){
+        @media only screen and (max-width: $bp-large){
             grid-row: 12/ 17;
             grid-column: 1 / -1;
         }
@@ -85,11 +119,12 @@
             background-color: #D96464;
         }
     }
+
     &__apenhet{
         background-color: #E5F1FA;
         grid-row: 6 / 11;
         grid-column: 2 / 3;
-        @media only screen and (max-width: $bp-largest){
+        @media only screen and (max-width: $bp-large){
             grid-row: 17/ 22;
             grid-column: 1 / -1;
         }
@@ -97,17 +132,26 @@
             background-color: #2B83D0;
         }
     }
+
     &__researchpaper{
         background-color: #FFFBEA;
         grid-row: 11 / 16;
         grid-column: 1 / -1;
-        @media only screen and (max-width: $bp-largest){
+        @media only screen and (max-width: $bp-large){
             grid-row: 22/ 27;
             grid-column: 1 / -1;
         }
         &:hover{
             background-color: #E0B500;
         }
+    }
+
+    &__btn{
+        grid-row: 16 / 17;
+        grid-column: 1 / -1;
+        background-color: #E0B500;
+        align-self: end;
+        justify-self: center;
     }
 }
 
