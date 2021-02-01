@@ -4,16 +4,26 @@ let modusBox = document.querySelector('.indexcontainer__modus');
 let modusImg = document.querySelector('.indexcontainer__modus--img');
 let modusH1 = document.querySelector('.modus__h1');
 let modusH2 = document.querySelector('.modus__h2');
+let modusTag1 = document.querySelector('.tagmodus1');
+let modusTag2 = document.querySelector('.tagmodus2');
 
 modusBox.addEventListener('mouseover', event=> {
     modusImg.style.transform = 'rotate(0deg)';  
     modusH1.style.color = 'white';
     modusH2.style.color = 'white';
+    modusTag1.style.backgroundColor = 'white';
+    modusTag2.style.backgroundColor = 'white';
+    modusTag1.style.color = '#4A51E6';
+    modusTag2.style.color = '#4A51E6';
 });
 modusBox.addEventListener('mouseout', event=> {
     modusImg.style.transform = 'rotate(24deg)';
     modusH1.style.color = '#0E034E';
     modusH2.style.color = '#0E034E';
+    modusTag1.style.backgroundColor = '#4a52e641';
+    modusTag2.style.backgroundColor = '#4a52e641';
+    modusTag1.style.color = 'white';
+    modusTag2.style.color = 'white';
 });
 
 // JEGHARDEG
@@ -21,16 +31,26 @@ let jeghardegBox = document.querySelector('.indexcontainer__jeghardeg');
 let jeghardegImg = document.querySelector('.indexcontainer__jeghardeg--img');
 let jeghardegH1 = document.querySelector('.jeghardeg__h1');
 let jeghardegH2 = document.querySelector('.jeghardeg__h2');
+let jeghardegTag1 = document.querySelector('.tagjeghardeg1');
+let jeghardegTag2 = document.querySelector('.tagjeghardeg2');
 
 jeghardegBox.addEventListener('mouseover', event=> {
     jeghardegImg.style.transform = 'rotate(0deg)';
     jeghardegH1.style.color = 'white';
     jeghardegH2.style.color = 'white';
+    jeghardegTag1.style.backgroundColor = 'white';
+    jeghardegTag2.style.backgroundColor = 'white';
+    jeghardegTag1.style.color = '#B5293B';
+    jeghardegTag2.style.color = '#B5293B';
 });
 jeghardegBox.addEventListener('mouseout', event=> {
     jeghardegImg.style.transform = 'rotate(24deg)';
     jeghardegH1.style.color = '#0E034E';
     jeghardegH2.style.color = '#0E034E';
+    jeghardegTag1.style.backgroundColor = '#b5293c85';
+    jeghardegTag2.style.backgroundColor = '#b5293c85';
+    jeghardegTag1.style.color = 'white';
+    jeghardegTag2.style.color = 'white';
 });
 
 // OsloForTwo
