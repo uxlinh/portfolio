@@ -131,6 +131,10 @@ a {
     .indexcontainer {
       padding: 12rem 10vw;
       grid-gap: 4rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .indexcontainer {
+      padding: 12rem 3vw;
+      grid-gap: 2rem; } }
   .indexcontainer__box {
     border-radius: 1rem;
     padding: 5rem;
