@@ -112,16 +112,26 @@ let researchpaperBox = document.querySelector('.indexcontainer__researchpaper');
 let researchpaperImg = document.querySelector('.indexcontainer__researchpaper--img');
 let researchpaperH1 = document.querySelector('.researchpaper__h1');
 let researchpaperH2 = document.querySelector('.researchpaper__h2');
+let researchpaperTag1 = document.querySelector('.tagresearchpaper1');
+let researchpaperTag2 = document.querySelector('.tagresearchpaper2');
 
 researchpaperBox.addEventListener('mouseover', event=> {
     //jeghardegImg.style.transform = 'rotate(0deg)';
     researchpaperH1.style.color = 'white';
     researchpaperH2.style.color = 'white';
+    researchpaperTag1.style.backgroundColor = 'white';
+    researchpaperTag2.style.backgroundColor = 'white';
+    researchpaperTag1.style.color = '#8D7100';
+    researchpaperTag2.style.color = '#8D7100';
 });
 researchpaperBox.addEventListener('mouseout', event=> {
     //jeghardegImg.style.transform = 'rotate(24deg)';
     researchpaperH1.style.color = '#0E034E';
     researchpaperH2.style.color = '#0E034E';
+    researchpaperTag1.style.backgroundColor = '#D6AD00';
+    researchpaperTag2.style.backgroundColor = '#D6AD00';
+    researchpaperTag1.style.color = 'white';
+    researchpaperTag2.style.color = 'white';
 });
 
 
