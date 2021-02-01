@@ -12,11 +12,15 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(17, 14vh);
     grid-gap: 2.5rem;
-    padding: 12rem 15vw;
+    padding: 12rem 14vw;
     @media only screen and (max-width: $bp-large){
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(27, 14vh);
-        padding: 12rem 6vw;
+        padding: 12rem 8vw;
+    }
+    @media only screen and (max-width: $bp-medium){
+        grid-gap: 4rem;
+        padding: 12rem 10vw;
     }
     
 
@@ -26,7 +30,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, min-content) 1fr;
-        grid-gap: 2.8rem;
+        grid-gap: 1.5rem;
         transition: .3s ease-in-out;
         @media only screen and (max-width: $bp-small){
             padding: 10vw;
@@ -38,16 +42,17 @@
         grid-column: 1 / -1;
     }
     &__tags {
+    
         &--tag{
             color: #fffaf8;
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-weight: 200;
-            padding-top: .7rem;
+            padding-top: .6rem;
             padding-bottom: .5rem;
-            padding-left: 1.2rem;
-            padding-right: 1.2rem;
-            margin-right: .5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
             border-radius: .6rem;
+            margin-right: .2rem;
         }
 
         &--modus{
@@ -152,6 +157,10 @@
         background-color: #E0B500;
         align-self: end;
         justify-self: center;
+        @media only screen and (max-width: $bp-large){
+            grid-row: 27/ 28;
+            grid-column: 1 / -1;
+        }
     }
 }
 
