@@ -51,32 +51,41 @@ a {
   cursor: pointer;
   transform: all .2s; }
 
+.btn1:hover {
+  transform: translateY(-10rem); }
+
 .navbar {
+  position: absolute;
+  width: 100vw;
   font-size: 2rem;
-  font-weight: 200; }
+  font-weight: 200;
+  background-color: none; }
 
 .main-nav {
   list-style-type: none;
-  display: none; }
+  display: none;
+  padding: 7rem; }
 
 .nav-links,
 .logo {
   text-decoration: none;
   color: white; }
 
+.logo {
+  display: inline-block;
+  margin-top: 3.5rem;
+  margin-left: 20px;
+  font-size: 2rem;
+  font-weight: 600; }
+
 .main-nav li {
   text-align: center;
   margin-top: 2rem; }
 
-.logo {
-  display: inline-block;
-  margin-top: 1.5rem;
-  margin-left: 20px; }
-
 .navbar-toggle {
   position: absolute;
-  top: 1rem;
-  right: 3rem;
+  top: 3rem;
+  right: 4rem;
   cursor: pointer;
   color: white;
   font-size: 24px; }
@@ -91,6 +100,10 @@ a {
     padding-bottom: 0;
     height: 70px;
     align-items: center; }
+  .logo {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 3rem; }
   .main-nav {
     display: flex;
     margin-right: 30px;
@@ -107,25 +120,20 @@ a {
     color: white; } }
 
 .burgerline {
-  border: none;
   background-color: #fff;
-  height: 1px;
-  width: 4.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem; }
-
-.burgerline::before,
-.burgerline::after {
-  background-color: #fff;
-  height: 1px;
-  width: 4.5rem;
-  content: " ";
-  display: block; }
+  border-radius: 10rem;
+  height: 2px;
+  width: 3rem;
+  margin-top: .7rem;
+  margin-bottom: .8rem; }
 
 .header__index {
+  position: relative;
   width: 100vw;
-  height: 100vh;
   background-color: #8351ED; }
+
+.header #hero {
+  width: 75vw; }
 
 .indexcontainer {
   width: 100vw;

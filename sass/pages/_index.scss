@@ -1,8 +1,11 @@
 .header{
     &__index{
+        position: relative;
         width: 100vw;
-        height: 100vh;
         background-color: #8351ED;
+    }
+    #hero{
+        width: 75vw;
     }
 }
 
