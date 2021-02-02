@@ -71,6 +71,21 @@ a {
   text-decoration: none;
   color: white; }
 
+.underline {
+  color: white; }
+
+a.underline::after {
+  color: white;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0.1rem;
+  background: #ffffff;
+  transition: .8s; }
+
+a.underline:hover::after {
+  width: 100%; }
+
 .logo {
   display: inline-block;
   margin-top: 3.5rem;
@@ -80,7 +95,7 @@ a {
 
 .main-nav li {
   text-align: center;
-  padding: 4rem 0; }
+  padding: 3rem 1rem; }
 
 .navbar-toggle {
   position: absolute;
@@ -114,7 +129,8 @@ a {
   .nav-links {
     margin-left: 40px; }
   .navbar-toggle {
-    display: none; }
+    display: none;
+    transition: transform .8s ease-in; }
   .logo:hover,
   .nav-links:hover {
     color: white; } }

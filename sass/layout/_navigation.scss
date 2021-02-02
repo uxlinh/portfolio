@@ -20,6 +20,22 @@
     color: rgb(255, 255, 255);
   }
 
+  .underline{
+      color:white;
+  }
+
+  a.underline::after {
+    color:white;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.1rem;
+    background: #ffffff;
+    transition: .8s;
+  }   
+  a.underline:hover::after {
+    width: 100%; 
+  }
 
   .logo {
     display: inline-block;
@@ -31,7 +47,7 @@
 
   .main-nav li {
     text-align: center;
-    padding: 4rem 0;
+    padding: 3rem 1rem;
   }
  
 //   li:hover{
@@ -82,6 +98,7 @@
   
     .navbar-toggle {
       display: none;
+      transition: transform .8s ease-in;
     }
   
     .logo:hover,
