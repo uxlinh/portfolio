@@ -17,6 +17,10 @@ html {
 a {
   text-decoration: none; }
 
+.heading1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem; }
+
 .box__h1 {
   font-family: 'Merriweather', serif;
   font-size: 2.8rem;
@@ -35,9 +39,6 @@ a {
 
 .box__h2:after {
   content: ' \279D'; }
-
-.heading1 {
-  font-size: 6rem; }
 
 .btn1 {
   background-color: #0E004E;
@@ -63,8 +64,7 @@ a {
 
 .main-nav {
   list-style-type: none;
-  display: none;
-  padding: 7rem; }
+  display: none; }
 
 .nav-links,
 .logo {
@@ -133,7 +133,7 @@ a {
   background-color: #8351ED; }
 
 .header #hero {
-  width: 75vw; }
+  width: 78vw; }
 
 .indexcontainer {
   width: 100vw;
@@ -171,7 +171,9 @@ a {
         padding: 10vw; } }
   .indexcontainer__heading1 {
     grid-row: 1 / 2;
-    grid-column: 1 / -1; }
+    grid-column: 1 / -1;
+    align-self: center;
+    justify-self: center; }
   .indexcontainer__tags--tag {
     color: #fffaf8;
     font-size: 1.8rem;

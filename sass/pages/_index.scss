@@ -5,7 +5,7 @@
         background-color: #8351ED;
     }
     #hero{
-        width: 75vw;
+        width: 78vw;
     }
 }
 
@@ -50,6 +50,8 @@
     &__heading1{
         grid-row: 1 / 2;
         grid-column: 1 / -1;
+        align-self: center;
+        justify-self: center;
     }
     &__tags {
     
