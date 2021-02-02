@@ -80,7 +80,7 @@ a {
 
 .main-nav li {
   text-align: center;
-  margin-top: 2rem; }
+  padding: 4rem 0; }
 
 .navbar-toggle {
   position: absolute;
@@ -125,7 +125,17 @@ a {
   height: 2px;
   width: 3rem;
   margin-top: .7rem;
-  margin-bottom: .8rem; }
+  margin-bottom: .8rem;
+  transition: transform .2s ease-in; }
+
+.toggle .burgerline1 {
+  transform: rotate(-45deg) translate(-5px, 6px); }
+
+.toggle .burgerline2 {
+  opacity: 0; }
+
+.toggle .burgerline3 {
+  transform: rotate(45deg) translate(-5px, -6px); }
 
 .header__index {
   position: relative;
