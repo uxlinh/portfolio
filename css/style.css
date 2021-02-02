@@ -157,6 +157,12 @@ a.underline:hover::after {
   position: relative;
   width: 100vw;
   background-color: #8351ED; }
+  @media only screen and (max-width: 50em) {
+    .header__index {
+      height: 90vh; } }
+  @media only screen and (max-width: 37.5em) {
+    .header__index {
+      height: 90vh; } }
 
 .header #hero {
   width: 78vw; }
