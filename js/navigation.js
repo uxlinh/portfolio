@@ -5,11 +5,12 @@ let navBarToggle = document.getElementById("js-navbar-toggle");
 
 navBarToggle.addEventListener("click", event => {
     let activeB = mainNav.classList.toggle("active");
-    navBarToggle.classList.toggle('toggle'); 
-    
+    navBarToggle.classList.toggle('toggle');
 
     if (activeB) {
-    bar.style.backgroundColor = "#8351ED";
+    bar.style.backgroundColor = "#FFF6E8";
+    bar.style.zIndex = "2";
+    bar.style.height = "100vh"
 
     } else {
     bar.style.backgroundColor = "transparent";

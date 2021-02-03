@@ -1,37 +1,35 @@
   .navbar {
     position: absolute;
+    top: 0;
     width: 100vw;
     font-size: 2rem;
     font-weight: 200;
-    // padding-left: 2rem;
-    // padding-right: 2rem;
     background-color: none;
   }
 
   .main-nav {
     list-style-type: none;
     display: none;
-    //background-color:#8351ED; funker ikke
   }
   
   .nav-links,
   .logo {
+    font-family: 'merriweather', sans-serif;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: $primary-color;
   }
 
   .underline{
-      color:white;
+      color: $primary-color;
   }
 
   a.underline::after {
-    color:white;
     content: '';
     display: block;
     width: 0;
     height: 0.1rem;
-    background: #ffffff;
-    transition: .8s;
+    background: $primary-color;
+    transition: .6s;
   }   
   a.underline:hover::after {
     width: 100%; 
@@ -55,7 +53,7 @@
     top: 3rem;
     right: 4rem;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: $primary-color;
     font-size: 24px;
   }
   
@@ -97,14 +95,10 @@
       transition: transform .8s ease-in;
     }
   
-    .logo:hover,
-    .nav-links:hover {
-      color: rgba(255, 255, 255, 1);
-    }
   }
   
   .burgerline{
-    background-color: #fff;
+    background-color: $primary-color;
     border-radius: 10rem;
     height: 2px;
     width: 3rem;
@@ -123,17 +117,3 @@
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
-// #js-navbar-toggle .burgerline {
-//     transition: all 500ms ease-in-out;
-// }
-// #js-navbar-toggle.active .burgerline:nth-of-type(1) {
-//     top: 6px;
-//     transform: rotate(45deg);
-// }
-// #js-navbar-toggle.active .burgerline:nth-of-type(2) {
-//     background-color: transparent;
-// }
-// #js-navbar-toggle.active .burgerline:nth-of-type(3) {
-//     top: -6px;
-//     transform: rotate(-45deg);
-// }

@@ -17,6 +17,25 @@ html {
 a {
   text-decoration: none; }
 
+.bold {
+  font-weight: 600; }
+
+.hero-heading1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 1000;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0E004E; }
+
+.hero-heading2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+  color: #0E004E; }
+
 .heading1 {
   font-family: 'Merriweather', serif;
   font-size: 3rem; }
@@ -40,23 +59,52 @@ a {
 .box__h2:after {
   content: ' \279D'; }
 
+.footer {
+  color: #0E004E;
+  font-weight: 200; }
+  .footer__paragraph {
+    font-size: 2.4rem;
+    font-weight: 200;
+    text-align: center;
+    line-height: 4.2rem; }
+  .footer__copyright {
+    font-size: 1.5rem; }
+
 .btn1 {
   background-color: #0E004E;
   color: #fff;
   border: none;
   border-radius: 10rem;
-  font-family: 'poppins, sans-serif';
-  font-weight: 600;
+  font-family: 'merriweather', sans-serif;
+  font-weight: 200;
   font-size: 2rem;
   padding: 1.8rem 3rem;
   cursor: pointer;
-  transform: all .2s; }
+  transition: transform .4s ease-in-out; }
 
 .btn1:hover {
-  transform: translateY(-10rem); }
+  transform: translateY(-0.5rem);
+  box-shadow: 3px 6px 35px rgba(68, 72, 104, 0.358); }
+
+.footer {
+  width: 100vw;
+  height: 50vh;
+  background-color: #FFF6E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .footer__iconcontainer {
+    margin-top: 3rem;
+    margin-bottom: 6.5rem; }
+  .footer__icon {
+    width: 5rem;
+    margin-right: .3rem; }
 
 .navbar {
   position: absolute;
+  top: 0;
   width: 100vw;
   font-size: 2rem;
   font-weight: 200;
@@ -68,20 +116,20 @@ a {
 
 .nav-links,
 .logo {
+  font-family: 'merriweather', sans-serif;
   text-decoration: none;
-  color: white; }
+  color: #0E004E; }
 
 .underline {
-  color: white; }
+  color: #0E004E; }
 
 a.underline::after {
-  color: white;
   content: '';
   display: block;
   width: 0;
   height: 0.1rem;
-  background: #ffffff;
-  transition: .8s; }
+  background: #0E004E;
+  transition: .6s; }
 
 a.underline:hover::after {
   width: 100%; }
@@ -102,7 +150,7 @@ a.underline:hover::after {
   top: 3rem;
   right: 4rem;
   cursor: pointer;
-  color: white;
+  color: #0E004E;
   font-size: 24px; }
 
 .active {
@@ -130,13 +178,10 @@ a.underline:hover::after {
     margin-left: 40px; }
   .navbar-toggle {
     display: none;
-    transition: transform .8s ease-in; }
-  .logo:hover,
-  .nav-links:hover {
-    color: white; } }
+    transition: transform .8s ease-in; } }
 
 .burgerline {
-  background-color: #fff;
+  background-color: #0E004E;
   border-radius: 10rem;
   height: 2px;
   width: 3rem;
@@ -155,15 +200,22 @@ a.underline:hover::after {
 
 .header__index {
   position: relative;
+  display: grid;
+  justify-content: center;
   width: 100vw;
-  height: 90vh;
-  background-color: #8351ED; }
+  height: 90vh; }
   @media only screen and (max-width: 62.5em) {
     .header__index {
       height: 90vh; } }
 
-.header #hero {
-  width: 78vw; }
+.header__herotext {
+  width: 100vw;
+  position: absolute;
+  top: 6%;
+  padding: 10vw; }
+  @media only screen and (max-width: 62.5em) {
+    .header__herotext {
+      top: 15%; } }
 
 .indexcontainer {
   width: 100vw;
@@ -253,7 +305,7 @@ a.underline:hover::after {
       transform: rotate(24deg);
       transition: .8s ease-in-out;
       justify-self: center;
-      align-self: center; }
+      align-self: end; }
     .indexcontainer__jeghardeg:hover {
       background-color: #B42639; }
   .indexcontainer__oslofortwo {
@@ -295,13 +347,3 @@ a.underline:hover::after {
       .indexcontainer__btn1 {
         grid-row: 23/ 24;
         grid-column: 1 / -1; } }
-
-.references {
-  width: 100vw;
-  height: 70vh;
-  background-color: #FAFAFF; }
-
-.footer {
-  width: 100vw;
-  height: 50vh;
-  background-color: #8351ED; }
