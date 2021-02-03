@@ -22,6 +22,7 @@
         position: absolute;
         top: 6%;
         padding: 10vw;
+        text-align: center;
 
         @media only screen and (max-width: $bp-large){
             top: 15%;
@@ -179,6 +180,13 @@
         @media only screen and (max-width: $bp-large){
             grid-row: 18/ 23;
             grid-column: 1 / -1;
+        }
+        &--img{
+            width: 25%;
+            transform: rotate(24deg);
+            transition: .8s ease-in-out;
+            justify-self: center;
+            align-self: center;
         }
         &:hover{
             background-color: #E0B500;
