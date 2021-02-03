@@ -201,7 +201,7 @@ a.underline:hover::after {
 
 .header__index {
   position: relative;
-  display: grid;
+  display: flex;
   justify-content: center;
   width: 100vw;
   height: 90vh; }
