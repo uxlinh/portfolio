@@ -2,6 +2,7 @@
     &__index{
         position: relative;
         width: 100vw;
+        height: 90vh;
         background-color: #8351ED;
         @media only screen and (max-width: $bp-large){
             height: 90vh;
