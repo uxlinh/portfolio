@@ -139,8 +139,8 @@ let researchpaperTag1 = document.querySelector('.tagresearchpaper1');
 let researchpaperTag2 = document.querySelector('.tagresearchpaper2');
 
 researchpaperBox.addEventListener('mouseover', event=> {
-    //researchpaperImg.style.transform = 'rotate(0deg)';
-    //researchpaperImg.style.transform = 'scale(1.2)';  
+    researchpaperImg.style.transform = 'rotate(0deg)';
+    researchpaperImg.style.transform = 'scale(1.4)';  
     researchpaperH1.style.color = 'white';
     researchpaperH2.style.color = 'white';
     researchpaperTag1.style.backgroundColor = 'white';
@@ -149,7 +149,7 @@ researchpaperBox.addEventListener('mouseover', event=> {
     researchpaperTag2.style.color = '#8D7100';
 });
 researchpaperBox.addEventListener('mouseout', event=> {
-    //researchpaperImg.style.transform = 'rotate(24deg)';
+    researchpaperImg.style.transform = 'rotate(24deg)';
     researchpaperH1.style.color = '#0E034E';
     researchpaperH2.style.color = '#0E034E';
     researchpaperTag1.style.backgroundColor = '#D6AD00';
