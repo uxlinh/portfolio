@@ -3,7 +3,6 @@
         position: relative;
         display: flex;
         width: 100vw;
-        height: 90vh;
 
         @media only screen and (max-width: $bp-large){
             height: 90vh;
@@ -26,6 +25,9 @@
         @media only screen and (max-width: $bp-large){
             top: 15%;
         }
+    }
+    &__heroimg{
+        width: 78vw;
     }
 }
 
