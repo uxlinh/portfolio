@@ -29,8 +29,46 @@
     &__heroimg{
         width: 78vw;
     }
-}
+    &__figur1{
+        position: absolute;
+        top: 80rem;
+        right: 80rem;
+        transform: translatey(0rem);
+	    animation: float 20s ease-in-out infinite;
+    }
+    &__figur2{
+        position: absolute;
+        top: 80rem;
+        right: 65rem;
+        transform: translatey(0px);
+	    animation: float 30s ease-in-out infinite;
+    }
+    &__figur3{
+        position: absolute;
+        top: 80rem;
+        right: 75rem;
+        transform: translatey(0px);
+	    animation: float 50s ease-in-out infinite;
+    }
 
+    @keyframes float {
+        0% {
+            transform: translatey(0px);
+            opacity: 0;
+        }
+        30% {
+            opacity: 1;
+        }
+        50% {
+            transform: translateY(-200px) translatex(-100px) rotate(100deg);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-200px) translatex(-100px) rotate(100deg);
+            opacity: 0;
+        }
+}
+}
 
 
 .indexcontainer{
