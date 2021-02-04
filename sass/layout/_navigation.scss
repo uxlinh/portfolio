@@ -45,7 +45,10 @@
 
   .main-nav li {
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 1rem 2.5rem;
+    @media only screen and (max-width: $bp-small){
+      padding: 4rem 0;
+    }
   }
   
   .navbar-toggle {
@@ -59,6 +62,11 @@
   
   .active {
     display: block;
+  }
+
+  #kontakt{
+    background-color: $secondary-color;
+    border-radius: 5rem;
   }
   
   @media screen and (min-width: 720px) {
