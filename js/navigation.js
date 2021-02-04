@@ -10,7 +10,7 @@ navBarToggle.addEventListener("click", event => {
     if (activeB) {
     bar.style.backgroundColor = "#FFF6E8";
     bar.style.zIndex = "2";
-    bar.style.height = "90%"
+    bar.style.height = "70%"
 
     } else {
     bar.style.backgroundColor = "transparent";
