@@ -202,7 +202,6 @@ a.underline:hover::after {
 .header__index {
   position: relative;
   display: flex;
-  justify-content: center;
   width: 100vw;
   height: 90vh; }
   @media only screen and (max-width: 62.5em) {
