@@ -242,7 +242,8 @@ a.underline:hover::after {
       .header__herotext {
         top: 10%; } }
   .header__heroimg {
-    width: 85vw; }
+    width: 85vw;
+    margin-bottom: 10rem; }
     @media only screen and (max-width: 80em) {
       .header__heroimg {
         width: 90vw; } }
