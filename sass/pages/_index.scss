@@ -35,7 +35,7 @@
         margin-bottom: 10rem;
 
         @media only screen and (max-width: $bp-largest) {
-            width: 90vw;
+            width: 93vw;
         }
 
         @media only screen and (max-width: $bp-small) {
@@ -82,52 +82,83 @@
     }
 
     &__circlered{
-        top: 55vh;
-        left: 30vw;
+        top: 60vh;
+        left: 32vw;
+        width: 2rem;
     }
     &__circleyellow{
         top: 20vh;
         right: 30vw;
+        width: 1.6rem;
     }
 
     &__square {
         top: 65vh;
         left: 30rem;
+        width: 4rem;
     }
     &__squarey{
-        top: 65vh;
-        left: 40vw;
+        top: 73vh;
+        right: 45vw;
+        width: 2rem;
     }
     
     &__pen{
         top: 40vh;
-        right: 16vw;
+        right: 15vw;
+        width: 4.5rem;
+        @media only screen and (max-width: $bp-small) {
+            top: 50vh;
+            right: 10vw;
+            width: 3rem;
+            visibility: visible;
+         }
     }
     &__star{
-        top: 60vh;
+        top: 65vh;
         right: 18vw;
+        width: 3rem;
+        @media only screen and (max-width: $bp-small) {
+            top: 60vh;
+            visibility: visible;
+            right: 30vw;
+         }
     }
     &__trekant{
         top: 60vh;
-        right: 40vw;
+        right: 30vw;
+        width: 2.5rem;
         transform: rotate(80deg);
+        @media only screen and (max-width: $bp-small) {
+            top: 48vh;
+            right: 50vw;
+            width: 2.8rem;
+            visibility: visible;
+         }
     }
     &__trekant2{
         top: 10vh;
         left: 30rem;
+        width: 2rem;
     }
     &__person{
-        top: 35rem;
+        top: 30rem;
         left: 10rem;
     }
     &__code{
-        top: 75vh;
-        right: 30vw;
+        top: 80vh;
+        right: 32vw;
+        width: 3rem;
         @media only screen and (max-width: $bp-largest) {
             top: 85vh;
          }
         @media only screen and (max-width: $bp-large) {
             top: 70vh;
+         }
+         @media only screen and (max-width: $bp-small) {
+            visibility: visible;
+            right: 15vw;
+            width: 3rem;
          }
     }
 

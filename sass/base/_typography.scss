@@ -21,7 +21,7 @@ a{
     font-size: 2.5rem;
     margin-bottom: .5rem;
     color: $primary-color;
-    @media only screen and (max-width: $bp-large) {
+    @media only screen and (max-width: $bp-largest) {
         font-size: 2.4rem;
     }
     @media only screen and (max-width: $bp-medium) {
