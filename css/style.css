@@ -251,7 +251,7 @@ a.underline:hover::after {
         background-image: url("../img/heroimg4.svg");
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 95vw;
+        width: 99vw;
         height: 85vh; }
         .header__heroimg--1, .header__heroimg--2 {
           visibility: hidden; } }
