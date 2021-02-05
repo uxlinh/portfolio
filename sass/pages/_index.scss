@@ -5,20 +5,20 @@
         position: relative;
         display: flex;
         width: 100vw;
-        height: 135vh;
+        // height: 130vh;
 
-        @media only screen and (max-width: $bp-largest) {
-            height: 120vh;
-        }
-        @media only screen and (max-width: $bp-large) {
-            height: 115vh;
-        }
-        @media only screen and (max-width: $bp-medium) {
-            height: 110vh;
-        }
-        @media only screen and (max-width: $bp-small) {
-            height: 90vh;
-        }
+        // @media only screen and (max-width: $bp-largest) {
+        //     height: 130vh;
+        // }
+        // @media only screen and (max-width: $bp-large) {
+        //     height: 115vh;
+        // }
+        // @media only screen and (max-width: $bp-medium) {
+        //     height: 110vh;
+        // }
+        // @media only screen and (max-width: $bp-small) {
+        //     height: 90vh;
+        // }
     }
 
     &__herotext {
@@ -45,13 +45,15 @@
         background-image: url('../img/heroimg.svg');
         background-size: 90%;
         background-repeat: no-repeat;
-        width: 92vw;
+        width: 95vw;
+        height: 135vh;
 
         @media only screen and (max-width: $bp-largest) {
             background-image: url('../img/heroimg2.svg');
             background-size: 100%;
             background-repeat: no-repeat;
             width: 90vw;
+            height: 137vh;
         }
 
         @media only screen and (max-width: $bp-large) {
@@ -59,18 +61,21 @@
             background-size: 100%;
             background-repeat: no-repeat;
             width: 95vw;
+            height: 115vh;
         }
         @media only screen and (max-width: $bp-medium) {
             background-image: url('../img/heroimg3.svg');
             background-size: 100%;
             background-repeat: no-repeat;
             width: 95vw;
+            //height: 100vh;
         }
         @media only screen and (max-width: $bp-small) {
             background-image: url('../img/heroimg4.svg');
             background-size: 100%;
             background-repeat: no-repeat;
             width: 95vw;
+            height: 95vh;
         }
     }
 

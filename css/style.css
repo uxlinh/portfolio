@@ -10,7 +10,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 80em) {
     html {
       font-size: 50%; } }
 
@@ -35,6 +35,12 @@ a {
   font-size: 2.5rem;
   margin-bottom: .5rem;
   color: #0E004E; }
+  @media only screen and (max-width: 62.5em) {
+    .hero-heading2 {
+      font-size: 2.4rem; } }
+  @media only screen and (max-width: 50em) {
+    .hero-heading2 {
+      font-size: 2rem; } }
   @media only screen and (max-width: 37.5em) {
     .hero-heading2 {
       font-size: 1.8rem; } }
@@ -218,27 +224,14 @@ a.underline:hover::after {
   .header__index {
     position: relative;
     display: flex;
-    width: 100vw;
-    height: 135vh; }
-    @media only screen and (max-width: 75em) {
-      .header__index {
-        height: 120vh; } }
-    @media only screen and (max-width: 62.5em) {
-      .header__index {
-        height: 115vh; } }
-    @media only screen and (max-width: 50em) {
-      .header__index {
-        height: 110vh; } }
-    @media only screen and (max-width: 37.5em) {
-      .header__index {
-        height: 90vh; } }
+    width: 100vw; }
   .header__herotext {
     width: 100vw;
     position: absolute;
     top: 6%;
     padding: 10vw;
     text-align: center; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 80em) {
       .header__herotext {
         top: 12%; } }
     @media only screen and (max-width: 62.5em) {
@@ -252,19 +245,22 @@ a.underline:hover::after {
     background-image: url("../img/heroimg.svg");
     background-size: 90%;
     background-repeat: no-repeat;
-    width: 92vw; }
-    @media only screen and (max-width: 75em) {
+    width: 95vw;
+    height: 135vh; }
+    @media only screen and (max-width: 80em) {
       .header__heroimg {
         background-image: url("../img/heroimg2.svg");
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 90vw; } }
+        width: 90vw;
+        height: 137vh; } }
     @media only screen and (max-width: 62.5em) {
       .header__heroimg {
         background-image: url("../img/heroimg2.svg");
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 95vw; } }
+        width: 95vw;
+        height: 115vh; } }
     @media only screen and (max-width: 50em) {
       .header__heroimg {
         background-image: url("../img/heroimg3.svg");
@@ -276,7 +272,8 @@ a.underline:hover::after {
         background-image: url("../img/heroimg4.svg");
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 95vw; } }
+        width: 95vw;
+        height: 95vh; } }
   .header__figur1 {
     position: absolute;
     top: 75rem;
@@ -316,7 +313,7 @@ a.underline:hover::after {
   grid-template-rows: repeat(17, 14vh);
   grid-gap: 2.5rem;
   padding: 12rem 14vw; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 80em) {
     .indexcontainer {
       padding: 12rem 7vw; } }
   @media only screen and (max-width: 62.5em) {
