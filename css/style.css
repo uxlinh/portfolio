@@ -296,7 +296,7 @@ a.underline:hover::after {
       .header__pen {
         top: 50vh;
         right: 10vw;
-        width: 3rem;
+        width: 2rem;
         visibility: visible; } }
   .header__star {
     top: 65vh;
@@ -304,7 +304,7 @@ a.underline:hover::after {
     width: 3rem; }
     @media only screen and (max-width: 37.5em) {
       .header__star {
-        top: 60vh;
+        top: 63vh;
         visibility: visible;
         right: 30vw; } }
   .header__trekant {
@@ -314,7 +314,7 @@ a.underline:hover::after {
     transform: rotate(80deg); }
     @media only screen and (max-width: 37.5em) {
       .header__trekant {
-        top: 48vh;
+        top: 55vh;
         right: 50vw;
         width: 2.8rem;
         visibility: visible; } }
@@ -338,8 +338,9 @@ a.underline:hover::after {
     @media only screen and (max-width: 37.5em) {
       .header__code {
         visibility: visible;
+        top: 68vh;
         right: 15vw;
-        width: 3rem; } }
+        width: 2rem; } }
 
 @keyframes float {
   0% {
