@@ -35,7 +35,7 @@ a {
   font-size: 2.5rem;
   margin-bottom: .5rem;
   color: #0E004E; }
-  @media only screen and (max-width: 62.5em) {
+  @media only screen and (max-width: 80em) {
     .hero-heading2 {
       font-size: 2.4rem; } }
   @media only screen and (max-width: 50em) {
@@ -247,7 +247,7 @@ a.underline:hover::after {
     margin-bottom: 10rem; }
     @media only screen and (max-width: 80em) {
       .header__heroimg {
-        width: 90vw; } }
+        width: 93vw; } }
     @media only screen and (max-width: 37.5em) {
       .header__heroimg {
         background-image: url("../img/heroimg4.svg");
@@ -273,42 +273,73 @@ a.underline:hover::after {
       .header__circleyellow, .header__circlered, .header__square, .header__squarey, .header__pen, .header__star, .header__trekant, .header__trekant2, .header__person, .header__code {
         visibility: hidden; } }
   .header__circlered {
-    top: 55vh;
-    left: 30vw; }
+    top: 60vh;
+    left: 32vw;
+    width: 2rem; }
   .header__circleyellow {
     top: 20vh;
-    right: 30vw; }
+    right: 30vw;
+    width: 1.6rem; }
   .header__square {
     top: 65vh;
-    left: 30rem; }
+    left: 30rem;
+    width: 4rem; }
   .header__squarey {
-    top: 65vh;
-    left: 40vw; }
+    top: 73vh;
+    right: 45vw;
+    width: 2rem; }
   .header__pen {
     top: 40vh;
-    right: 16vw; }
+    right: 15vw;
+    width: 4.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__pen {
+        top: 50vh;
+        right: 10vw;
+        width: 3rem;
+        visibility: visible; } }
   .header__star {
-    top: 60vh;
-    right: 18vw; }
+    top: 65vh;
+    right: 18vw;
+    width: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__star {
+        top: 60vh;
+        visibility: visible;
+        right: 30vw; } }
   .header__trekant {
     top: 60vh;
-    right: 40vw;
+    right: 30vw;
+    width: 2.5rem;
     transform: rotate(80deg); }
+    @media only screen and (max-width: 37.5em) {
+      .header__trekant {
+        top: 48vh;
+        right: 50vw;
+        width: 2.8rem;
+        visibility: visible; } }
   .header__trekant2 {
     top: 10vh;
-    left: 30rem; }
+    left: 30rem;
+    width: 2rem; }
   .header__person {
-    top: 35rem;
+    top: 30rem;
     left: 10rem; }
   .header__code {
-    top: 75vh;
-    right: 30vw; }
+    top: 80vh;
+    right: 32vw;
+    width: 3rem; }
     @media only screen and (max-width: 80em) {
       .header__code {
         top: 85vh; } }
     @media only screen and (max-width: 62.5em) {
       .header__code {
         top: 70vh; } }
+    @media only screen and (max-width: 37.5em) {
+      .header__code {
+        visibility: visible;
+        right: 15vw;
+        width: 3rem; } }
 
 @keyframes float {
   0% {
