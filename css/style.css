@@ -304,7 +304,7 @@ a.underline:hover::after {
     width: 3rem; }
     @media only screen and (max-width: 37.5em) {
       .header__star {
-        top: 63vh;
+        top: 67vh;
         visibility: visible;
         right: 30vw; } }
   .header__trekant {
