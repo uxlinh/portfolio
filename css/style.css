@@ -242,38 +242,19 @@ a.underline:hover::after {
       .header__herotext {
         top: 10%; } }
   .header__heroimg {
-    background-image: url("../img/heroimg.svg");
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 95vw;
-    height: 135vh; }
+    width: 85vw; }
     @media only screen and (max-width: 80em) {
       .header__heroimg {
-        background-image: url("../img/heroimg2.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 90vw;
-        height: 137vh; } }
-    @media only screen and (max-width: 62.5em) {
-      .header__heroimg {
-        background-image: url("../img/heroimg2.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 95vw;
-        height: 115vh; } }
-    @media only screen and (max-width: 50em) {
-      .header__heroimg {
-        background-image: url("../img/heroimg3.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 95vw; } }
+        width: 90vw; } }
     @media only screen and (max-width: 37.5em) {
       .header__heroimg {
         background-image: url("../img/heroimg4.svg");
         background-size: 100%;
         background-repeat: no-repeat;
         width: 95vw;
-        height: 95vh; } }
+        height: 85vh; }
+        .header__heroimg--small, .header__heroimg--big {
+          visibility: hidden; } }
   .header__figur1 {
     position: absolute;
     top: 75rem;
