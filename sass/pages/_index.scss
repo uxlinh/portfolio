@@ -1,54 +1,101 @@
-.header{
-    &__index{
+.header {
+    width: 100%;
+
+    &__index {
         position: relative;
         display: flex;
         width: 100vw;
+        height: 135vh;
 
-        @media only screen and (max-width: $bp-large){
+        @media only screen and (max-width: $bp-largest) {
+            height: 120vh;
+        }
+        @media only screen and (max-width: $bp-large) {
+            height: 115vh;
+        }
+        @media only screen and (max-width: $bp-medium) {
+            height: 110vh;
+        }
+        @media only screen and (max-width: $bp-small) {
             height: 90vh;
         }
-        // @media only screen and (max-width: $bp-medium){
-        //     height: 90vh;
-        // }
-        // @media only screen and (max-width: $bp-small){
-        //     height: 90vh;
-        // 
-
     }
-    &__herotext{
+
+    &__herotext {
         width: 100vw;
         position: absolute;
         top: 6%;
         padding: 10vw;
         text-align: center;
 
-        @media only screen and (max-width: $bp-large){
-            top: 15%;
+        @media only screen and (max-width: $bp-largest) {
+            top: 12%;
+        }
+        @media only screen and (max-width: $bp-large) {
+            top: 10%;
+            font-size: 2.5rem;
+        }
+        @media only screen and (max-width: $bp-medium) {
+            top: 10%;
+            //font-size: 1.4rem;
         }
     }
-    &__heroimg{
-        width: 78vw;
+
+    &__heroimg {
+        background-image: url('../img/heroimg.svg');
+        background-size: 90%;
+        background-repeat: no-repeat;
+        width: 92vw;
+
+        @media only screen and (max-width: $bp-largest) {
+            background-image: url('../img/heroimg2.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 90vw;
+        }
+
+        @media only screen and (max-width: $bp-large) {
+            background-image: url('../img/heroimg2.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 95vw;
+        }
+        @media only screen and (max-width: $bp-medium) {
+            background-image: url('../img/heroimg3.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 95vw;
+        }
+        @media only screen and (max-width: $bp-small) {
+            background-image: url('../img/heroimg4.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 95vw;
+        }
     }
-    &__figur1{
+
+    &__figur1 {
         position: absolute;
         top: 75rem;
         right: 65rem;
         transform: translatey(0rem);
-	    animation: float 15s ease-in-out infinite;
+        animation: float 15s ease-in-out infinite;
     }
-    &__figur2{
+
+    &__figur2 {
         position: absolute;
         top: 80rem;
         right: 65rem;
         transform: translatey(0px);
-	    animation: float 20s ease-in-out infinite;
+        animation: float 20s ease-in-out infinite;
     }
-    &__figur3{
+
+    &__figur3 {
         position: absolute;
         top: 80rem;
         right: 75rem;
         transform: translatey(0px);
-	    animation: float 30s ease-in-out infinite;
+        animation: float 30s ease-in-out infinite;
     }
 
     @keyframes float {
@@ -56,47 +103,54 @@
             transform: translatey(0px);
             opacity: 0;
         }
+
         20% {
             opacity: 1;
         }
+
         50% {
             transform: translateY(-300px) translatex(60px) rotate(90deg);
             opacity: 1;
         }
+
         100% {
             transform: translateY(-300px) translatex(50px) rotate(90deg);
             opacity: 0;
         }
-}
+    }
 }
 
 
-.indexcontainer{
+.indexcontainer {
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(17, 14vh);
     grid-gap: 2.5rem;
     padding: 12rem 14vw;
-    @media only screen and (max-width: $bp-largest){
+
+    @media only screen and (max-width: $bp-largest) {
         padding: 12rem 7vw;
     }
-    @media only screen and (max-width: $bp-large){
+
+    @media only screen and (max-width: $bp-large) {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(24, 14vh);
         padding: 12rem 8vw;
     }
-    @media only screen and (max-width: $bp-medium){
+
+    @media only screen and (max-width: $bp-medium) {
         padding: 12rem 10vw;
         grid-gap: 4rem;
     }
-    @media only screen and (max-width: $bp-small){
+
+    @media only screen and (max-width: $bp-small) {
         padding: 12rem 3vw;
         grid-gap: 2rem;
     }
-    
 
-    &__box{
+
+    &__box {
         border-radius: 1rem;
         padding: 5rem;
         display: grid;
@@ -104,20 +158,22 @@
         grid-template-rows: repeat(3, min-content) 1fr;
         grid-gap: 1.5rem;
         transition: .3s ease-in-out;
-        @media only screen and (max-width: $bp-small){
+
+        @media only screen and (max-width: $bp-small) {
             padding: 10vw;
         }
     }
 
-    &__heading1{
+    &__heading1 {
         grid-row: 1 / 2;
         grid-column: 1 / -1;
         align-self: center;
         justify-self: center;
     }
+
     &__tags {
-    
-        &--tag{
+
+        &--tag {
             color: #fffaf8;
             font-size: 1.8rem;
             font-weight: 200;
@@ -129,119 +185,135 @@
             margin-right: .2rem;
         }
 
-        &--modus{
+        &--modus {
             background-color: #4a52e6aa;
         }
-        &--jeghardeg{
+
+        &--jeghardeg {
             background-color: #b5293c85;
         }
-        &--apenhet{
+
+        &--apenhet {
             background-color: #064398b7;
         }
-        &--oslofortwo{
+
+        &--oslofortwo {
             background-color: #d9646480;
         }
-        &--researchpaper{
+
+        &--researchpaper {
             background-color: #D6AD00;
         }
     }
 
-    &__modus{
+    &__modus {
         background-color: #4a52e641;
         grid-row: 2 / 7;
         grid-column: 1 / 2;
-        @media only screen and (max-width: $bp-large){
+
+        @media only screen and (max-width: $bp-large) {
             grid-row: 2 / 6;
             grid-column: 1 / -1;
         }
-        &--img{
+
+        &--img {
             width: 90%;
             transform: rotate(24deg);
             transition: .8s ease-in-out;
             justify-self: center;
             align-self: center;
         }
-        &:hover{
+
+        &:hover {
             background-color: #4A51E6;
         }
     }
 
-    &__jeghardeg{
+    &__jeghardeg {
         background-color: #FFEBEE;
         grid-row: 2 / 6;
         grid-column: 2 / -1;
-        @media only screen and (max-width: $bp-large){
+
+        @media only screen and (max-width: $bp-large) {
             grid-row: 6 / 10;
             grid-column: 1 / -1;
         }
-        &--img{
+
+        &--img {
             width: 60%;
             transform: rotate(24deg);
             transition: .8s ease-in-out;
             justify-self: center;
             align-self: end;
         }
-        &:hover{
+
+        &:hover {
             background-color: #B42639;
         }
     }
 
-    &__oslofortwo{
+    &__oslofortwo {
         background-color: #FFECE6;
         grid-row: 7 / 11;
         grid-column: 1 / 2;
-        @media only screen and (max-width: $bp-large){
+
+        @media only screen and (max-width: $bp-large) {
             grid-row: 10/ 14;
             grid-column: 1 / -1;
         }
-        &:hover{
+
+        &:hover {
             background-color: #D96464;
         }
     }
 
-    &__apenhet{
+    &__apenhet {
         background-color: #E5F1FA;
         grid-row: 6 / 11;
         grid-column: 2 / 3;
-        @media only screen and (max-width: $bp-large){
+
+        @media only screen and (max-width: $bp-large) {
             grid-row: 14/ 18;
             grid-column: 1 / -1;
         }
-        &:hover{
+
+        &:hover {
             background-color: #2B83D0;
         }
     }
 
-    &__researchpaper{
+    &__researchpaper {
         background-color: #FFFBEA;
         grid-row: 11 / 16;
         grid-column: 1 / -1;
-        @media only screen and (max-width: $bp-large){
+
+        @media only screen and (max-width: $bp-large) {
             grid-row: 18/ 23;
             grid-column: 1 / -1;
         }
-        &--img{
+
+        &--img {
             width: 25%;
             transform: rotate(24deg);
             transition: .8s ease-in-out;
             justify-self: center;
             align-self: center;
         }
-        &:hover{
+
+        &:hover {
             background-color: #E0B500;
         }
     }
 
-    &__btn1{
+    &__btn1 {
         grid-row: 16 / 17;
         grid-column: 1 / -1;
         align-self: end;
         justify-self: center;
-        @media only screen and (max-width: $bp-large){
+
+        @media only screen and (max-width: $bp-large) {
             grid-row: 23/ 24;
             grid-column: 1 / -1;
         }
     }
 }
-
-

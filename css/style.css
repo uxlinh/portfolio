@@ -35,6 +35,9 @@ a {
   font-size: 2.5rem;
   margin-bottom: .5rem;
   color: #0E004E; }
+  @media only screen and (max-width: 37.5em) {
+    .hero-heading2 {
+      font-size: 1.8rem; } }
 
 .heading1 {
   font-family: 'Merriweather', serif;
@@ -210,47 +213,88 @@ a.underline:hover::after {
 .toggle .burgerline3 {
   transform: rotate(45deg) translate(-5px, -6px); }
 
-.header__index {
-  position: relative;
-  display: flex;
-  width: 100vw; }
-  @media only screen and (max-width: 62.5em) {
-    .header__index {
-      height: 90vh; } }
-
-.header__herotext {
-  width: 100vw;
-  position: absolute;
-  top: 6%;
-  padding: 10vw;
-  text-align: center; }
-  @media only screen and (max-width: 62.5em) {
-    .header__herotext {
-      top: 15%; } }
-
-.header__heroimg {
-  width: 78vw; }
-
-.header__figur1 {
-  position: absolute;
-  top: 75rem;
-  right: 65rem;
-  transform: translatey(0rem);
-  animation: float 15s ease-in-out infinite; }
-
-.header__figur2 {
-  position: absolute;
-  top: 80rem;
-  right: 65rem;
-  transform: translatey(0px);
-  animation: float 20s ease-in-out infinite; }
-
-.header__figur3 {
-  position: absolute;
-  top: 80rem;
-  right: 75rem;
-  transform: translatey(0px);
-  animation: float 30s ease-in-out infinite; }
+.header {
+  width: 100%; }
+  .header__index {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 135vh; }
+    @media only screen and (max-width: 75em) {
+      .header__index {
+        height: 120vh; } }
+    @media only screen and (max-width: 62.5em) {
+      .header__index {
+        height: 115vh; } }
+    @media only screen and (max-width: 50em) {
+      .header__index {
+        height: 110vh; } }
+    @media only screen and (max-width: 37.5em) {
+      .header__index {
+        height: 90vh; } }
+  .header__herotext {
+    width: 100vw;
+    position: absolute;
+    top: 6%;
+    padding: 10vw;
+    text-align: center; }
+    @media only screen and (max-width: 75em) {
+      .header__herotext {
+        top: 12%; } }
+    @media only screen and (max-width: 62.5em) {
+      .header__herotext {
+        top: 10%;
+        font-size: 2.5rem; } }
+    @media only screen and (max-width: 50em) {
+      .header__herotext {
+        top: 10%; } }
+  .header__heroimg {
+    background-image: url("../img/heroimg.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 92vw; }
+    @media only screen and (max-width: 75em) {
+      .header__heroimg {
+        background-image: url("../img/heroimg2.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 90vw; } }
+    @media only screen and (max-width: 62.5em) {
+      .header__heroimg {
+        background-image: url("../img/heroimg2.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 95vw; } }
+    @media only screen and (max-width: 50em) {
+      .header__heroimg {
+        background-image: url("../img/heroimg3.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 95vw; } }
+    @media only screen and (max-width: 37.5em) {
+      .header__heroimg {
+        background-image: url("../img/heroimg4.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 95vw; } }
+  .header__figur1 {
+    position: absolute;
+    top: 75rem;
+    right: 65rem;
+    transform: translatey(0rem);
+    animation: float 15s ease-in-out infinite; }
+  .header__figur2 {
+    position: absolute;
+    top: 80rem;
+    right: 65rem;
+    transform: translatey(0px);
+    animation: float 20s ease-in-out infinite; }
+  .header__figur3 {
+    position: absolute;
+    top: 80rem;
+    right: 75rem;
+    transform: translatey(0px);
+    animation: float 30s ease-in-out infinite; }
 
 @keyframes float {
   0% {
