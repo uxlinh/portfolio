@@ -41,13 +41,14 @@
             &--1,
             &--2 {
                 visibility: hidden;
+                opacity: 0;
             }
 
             background-image: url('../img/heroimg4.svg');
             background-size: 100%;
             background-repeat: no-repeat;
             width: 99vw;
-            height: 85vh;
+            height: 100vh;
 
         }
     }

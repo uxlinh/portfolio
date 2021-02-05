@@ -252,9 +252,10 @@ a.underline:hover::after {
         background-size: 100%;
         background-repeat: no-repeat;
         width: 99vw;
-        height: 85vh; }
+        height: 100vh; }
         .header__heroimg--1, .header__heroimg--2 {
-          visibility: hidden; } }
+          visibility: hidden;
+          opacity: 0; } }
   .header__figur1 {
     position: absolute;
     top: 75rem;
