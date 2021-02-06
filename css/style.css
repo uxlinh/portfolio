@@ -230,8 +230,7 @@ a.underline:hover::after {
     position: absolute;
     top: 6%;
     padding: 10vw;
-    text-align: center;
-    z-index: 3; }
+    text-align: center; }
     @media only screen and (max-width: 80em) {
       .header__herotext {
         top: 12%; } }
@@ -262,7 +261,7 @@ a.underline:hover::after {
   .header__circleyellow, .header__circlered, .header__square, .header__squarey, .header__pen, .header__star, .header__trekant, .header__trekant2, .header__person, .header__code {
     position: absolute;
     transform: translatey(0rem);
-    animation: float 6s ease-in-out infinite; }
+    animation: float 5s ease-in-out infinite; }
     @media only screen and (max-width: 62.5em) {
       .header__circleyellow, .header__circlered, .header__square, .header__squarey, .header__pen, .header__star, .header__trekant, .header__trekant2, .header__person, .header__code {
         visibility: hidden; } }
