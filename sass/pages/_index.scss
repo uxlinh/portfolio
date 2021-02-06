@@ -14,7 +14,6 @@
         top: 6%;
         padding: 10vw;
         text-align: center;
-        z-index: 3;
 
         @media only screen and (max-width: $bp-largest) {
             top: 12%;
@@ -68,7 +67,7 @@
     &__code {
         position: absolute;
         transform: translatey(0rem);
-        animation: float 6s ease-in-out infinite;
+        animation: float 5s ease-in-out infinite;
 
         @media only screen and (max-width: $bp-large) {
            visibility: hidden;
