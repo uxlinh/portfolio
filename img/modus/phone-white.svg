@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="525" height="911" viewBox="0 0 525 911">
+  <defs>
+    <filter id="Union_1" x="14" y="-1.998" width="527.001" height="917" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.235"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Export-iphone8_2">
+      <rect width="525" height="911"/>
+    </clipPath>
+  </defs>
+  <g id="Export-iphone8_2" data-name="Export-iphone8 – 2" clip-path="url(#clip-Export-iphone8_2)">
+    <g id="Group_114" data-name="Group 114" transform="translate(-172 -580)">
+      <g transform="matrix(1, 0, 0, 1, 172, 580)" filter="url(#Union_1)">
+        <path id="Union_1-2" data-name="Union 1" d="M14930.287-5499a59,59,0,0,1-59-59v-483.179H14871a5,5,0,0,1-5-5v-37.713a5,5,0,0,1,5-5h.288v-5.424H14871a5,5,0,0,1-5-5v-37.713a5,5,0,0,1,5-5h.288v-21.687H14871a5,5,0,0,1-5-5v-18.2a5,5,0,0,1,5-5h.288V-6237a59,59,0,0,1,59-59h278.427a59,59,0,0,1,59,59v94.979h.283a5,5,0,0,1,5,5v37.713a5,5,0,0,1-5,5h-.283V-5558a59,59,0,0,1-59,59Z" transform="translate(-14807 6334)" fill="#fff"/>
+      </g>
+      <g id="Ellipse_19" data-name="Ellipse 19" transform="translate(404 1329)" fill="none" stroke="#f0edfd" stroke-width="6">
+        <circle cx="30.5" cy="30.5" r="30.5" stroke="none"/>
+        <circle cx="30.5" cy="30.5" r="27.5" fill="none"/>
+      </g>
+      <path id="camera" d="M58.327,5.224A5.223,5.223,0,1,0,63.55,0,5.222,5.222,0,0,0,58.327,5.224ZM2.612,2.611a2.612,2.612,0,1,0,0,5.224H43.528a2.612,2.612,0,0,0,0-5.224Z" transform="translate(463.027 681.631) rotate(180)" fill="#f0edfd"/>
+      <path id="camera-2" data-name="camera" d="M48.582,2.321A2.321,2.321,0,1,0,50.9,0,2.32,2.32,0,0,0,48.582,2.321Z" transform="translate(489.225 653.698) rotate(180)" fill="#f0edfd"/>
+    </g>
+  </g>
+</svg>

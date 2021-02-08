@@ -5,6 +5,7 @@
     font-size: 2rem;
     font-weight: 200;
     background-color: none;
+    z-index: 1;
   }
 
   .main-nav {
@@ -80,6 +81,7 @@
       padding-bottom: 0;
       height: 70px;
       align-items: center;
+      z-index: 1;
     }
     .logo {
       display: inline-block;

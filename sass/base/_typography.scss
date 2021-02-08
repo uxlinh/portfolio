@@ -60,6 +60,8 @@ a{
     content: ' \279D';
   }
 
+
+
 .footer {
     color: $secondary-color;
     font-weight: 200;
@@ -70,5 +72,18 @@ a{
     }
     &__copyright{
         font-size: 1.5rem;
+    }
+}
+
+// Modus
+.heading-modus1{
+    font-size: 9rem;
+    color: #1F0C72;
+}
+.heading-modus2{
+    font-size: 5rem;
+    color: #2C11A5;
+    &--dark{
+        color: #1F0C72;
     }
 }
