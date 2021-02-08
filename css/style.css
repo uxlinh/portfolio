@@ -261,7 +261,7 @@ a.underline:hover::after {
   .header__circleyellow, .header__circlered, .header__square, .header__squarey, .header__pen, .header__star, .header__trekant, .header__trekant2, .header__person, .header__code {
     position: absolute;
     transform: translatey(0rem);
-    animation: float 5s ease-in-out infinite; }
+    animation: float 4s ease-in-out infinite; }
     @media only screen and (max-width: 62.5em) {
       .header__circleyellow, .header__circlered, .header__square, .header__squarey, .header__pen, .header__star, .header__trekant, .header__trekant2, .header__person, .header__code {
         visibility: hidden; } }
