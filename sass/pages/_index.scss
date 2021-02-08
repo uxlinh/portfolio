@@ -70,22 +70,25 @@
         animation: float 4s ease-in-out infinite;
 
         @media only screen and (max-width: $bp-large) {
-           visibility: hidden;
+            visibility: hidden;
         }
+
         @media only screen and (max-width: $bp-medium) {
-           visibility: hidden;
+            visibility: hidden;
         }
+
         @media only screen and (max-width: $bp-small) {
-           visibility: hidden;
+            visibility: hidden;
         }
     }
 
-    &__circlered{
+    &__circlered {
         top: 60vh;
         left: 32vw;
         width: 2rem;
     }
-    &__circleyellow{
+
+    &__circleyellow {
         top: 20vh;
         right: 30vw;
         width: 1.6rem;
@@ -96,86 +99,100 @@
         left: 30rem;
         width: 4rem;
     }
-    &__squarey{
+
+    &__squarey {
         top: 73vh;
         right: 45vw;
         width: 2rem;
     }
-    
-    &__pen{
+
+    &__pen {
         top: 40vh;
         right: 15vw;
         width: 4.5rem;
+
         @media only screen and (max-width: $bp-small) {
             top: 50vh;
             right: 10vw;
             width: 2rem;
             visibility: visible;
-         }
+        }
     }
-    &__star{
+
+    &__star {
         top: 65vh;
         right: 18vw;
         width: 3rem;
+
         @media only screen and (max-width: $bp-small) {
             top: 60vh;
             visibility: visible;
             right: 30vw;
-         }
+        }
     }
-    &__trekant{
+
+    &__trekant {
         top: 60vh;
         right: 30vw;
         width: 2.5rem;
         transform: rotate(80deg);
+
         @media only screen and (max-width: $bp-small) {
             top: 55vh;
             right: 50vw;
             width: 2.8rem;
             visibility: visible;
-         }
+        }
     }
-    &__trekant2{
+
+    &__trekant2 {
         top: 10vh;
         left: 30rem;
         width: 2rem;
     }
-    &__person{
+
+    &__person {
         top: 30rem;
         left: 10rem;
     }
-    &__code{
+
+    &__code {
         top: 80vh;
         right: 32vw;
         width: 3rem;
+
         @media only screen and (max-width: $bp-largest) {
             top: 85vh;
-         }
+        }
+
         @media only screen and (max-width: $bp-large) {
             top: 70vh;
-         }
-         @media only screen and (max-width: $bp-small) {
+        }
+
+        @media only screen and (max-width: $bp-small) {
             visibility: visible;
             top: 68vh;
             right: 15vw;
             width: 2rem;
-         }
+        }
     }
 
 }
 
 
 
-    @keyframes float {
-        0% {
-            transform: translatey(0px);
-        }
-        50% {
-            transform: translatey(-20px);
-        }
-        100% {
-            transform: translatey(0px);
-        }
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
 
 
@@ -275,7 +292,7 @@
         }
 
         &--img {
-            width: 90%;
+            width: 50%;
             transform: rotate(24deg);
             transition: .8s ease-in-out;
             justify-self: center;
@@ -283,7 +300,8 @@
         }
 
         &:hover {
-            background-color: #4A51E6;
+            background: rgb(74, 81, 230);
+            background: linear-gradient(218deg, rgba(74, 81, 230, 1) 0%, rgba(74, 17, 165, 1) 100%);
         }
     }
 
