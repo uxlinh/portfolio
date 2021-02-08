@@ -16,6 +16,8 @@ html {
 
 a {
   text-decoration: none; }
+  a.white {
+    color: white; }
 
 .bold {
   font-weight: 600; }
@@ -133,6 +135,9 @@ a {
   font-family: 'merriweather', sans-serif;
   text-decoration: none;
   color: #0E004E; }
+
+.nav-links--white {
+  color: white; }
 
 .underline {
   color: #0E004E; }
@@ -485,3 +490,7 @@ a.underline:hover::after {
       .indexcontainer__btn1 {
         grid-row: 23/ 24;
         grid-column: 1 / -1; } }
+
+.header__modus {
+  height: 110vh;
+  background-color: blue; }

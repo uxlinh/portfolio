@@ -1,5 +1,8 @@
 a{
     text-decoration: none;
+    &.white{
+        color: white;
+    }
 }
 .bold{
     font-weight: 600;
