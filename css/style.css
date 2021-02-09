@@ -89,6 +89,32 @@ a {
   .heading-modus2--dark {
     color: #1F0C72; }
 
+.heading-modus3,
+.heading-prosjektbeskrivelse {
+  font-family: 'Merriweather', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding-bottom: 2rem; }
+
+.paragraph-modus {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 200; }
+
+.heading-prosjektbeskrivelse {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 2rem; }
+
+.paragraph-prosjektbeskrivelse {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 200;
+  margin-bottom: 4rem; }
+
 .btn1 {
   background-color: #0E004E;
   color: #fff;
@@ -533,7 +559,7 @@ a.underline:hover::after {
     text-align: center;
     z-index: 1; }
     .header__modus__hero-container--img {
-      background-image: url("../img/modus/phone-white.svg");
+      background-image: url("../img/modus/phone.svg");
       background-size: 100%;
       background-repeat: no-repeat;
       max-width: 48rem;
@@ -555,15 +581,30 @@ a.underline:hover::after {
   align-items: center;
   justify-items: center; }
   .main__resultscontainer {
-    max-width: 100rem;
+    max-width: 160rem;
     display: flex;
-    flex-flow: column; }
+    align-items: center;
+    flex-flow: column;
+    padding-top: 10rem; }
     .main__resultscontainer--flow-normal, .main__resultscontainer--flow-reverse {
       display: flex;
       width: 100%;
-      justify-content: space-evenly;
+      justify-content: center;
       margin-bottom: 10rem;
       align-items: center; }
+    .main__resultscontainer--flow-intro {
+      display: flex;
+      width: 60%;
+      height: 60vh;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: 6vh; }
+      @media only screen and (max-width: 62.5em) {
+        .main__resultscontainer--flow-intro {
+          flex-flow: row wrap; } }
+      .main__resultscontainer--flow-intro-box2 {
+        margin-left: 2.5vw;
+        margin-right: 2.5vw; }
     @media only screen and (max-width: 62.5em) {
       .main__resultscontainer--flow-normal {
         flex-flow: row wrap; } }
@@ -572,11 +613,12 @@ a.underline:hover::after {
         flex-flow: row wrap-reverse; } }
     .main__resultscontainer__text {
       max-width: 50rem;
-      padding: 2vw; }
+      padding-left: 2vw; }
     .main__resultscontainer__img-container {
-      max-width: 45rem;
-      padding: 4vw; }
+      max-width: 48rem;
+      padding: 1vh 4vw; }
       .main__resultscontainer__img-container .img-phone {
         width: 100%; }
-  .main .modusimg {
-    width: 100%; }
+    .main__resultscontainer__text-intro {
+      max-width: 50rem;
+      padding-left: 2vw; }
