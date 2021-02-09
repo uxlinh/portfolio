@@ -50,9 +50,6 @@
                 }
             }
 
-            // &--phone{
-            //     width: 100%;
-            // }
             &--gif {
                 position: relative;
                 width: 90%;
@@ -97,15 +94,18 @@
             align-items: flex-start;
             justify-content: space-between;
             padding-bottom: 6vh;
+
             @media only screen and (max-width: $bp-large) {
                 flex-flow: row wrap;
             }
-            &-box2{
+
+            &-box2 {
                 margin-left: 2.5vw;
                 margin-right: 2.5vw;
             }
 
         }
+
         &--flow-normal {
             @media only screen and (max-width: $bp-large) {
                 flex-flow: row wrap;
@@ -124,20 +124,35 @@
         }
 
         &__img-container {
-            max-width: 48rem;
-            padding: 1vh 4vw;
+            position: relative;
+            max-width: 40rem;
+            height: 70rem;
+            padding: 1vh 0;
+
+            @media only screen and (max-width: $bp-small) {
+                max-height: 70rem;
+            }
+
+            background-image: url("../img/modus/phone.svg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+
 
             .img-phone {
                 width: 100%;
+                position: relative;
+                padding: 0 7rem;
+                top: 8.6rem;
             }
         }
-        
-        &__text-intro {
-            max-width: 50rem;
-            padding-left: 2vw;
-        }
-
     }
 
+    &__text-intro {
+        max-width: 50rem;
+        padding-left: 2vw;
+    }
 
 }
+
+

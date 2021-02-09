@@ -615,10 +615,21 @@ a.underline:hover::after {
       max-width: 50rem;
       padding-left: 2vw; }
     .main__resultscontainer__img-container {
-      max-width: 48rem;
-      padding: 1vh 4vw; }
+      position: relative;
+      max-width: 40rem;
+      height: 70rem;
+      padding: 1vh 0;
+      background-image: url("../img/modus/phone.svg");
+      background-size: 100%;
+      background-repeat: no-repeat; }
+      @media only screen and (max-width: 37.5em) {
+        .main__resultscontainer__img-container {
+          max-height: 70rem; } }
       .main__resultscontainer__img-container .img-phone {
-        width: 100%; }
-    .main__resultscontainer__text-intro {
-      max-width: 50rem;
-      padding-left: 2vw; }
+        width: 100%;
+        position: relative;
+        padding: 0 7rem;
+        top: 8.6rem; }
+  .main__text-intro {
+    max-width: 50rem;
+    padding-left: 2vw; }
