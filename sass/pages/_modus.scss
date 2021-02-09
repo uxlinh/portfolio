@@ -5,21 +5,24 @@
         background: rgb(74, 81, 230);
         background: linear-gradient(218deg, rgba(74, 81, 230, 1) 0%, rgba(74, 17, 165, 1) 100%);
 
-        &__wave1{
+        &__wave1 {
             position: absolute;
             top: 0;
             left: 0;
             max-width: 50rem;
-            &--img{
+
+            &--img {
                 width: 100%;
             }
         }
-        &__wave2{
+
+        &__wave2 {
             position: absolute;
             bottom: 0;
             right: 0;
             max-width: 70rem;
-            &--img{
+
+            &--img {
                 width: 100%;
             }
         }
@@ -34,17 +37,19 @@
             text-align: center;
             z-index: 1;
 
-            &--img{
-                background-image: url("../img/modus/phone-white.svg");
+            &--img {
+                background-image: url("../img/modus/phone.svg");
                 background-size: 100%;
                 background-repeat: no-repeat;
                 max-width: 48rem;
                 height: 95rem;
                 margin: 2rem;
+
                 @media only screen and (max-width: $bp-small) {
                     height: 80rem;
                 }
             }
+
             // &--phone{
             //     width: 100%;
             // }
@@ -70,20 +75,37 @@
 
 
     &__resultscontainer {
-        max-width: 100rem;
+        max-width: 160rem;
         display: flex;
+        align-items: center;
         flex-flow: column;
-        //justify-content: center;
+        padding-top: 10rem;
 
         &--flow-normal,
         &--flow-reverse {
             display: flex;
             width: 100%;
-            justify-content: space-evenly;
+            justify-content: center;
             margin-bottom: 10rem;
             align-items: center;
         }
 
+        &--flow-intro {
+            display: flex;
+            width: 60%;
+            height: 60vh;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding-bottom: 6vh;
+            @media only screen and (max-width: $bp-large) {
+                flex-flow: row wrap;
+            }
+            &-box2{
+                margin-left: 2.5vw;
+                margin-right: 2.5vw;
+            }
+
+        }
         &--flow-normal {
             @media only screen and (max-width: $bp-large) {
                 flex-flow: row wrap;
@@ -98,23 +120,24 @@
 
         &__text {
             max-width: 50rem;
-            padding: 2vw;
+            padding-left: 2vw;
         }
 
         &__img-container {
-            max-width: 45rem;
-            padding: 4vw;
+            max-width: 48rem;
+            padding: 1vh 4vw;
 
             .img-phone {
                 width: 100%;
             }
         }
+        
+        &__text-intro {
+            max-width: 50rem;
+            padding-left: 2vw;
+        }
 
     }
 
 
-
-    .modusimg {
-        width: 100%;
-    }
 }
