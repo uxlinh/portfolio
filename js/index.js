@@ -43,7 +43,7 @@ let jeghardegTag4 = document.querySelector('.tagjeghardeg4');
 
 jeghardegBox.addEventListener('mouseover', event=> {
     jeghardegImg.style.transform = 'rotate(0deg)';
-    jeghardegImg.style.transform = 'scale(1.4)';  
+    jeghardegImg.style.transform = 'scale(1.2)';  
     jeghardegH1.style.color = 'white';
     jeghardegH2.style.color = 'white';
     jeghardegTag1.style.backgroundColor = 'white';
@@ -56,7 +56,7 @@ jeghardegBox.addEventListener('mouseover', event=> {
     jeghardegTag4.style.color = '#B5293B';
 });
 jeghardegBox.addEventListener('mouseout', event=> {
-    jeghardegImg.style.transform = 'rotate(24deg)';
+    jeghardegImg.style.transform = 'rotate(-14deg)';
     jeghardegH1.style.color = '#0E034E';
     jeghardegH2.style.color = '#0E034E';
     jeghardegTag1.style.backgroundColor = '#b5293c85';
@@ -107,8 +107,8 @@ let apenhetTag2 = document.querySelector('.tagapenhet2');
 let apenhetTag3 = document.querySelector('.tagapenhet3');
 
 apenhetBox.addEventListener('mouseover', event=> {
-    //apenhetImg.style.transform = 'rotate(0deg)';
-    //apenhetImg.style.transform = 'scale(1.2)';  
+    apenhetImg.style.transform = 'rotate(0deg)';
+    apenhetImg.style.transform = 'scale(1.2)';  
     apenhetH1.style.color = 'white';
     apenhetH2.style.color = 'white';
     apenhetTag1.style.backgroundColor = 'white';
@@ -119,7 +119,7 @@ apenhetBox.addEventListener('mouseover', event=> {
     apenhetTag3.style.color = '#064398';
 });
 apenhetBox.addEventListener('mouseout', event=> {
-    //apenhetImg.style.transform = 'rotate(24deg)';
+    apenhetImg.style.transform = 'rotate(14deg)';
     apenhetH1.style.color = '#0E034E';
     apenhetH2.style.color = '#0E034E';
     apenhetTag1.style.backgroundColor = '#064398bf';
