@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
@@ -16,5 +17,68 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type=".image/png" href=".img/favicon.png">
 
-    <title>Linhs Portfolio</title>
+    <!-- Firebase SDK -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.2.3/firebase-storage.js"></script>
+
+	<!-- Flamelink SDK -->
+	<script defer src="//cdn.jsdelivr.net/npm/flamelink@1.0.0-alpha.34/flamelink.js"></script>
+
+    <!-- Våre js-filer -->
+    <script defer src="./js/init-flamelink.js"></script>
+    <script defer src="./js/blog.js"></script>
+    <script defer src="./js/navigation.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
+
+<body>
+
+    <div class="container">
+        <!-- header -->
+		<header>
+			<nav class="navbar" id="bar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <div class="burgerline burgerline1"></div>
+                    <div class="burgerline burgerline2"></div>
+                    <div class="burgerline burgerline3"></div>
+                </span>
+                <a href="./index.html" class="logo">Linh.</a>
+    
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a class="underline" href="#indexcontainer" class="nav-links">Prosjekter</a>
+                    </li>
+                    <li>
+                        <a class="underline" href="./blog.html" class="nav-links" target="_blank">Blogg</a>
+                    </li>
+                    <li>
+                        <a class="underline" href="./img/CV_2021.pdf" class="nav-links" target="_blank">CV</a>
+                    </li>
+                    <li id="kontakt">
+                        <a class="underline" href="mailto:linh.tn94@gmail.com" target="_blank" class="nav-links">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+		</header>
+
+        <!-- main -->
+		<main class="kevin">
+			<h1>Denne åpner Blogginnleggene i ny side</h1>
+			<section>
+				<h2>Mine blogposter</h2>
+				<div id="blog_container">
+
+
+
+                </div>
+			</section>
+		</main>
+
+	</div>
+  
+</body>
+
+
+</html>

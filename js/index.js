@@ -78,8 +78,8 @@ let oslofortwoTag1 = document.querySelector('.tagoslofortwo1');
 let oslofortwoTag2 = document.querySelector('.tagoslofortwo2');
 
 oslofortwoBox.addEventListener('mouseover', event=> {
-    // oslofortwoImg.style.transform = 'rotate(0deg)';
-    // oslofortwoImg.style.transform = 'scale(1.2)'; 
+    oslofortwoImg.style.transform = 'rotate(0deg)';
+    oslofortwoImg.style.transform = 'scale(1.2)'; 
     oslofortwoH1.style.color = 'white';
     oslofortwoH2.style.color = 'white';
     oslofortwoTag1.style.backgroundColor = 'white';
@@ -88,7 +88,7 @@ oslofortwoBox.addEventListener('mouseover', event=> {
     oslofortwoTag2.style.color = '#D96464';
 });
 oslofortwoBox.addEventListener('mouseout', event=> {
-    // oslofortwoImg.style.transform = 'rotate(24deg)';
+    oslofortwoImg.style.transform = 'rotate(-14deg)';
     oslofortwoH1.style.color = '#0E034E';
     oslofortwoH2.style.color = '#0E034E';
     oslofortwoTag1.style.backgroundColor = '#d9646480';

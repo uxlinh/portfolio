@@ -16,6 +16,9 @@ a{
     text-align: center;
     margin-bottom: 1.5rem;
     color: $primary-color;
+    &--white{
+        color: white;
+    }
 }
 .hero-heading2{
     font-family: 'Poppins', sans-serif;
@@ -32,6 +35,9 @@ a{
     }
     @media only screen and (max-width: $bp-small) {
         font-size: 1.8rem;
+    }
+    &--white{
+        color: white;
     }
 }
 

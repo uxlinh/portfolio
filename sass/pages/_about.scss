@@ -1,0 +1,15 @@
+
+#blog_container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 14px;
+}
+.blog-listing{
+    background-color: aquamarine;
+}
+.img-thumbnail{
+    max-width: 200px;
+}
+.kevin{
+    padding: 10rem;
+}

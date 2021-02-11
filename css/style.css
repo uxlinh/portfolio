@@ -29,6 +29,8 @@ a {
   text-align: center;
   margin-bottom: 1.5rem;
   color: #0E004E; }
+  .hero-heading1--white {
+    color: white; }
 
 .hero-heading2 {
   font-family: 'Poppins', sans-serif;
@@ -46,6 +48,8 @@ a {
   @media only screen and (max-width: 37.5em) {
     .hero-heading2 {
       font-size: 1.8rem; } }
+  .hero-heading2--white {
+    color: white; }
 
 .heading1 {
   font-family: 'Merriweather', serif;
@@ -261,6 +265,20 @@ a.underline:hover::after {
 
 .toggle .burgerline3 {
   transform: rotate(45deg) translate(-5px, -6px); }
+
+#blog_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px; }
+
+.blog-listing {
+  background-color: aquamarine; }
+
+.img-thumbnail {
+  max-width: 200px; }
+
+.kevin {
+  padding: 10rem; }
 
 .header {
   width: 100%; }
@@ -494,6 +512,12 @@ a.underline:hover::after {
         grid-column: 1 / -1; } }
     .indexcontainer__oslofortwo:hover {
       background-color: #D96464; }
+    .indexcontainer__oslofortwo--img {
+      width: 35%;
+      transform: rotate(-24deg);
+      transition: .8s ease-in-out;
+      justify-self: center;
+      align-self: start; }
   .indexcontainer__apenhet {
     background-color: #E5F1FA;
     grid-row: 6 / 11;
@@ -535,6 +559,28 @@ a.underline:hover::after {
       .indexcontainer__btn1 {
         grid-row: 23/ 24;
         grid-column: 1 / -1; } }
+
+.header__jeghardeg {
+  position: relative;
+  height: 155vh;
+  background: #D96464; }
+  .header__jeghardeg__hero-container {
+    position: relative;
+    top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    z-index: 1; }
+    @media only screen and (max-width: 37.5em) {
+      .header__jeghardeg__hero-container--img {
+        height: 80rem; } }
+    .header__jeghardeg__hero-container--gif {
+      position: relative;
+      width: 90%;
+      padding: 6rem;
+      top: 4.8rem; }
 
 .header__modus {
   position: relative;
@@ -637,5 +683,5 @@ a.underline:hover::after {
         padding: 0 7rem;
         top: 8.6rem; }
   .main__text-intro {
-    max-width: 50rem;
+    max-width: 60rem;
     padding-left: 2vw; }

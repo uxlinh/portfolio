@@ -341,6 +341,13 @@
         &:hover {
             background-color: #D96464;
         }
+        &--img {
+            width: 35%;
+            transform: rotate(-24deg);
+            transition: .8s ease-in-out;
+            justify-self: center;
+            align-self: start;
+        }
     }
 
     &__apenhet {
