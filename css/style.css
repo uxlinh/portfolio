@@ -458,7 +458,12 @@ a.underline:hover::after {
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: .6rem;
-    margin-right: .2rem; }
+    margin-right: .2rem;
+    margin-top: 1rem;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none; }
   .indexcontainer__tags--modus {
     background-color: #4a52e6aa; }
   .indexcontainer__tags--jeghardeg {
@@ -483,6 +488,12 @@ a.underline:hover::after {
       transition: .8s ease-in-out;
       justify-self: center;
       align-self: center; }
+      @media only screen and (max-width: 62.5em) {
+        .indexcontainer__modus--img {
+          width: 30%; } }
+      @media only screen and (max-width: 37.5em) {
+        .indexcontainer__modus--img {
+          width: 45%; } }
     .indexcontainer__modus:hover {
       background: #4a51e6;
       background: linear-gradient(218deg, #4a51e6 0%, #4a11a5 100%); }
@@ -522,6 +533,12 @@ a.underline:hover::after {
     background-color: #E5F1FA;
     grid-row: 6 / 11;
     grid-column: 2 / 3; }
+    .indexcontainer__apenhet--img {
+      width: 90%;
+      transform: rotate(14deg);
+      transition: .8s ease-in-out;
+      justify-self: center;
+      align-self: center; }
     @media only screen and (max-width: 62.5em) {
       .indexcontainer__apenhet {
         grid-row: 14/ 18;
