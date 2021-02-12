@@ -511,6 +511,9 @@ a.underline:hover::after {
       transition: .8s ease-in-out;
       justify-self: center;
       align-self: end; }
+      @media only screen and (max-width: 62.5em) {
+        .indexcontainer__jeghardeg--img {
+          align-self: center; } }
     .indexcontainer__jeghardeg:hover {
       background-color: #B42639; }
   .indexcontainer__oslofortwo {
