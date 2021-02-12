@@ -23,7 +23,7 @@ app.content.get({
 		let proj = blog[property];
 
 		html += `
-		<a class="blog-listing" href="/blogpost.html?id=${proj.id}">
+		<a class="blog-listing" href="/portfolio/blogpost.html?id=${proj.id}">
 			<h2>${proj.blogTitle}</h2>
 			<img class="img-thumbnail" src="${ proj.mainImage[0].url }">
 			<p>${ proj.textArea }</p>
