@@ -12,7 +12,7 @@
         width: 100vw;
         position: absolute;
         top: 6%;
-        padding: 10vw;
+        padding: 10vw 21vw;
         text-align: center;
 
         @media only screen and (max-width: $bp-largest) {
@@ -34,7 +34,7 @@
         margin-bottom: 10rem;
 
         @media only screen and (max-width: $bp-large) {
-            width: 93vw;
+            width: 95vw;
         }
 
         @media only screen and (max-width: $bp-small) {
@@ -216,7 +216,6 @@
     }
 
     @media only screen and (max-width: $bp-medium) {
-        padding: 12rem 10vw;
         grid-gap: 4rem;
     }
 
@@ -297,8 +296,9 @@
 
     // MODUS
     &__modus {
-        //background-color: $secondary-color;
+        // background-color: $secondary-color;
         background-color: #4a52e641;
+
         grid-row: 2 / 7;
         grid-column: 1 / 2;
 

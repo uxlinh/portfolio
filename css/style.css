@@ -291,7 +291,7 @@ a.underline:hover::after {
     width: 100vw;
     position: absolute;
     top: 6%;
-    padding: 10vw;
+    padding: 10vw 21vw;
     text-align: center; }
     @media only screen and (max-width: 80em) {
       .header__herotext {
@@ -308,7 +308,7 @@ a.underline:hover::after {
     margin-bottom: 10rem; }
     @media only screen and (max-width: 62.5em) {
       .header__heroimg {
-        width: 93vw; } }
+        width: 95vw; } }
     @media only screen and (max-width: 37.5em) {
       .header__heroimg {
         background-image: url("../img/heroimg4.svg");
@@ -428,7 +428,6 @@ a.underline:hover::after {
       padding: 12rem 8vw; } }
   @media only screen and (max-width: 50em) {
     .indexcontainer {
-      padding: 12rem 10vw;
       grid-gap: 4rem; } }
   @media only screen and (max-width: 37.5em) {
     .indexcontainer {
