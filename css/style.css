@@ -53,7 +53,8 @@ a {
 
 .heading1 {
   font-family: 'Merriweather', serif;
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: #0E004E; }
 
 .box__h1 {
   font-family: 'Merriweather', serif;
@@ -305,7 +306,7 @@ a.underline:hover::after {
   .header__heroimg {
     width: 85vw;
     margin-bottom: 10rem; }
-    @media only screen and (max-width: 80em) {
+    @media only screen and (max-width: 62.5em) {
       .header__heroimg {
         width: 93vw; } }
     @media only screen and (max-width: 37.5em) {
@@ -439,7 +440,7 @@ a.underline:hover::after {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, min-content) 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 1.1rem;
     transition: .3s ease-in-out; }
     @media only screen and (max-width: 37.5em) {
       .indexcontainer__box {
@@ -449,31 +450,34 @@ a.underline:hover::after {
     grid-column: 1 / -1;
     align-self: center;
     justify-self: center; }
-  .indexcontainer__tags--tag {
-    color: #fffaf8;
-    font-size: 1.8rem;
-    font-weight: 200;
-    padding-top: .6rem;
-    padding-bottom: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: .6rem;
-    margin-right: .2rem;
-    margin-top: 1rem;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none; }
-  .indexcontainer__tags--modus {
-    background-color: #4a52e6aa; }
-  .indexcontainer__tags--jeghardeg {
-    background-color: #b5293c85; }
-  .indexcontainer__tags--apenhet {
-    background-color: #064398b7; }
-  .indexcontainer__tags--oslofortwo {
-    background-color: #d9646480; }
-  .indexcontainer__tags--researchpaper {
-    background-color: #D6AD00; }
+  .indexcontainer__tags {
+    display: flex;
+    flex-wrap: wrap; }
+    .indexcontainer__tags--tag {
+      color: #fffaf8;
+      font-size: 1.6rem;
+      font-weight: 200;
+      padding-top: .6rem;
+      padding-bottom: .5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: .6rem;
+      margin-right: .5rem;
+      margin-bottom: .5rem;
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      -webkit-hyphens: none;
+      hyphens: none; }
+    .indexcontainer__tags--modus {
+      background-color: #0E004E; }
+    .indexcontainer__tags--jeghardeg {
+      background-color: #0E004E; }
+    .indexcontainer__tags--apenhet {
+      background-color: #0E004E; }
+    .indexcontainer__tags--oslofortwo {
+      background-color: #0E004E; }
+    .indexcontainer__tags--researchpaper {
+      background-color: #0E004E; }
   .indexcontainer__modus {
     background-color: #4a52e641;
     grid-row: 2 / 7;
@@ -483,7 +487,8 @@ a.underline:hover::after {
         grid-row: 2 / 6;
         grid-column: 1 / -1; } }
     .indexcontainer__modus--img {
-      width: 50%;
+      width: 42%;
+      max-height: 100%;
       transform: rotate(24deg);
       transition: .8s ease-in-out;
       justify-self: center;
@@ -507,6 +512,7 @@ a.underline:hover::after {
         grid-column: 1 / -1; } }
     .indexcontainer__jeghardeg--img {
       width: 70%;
+      max-height: 100%;
       transform: rotate(-14deg);
       transition: .8s ease-in-out;
       justify-self: center;

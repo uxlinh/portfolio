@@ -33,7 +33,7 @@
         width: 85vw;
         margin-bottom: 10rem;
 
-        @media only screen and (max-width: $bp-largest) {
+        @media only screen and (max-width: $bp-large) {
             width: 93vw;
         }
 
@@ -232,7 +232,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, min-content) 1fr;
-        grid-gap: 1.5rem;
+        grid-gap: 1.1rem;
         transition: .3s ease-in-out;
 
         @media only screen and (max-width: $bp-small) {
@@ -248,17 +248,21 @@
     }
 
     &__tags {
+        display: flex;
+        flex-wrap: wrap;
+
+
         &--tag {
             color: #fffaf8;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: 200;
             padding-top: .6rem;
             padding-bottom: .5rem;
             padding-left: 1rem;
             padding-right: 1rem;
             border-radius: .6rem;
-            margin-right: .2rem;
-            margin-top: 1rem;
+            margin-right: .5rem;
+            margin-bottom: .5rem;
             -moz-hyphens: none;
             -ms-hyphens: none;
             -webkit-hyphens: none;
@@ -266,28 +270,34 @@
         }
 
         &--modus {
-            background-color: #4a52e6aa;
+            background-color: $primary-color;
+            //background-color: #4a52e6aa;
         }
 
         &--jeghardeg {
-            background-color: #b5293c85;
+            background-color: $primary-color;
+            //background-color: #b5293c85;
         }
 
         &--apenhet {
-            background-color: #064398b7;
+            background-color: $primary-color;
+            //background-color: #064398b7;
         }
 
         &--oslofortwo {
-            background-color: #d9646480;
+            background-color: $primary-color;
+            //background-color: #d9646480;
         }
 
         &--researchpaper {
-            background-color: #D6AD00;
+            background-color: $primary-color;
+           // background-color: #D6AD00;
         }
     }
 
     // MODUS
     &__modus {
+        //background-color: $secondary-color;
         background-color: #4a52e641;
         grid-row: 2 / 7;
         grid-column: 1 / 2;
@@ -298,7 +308,8 @@
         }
 
         &--img {
-            width: 50%;
+            width: 42%;
+            max-height: 100%;
             transform: rotate(24deg);
             transition: .8s ease-in-out;
             justify-self: center;
@@ -307,6 +318,7 @@
             @media only screen and (max-width: $bp-large) {
                 width: 30%;
             }
+
             @media only screen and (max-width: $bp-small) {
                 width: 45%;
             }
@@ -320,6 +332,7 @@
 
     // #jeghardeg
     &__jeghardeg {
+        //background-color: $secondary-color;
         background-color: #FFEBEE;
         grid-row: 2 / 6;
         grid-column: 2 / -1;
@@ -331,14 +344,17 @@
 
         &--img {
             width: 70%;
+            max-height: 100%;
             transform: rotate(-14deg);
             transition: .8s ease-in-out;
             justify-self: center;
             align-self: end;
+
             @media only screen and (max-width: $bp-large) {
                 align-self: center;
             }
         }
+
         &:hover {
             background-color: #B42639;
         }
@@ -358,6 +374,7 @@
         &:hover {
             background-color: #D96464;
         }
+
         &--img {
             width: 35%;
             transform: rotate(-24deg);
@@ -389,7 +406,7 @@
         &:hover {
             background-color: #2B83D0;
         }
-        
+
     }
 
     &__researchpaper {
