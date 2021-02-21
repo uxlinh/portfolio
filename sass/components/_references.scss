@@ -1,0 +1,120 @@
+.references {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 2rem;
+}
+
+/* Reference-slider container */
+.references-container {
+    max-width: 110rem;
+    display: flex;
+    align-items: center;
+
+    //* Referansene */
+    .myReferences {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 4vw;
+        @media only screen and (max-width: $bp-small) {
+            flex-direction: column;
+        }
+
+        .reference {
+            &__avatar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &--avatarImg {
+                    max-width: 12rem;
+                }
+                &--avatarName,
+                &--avatarTitle {
+                    font-family: 'poppins';
+                    font-size: 1.5rem;
+                    color: $primary-color;
+                    text-align: center;
+                }
+                &--avatarName{
+                    padding-top: 1rem;
+                    font-weight: 600;
+                }
+                &--avatarTitle {
+                    font-weight: 200;
+                }
+            }
+
+            &__quote {
+                font-family: 'poppins';
+                font-size: 2rem;
+                font-weight: 200;
+                line-height: 2;
+                color: $primary-color;
+                width: 100%;
+                margin: 0;
+                padding-left: 4rem;
+
+
+                @media only screen and (max-width: $bp-small) {
+                    text-align: center;
+                    padding-left: 0;
+                    padding-top: 2rem;
+                }
+            }
+        }
+    }
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 4rem;
+    min-height: 4rem;
+
+
+    text-align: center;
+    color: $primary-color;
+    background-color: $secondary-color;
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: 0.6s ease;
+    border-radius: 100rem;
+    user-select: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+// .prev:hover,
+// .next:hover {
+//     background-color: $primary-color;
+// }
+
+// .eva-parent-hover:hover {
+//     fill: $secondary-color;
+// }
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.2rem;
+    background-color: rgb(233, 237, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: $primary-color;
+}

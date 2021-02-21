@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type=".image/svg" href="./img/favicon.svg">
     <script src="https://unpkg.com/eva-icons"></script>
+    <script src="path/to/dist/eva-icons.js"></script>
+
     <title>Linhs Portefølje</title>
 </head>
 
@@ -23,7 +25,7 @@
 
 <body class="container">
 
-
+    <!-- Header -->
     <header class="header header__index">
 
         <nav class="navbar" id="bar">
@@ -53,7 +55,8 @@
         <div class="header__herotext">
             <h1 class="hero-heading1">Heya 👋 </h1>
             <h2 class="hero-heading2">Jeg er en <span class="bold">interaksjonsdesigner</span> med mastergrad i <span
-                    class="bold">digital business systems.</span> Jeg har lidenskap for design av <span class="bold">brukervennlige interaktive opplevelser</span> for</h2>
+                    class="bold">digital business systems.</span> Jeg har lidenskap for design av <span
+                    class="bold">brukervennlige interaktive opplevelser</span> for</h2>
             <h2 class="hero-heading2">digitale flater</h2>
             <a href="#indexcontainer"><img class="icon-arrow-down" src="./img/arrow-down.svg"
                     alt="arrow down to projects"></a>
@@ -75,91 +78,136 @@
         <img class="header__trekant" src="./img/icon-trekant.svg" alt="figure som flyter">
         <img class="header__trekant2" src="./img/icon-trekant2.svg" alt="figure som flyter">
         <img class="header__person" src="./img/icon-person.svg" alt="figure som flyter">
-
-
     </header>
 
 
+    <!-- Main -->
+    <main>
+        <section class="indexcontainer" id="indexcontainer">
+            <h1 class="indexcontainer__heading1 heading1">Portfolio</h1>
 
-    <main class="indexcontainer" id="indexcontainer">
-        <h1 class="indexcontainer__heading1 heading1">Portfolio</h1>
+            <!-- box1 -->
+            <a href="./pages/modus.html" class="indexcontainer__box indexcontainer__modus">
+                <h1 class="box__h1 modus__h1">Modus</h1>
+                <h2 class="box__h2 modus__h2">Et magasin for deg i din Modus. Les case study</h2>
+                <div class="indexcontainer__tags">
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--modus tagmodus1">UX</span>
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--modus tagmodus2">UI</span>
+                </div>
+                <img class="indexcontainer__modus--img" src="./img/phone-modus.svg" alt="">
+            </a>
 
-        <!-- box1 -->
-        <a href="./pages/modus.html" class="indexcontainer__box indexcontainer__modus">
-            <h1 class="box__h1 modus__h1">Modus</h1>
-            <h2 class="box__h2 modus__h2">Et magasin for deg i din Modus. Les case study</h2>
-            <div class="indexcontainer__tags">
-                <span class="indexcontainer__tags--tag indexcontainer__tags--modus tagmodus1">UX</span>
-                <span class="indexcontainer__tags--tag indexcontainer__tags--modus tagmodus2">UI</span>
+            <!-- box2 -->
+            <a href="./pages/jeghardeg.html" class="indexcontainer__box indexcontainer__jeghardeg">
+                <h1 class="box__h1 jeghardeg__h1">#Jeghardeg</h1>
+                <h2 class="box__h2 jeghardeg__h2">Finn en julegaveinnsamling nær deg i et interaktivt Norgeskart. Les
+                    case study</h2>
+                <div class="indexcontainer__tags">
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg1">UX</span>
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg2">UI</span>
+                    <span
+                        class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg3">Webutvikling</span>
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg4">Digital
+                        markedsføring</span>
+                </div>
+                <img class="indexcontainer__jeghardeg--img" src="./img/pc-jeghardeg.svg" alt="">
+            </a>
+
+            <!-- box3 -->
+            <a href="https://uxlinh.github.io/chasingchoral/" class="indexcontainer__box indexcontainer__apenhet">
+                <h1 class="box__h1 apenhet__h1">Chasing Choral</h1>
+                <h2 class="box__h2 apenhet__h2">Kampanjenettside for filmen Chasing Choral. <br> Les case study</h2>
+                <div class="indexcontainer__tags">
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--apenhet tagapenhet1">UX</span>
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--apenhet tagapenhet2">UI</span>
+                    <span
+                        class="indexcontainer__tags--tag indexcontainer__tags--apenhet tagapenhet3">Webutvikling</span>
+                </div>
+                <img class="indexcontainer__apenhet--img" src="#" alt="">
+            </a>
+
+            <!-- box4 -->
+            <a href="./pages/oslofortwo.html" class="indexcontainer__box indexcontainer__oslofortwo">
+                <h1 class="box__h1 oslofortwo__h1">Oslo for two</h1>
+                <h2 class="box__h2 oslofortwo__h2">Hvor skal vi på date? Oslo for two appen gir deg inspirasjon til
+                    datingaktiviteter gjennom et interaktivt kart ♥️ Les case study</h2>
+                <div class="indexcontainer__tags">
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--oslofortwo tagoslofortwo1">UX</span>
+                    <span class="indexcontainer__tags--tag indexcontainer__tags--oslofortwo tagoslofortwo2">UI</span>
+                </div>
+                <img class="indexcontainer__oslofortwo--img" src="./img/phone-oslofortwo.svg" alt="">
+            </a>
+
+            <!-- box5 -->
+            <a href="#" class="indexcontainer__box indexcontainer__researchpaper">
+                <h1 class="box__h1 researchpaper__h1">Understanding Client-Consultant Collaboration within Information
+                    Systems Design</h1>
+                <h2 class="box__h2 researchpaper__h2">Masteroppgaven min ble publisert som forskningsartikkel i
+                    konferansen
+                    Project Management Conference via Procedia Computer Science. Les den her</h2>
+                <div class="indexcontainer__tags">
+                    <span
+                        class="indexcontainer__tags--tag indexcontainer__tags--researchpaper tagresearchpaper1">Forskningsartikkel</span>
+                    <span
+                        class="indexcontainer__tags--tag indexcontainer__tags--researchpaper tagresearchpaper2">Prosjektledelse</span>
+                </div>
+                <img class="indexcontainer__researchpaper--img" src="./img/researchpaper.svg"
+                    alt="forskningspapir bilde">
+            </a>
+
+            <button class="btn1 indexcontainer__btn1">Flere prosjekter</button>
+        </section>
+
+
+        
+        <!-- References -->
+        <section class="references">
+            <h1 class="heading1">Referanser</h1>
+
+            <!-- Bildegalleri START-->
+            <div class="references-container">
+
+                <a class="next eva-parent-hover" onclick="plusSlides(-1)"><i class="hover" data-eva="arrow-ios-back-outline" data-eva-hover="false" data-eva-fill="#000000" ></i></a>
+
+                <div class="myReferences">
+                    <figure class="reference reference__avatar">
+                        <img class="reference__avatar--avatarImg" src="./img/referanser/olivier.png">
+                        <p class="reference__avatar--avatarName">Olivier Klaver</p>
+                        <p class="reference__avatar--avatarTitle">Fagskolelærer i interaksjonsdesign</p>
+                    </figure>
+                    <q class="reference reference__quote">Linh er en talentfull interaksjonsdesigner som forstår fagets funksjonelle, estetiske og tekniske egenart. Hun er oppriktig interessert i faget og uredd når det gjelder nye utfordringer.</q>
+                </div>
+
+                <div class="myReferences">
+                    <figure class="reference reference__avatar">
+                        <img class="reference__avatar--avatarImg" src="./img/referanser/olivier.png">
+                        <p class="reference__avatar--avatarName">Ketil Christiansen</p>
+                        <p class="reference__avatar--avatarTitle">Fagskolelærer i grafisk design</p>
+                    </figure>
+                    <q class="reference reference__quote">Jeg husker Linh som en veldig engasjert interaksjonsdesigner med sans for detaljer, som alltid kom med gode, interessante og brukervennlige løsningsforslag.</q>
+                </div>
+
+
+                <a class="prev eva-parent-hover" onclick="plusSlides(1)"><i  data-eva-animation="hover" data-eva="arrow-ios-forward-outline" data-eva-hover="false" data-eva-fill="#000000"></i></a>
+
             </div>
-            <img class="indexcontainer__modus--img" src="./img/phone-modus.svg" alt="">
-        </a>
 
-        <!-- box2 -->
-        <a href="./pages/jeghardeg.html" class="indexcontainer__box indexcontainer__jeghardeg">
-            <h1 class="box__h1 jeghardeg__h1">#Jeghardeg</h1>
-            <h2 class="box__h2 jeghardeg__h2">Finn en julegaveinnsamling nær deg i et interaktivt Norgeskart. Les
-                case study</h2>
-            <div class="indexcontainer__tags">
-                <span class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg1">UX</span>
-                <span class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg2">UI</span>
-                <span class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg3">Webutvikling</span>
-                <span class="indexcontainer__tags--tag indexcontainer__tags--jeghardeg tagjeghardeg4">Digital markedsføring</span>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
             </div>
-            <img class="indexcontainer__jeghardeg--img" src="./img/pc-jeghardeg.svg" alt="">
-        </a>
-
-        <!-- box3 -->
-        <a href="https://uxlinh.github.io/chasingchoral/" class="indexcontainer__box indexcontainer__apenhet">
-            <h1 class="box__h1 apenhet__h1">Chasing Choral</h1>
-            <h2 class="box__h2 apenhet__h2">Kampanjenettside for filmen Chasing Choral. <br> Les case study</h2>
-            <div class="indexcontainer__tags">
-                <span class="indexcontainer__tags--tag indexcontainer__tags--apenhet tagapenhet1">UX</span>
-                <span class="indexcontainer__tags--tag indexcontainer__tags--apenhet tagapenhet2">UI</span>
-                <span class="indexcontainer__tags--tag indexcontainer__tags--apenhet tagapenhet3">Webutvikling</span>
-            </div>
-            <img class="indexcontainer__apenhet--img" src="#" alt="">
-        </a>
-
-        <!-- box4 -->
-        <a href="./pages/oslofortwo.html" class="indexcontainer__box indexcontainer__oslofortwo">
-            <h1 class="box__h1 oslofortwo__h1">Oslo for two</h1>
-            <h2 class="box__h2 oslofortwo__h2">Hvor skal vi på date? Oslo for two appen gir deg inspirasjon til
-                datingaktiviteter gjennom et interaktivt kart ♥️ Les case study</h2>
-            <div class="indexcontainer__tags">
-                <span class="indexcontainer__tags--tag indexcontainer__tags--oslofortwo tagoslofortwo1">UX</span>
-                <span class="indexcontainer__tags--tag indexcontainer__tags--oslofortwo tagoslofortwo2">UI</span>
-            </div>
-            <img class="indexcontainer__oslofortwo--img" src="./img/phone-oslofortwo.svg" alt="">
-        </a>
-
-        <!-- box5 -->
-        <a href="#" class="indexcontainer__box indexcontainer__researchpaper">
-            <h1 class="box__h1 researchpaper__h1">Understanding Client-Consultant Collaboration within Information
-                Systems Design</h1>
-            <h2 class="box__h2 researchpaper__h2">Masteroppgaven min ble publisert som forskningsartikkel i konferansen
-                Project Management Conference via Procedia Computer Science. Les den her</h2>
-            <div class="indexcontainer__tags">
-                <span
-                    class="indexcontainer__tags--tag indexcontainer__tags--researchpaper tagresearchpaper1">Forskningsartikkel</span>
-                <span
-                    class="indexcontainer__tags--tag indexcontainer__tags--researchpaper tagresearchpaper2">Prosjektledelse</span>
-            </div>
-            <img class="indexcontainer__researchpaper--img" src="./img/researchpaper.svg" alt="forskningspapir bilde">
-        </a>
-
-        <button class="btn1 indexcontainer__btn1">Flere prosjekter</button>
+            <!-- Bildegalleri END-->
+        </section>
+        <!-- References END-->
 
     </main>
+    <!-- Main end -->
 
-    <section class="references">
-        <h1></h1>
 
-        <div>
 
-        </div>
-    </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div footer__text>
             <p class="footer__paragraph">Lyst til å bli bedre kjent?</p>
@@ -175,11 +223,22 @@
         </div>
         <p class="footer__copyright">Copyright &#169; 2021 - Designet og kodet av Linh Nguyen</p>
     </footer>
+    <!-- Footer end -->
+
 
 
 
     <script type="text/javascript" src="./js/index.js"></script>
     <script type="text/javascript" src="./js/navigation.js"></script>
+    <script type="text/javascript" src="./js/references.js"></script>
+    <script>
+        eva.replace({
+            animation: {
+                hover: true, // default true
+                // type: string, // zoom, pulse, shake, flip
+            }
+        });
+    </script>
 </body>
 
 
