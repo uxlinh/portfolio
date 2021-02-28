@@ -1,0 +1,48 @@
+.indexcontainer {
+    &__tags {
+        display: flex;
+        flex-wrap: wrap;
+
+
+        &--tag {
+            font-size: 1.4rem;
+            font-weight: 300;
+            padding-top: .5rem;
+            padding-bottom: .4rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            border-radius: 50rem;
+            margin-right: .6rem;
+            margin-bottom: 1rem;
+            -moz-hyphens: none;
+            -ms-hyphens: none;
+            -webkit-hyphens: none;
+            hyphens: none;
+        }
+
+        &--modus {
+            color: $modus-color;
+            background-color:$modus-tagbackground;
+        }
+        
+        &--jeghardeg {
+            color: $jeghardeg-color;
+            background-color: $jeghardeg-tagbackground;
+        }
+
+        &--apenhet {
+            color: $apenhet-color;
+            background-color:$apenhet-tagbackground;
+        }
+
+        &--oslofortwo {
+            color: $oslofortwo-color;
+            background-color: $oslofortwo-tagbackground;
+        }
+
+        &--researchpaper {
+        color: $researchpaper-color;
+        background-color: $researchpaper-tagbackground;
+        }
+    }
+}

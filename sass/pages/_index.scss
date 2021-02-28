@@ -246,59 +246,10 @@
         justify-self: center;
     }
 
-    &__tags {
-        display: flex;
-        flex-wrap: wrap;
-
-
-        &--tag {
-            color: #fffaf8;
-            font-size: 1.6rem;
-            font-weight: 200;
-            padding-top: .6rem;
-            padding-bottom: .5rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            border-radius: .6rem;
-            margin-right: .5rem;
-            margin-bottom: .5rem;
-            -moz-hyphens: none;
-            -ms-hyphens: none;
-            -webkit-hyphens: none;
-            hyphens: none;
-        }
-
-        &--modus {
-            background-color: $primary-color;
-            //background-color: #4a52e6aa;
-        }
-
-        &--jeghardeg {
-            background-color: $primary-color;
-            //background-color: #b5293c85;
-        }
-
-        &--apenhet {
-            background-color: $primary-color;
-            //background-color: #064398b7;
-        }
-
-        &--oslofortwo {
-            background-color: $primary-color;
-            //background-color: #d9646480;
-        }
-
-        &--researchpaper {
-            background-color: $primary-color;
-           // background-color: #D6AD00;
-        }
-    }
 
     // MODUS
     &__modus {
-        // background-color: $secondary-color;
         background-color: #4a52e641;
-
         grid-row: 2 / 7;
         grid-column: 1 / 2;
 
@@ -343,12 +294,13 @@
         }
 
         &--img {
-            width: 70%;
+            width: 75%;
+            padding-top: 5rem;
             max-height: 100%;
             transform: rotate(-14deg);
             transition: .8s ease-in-out;
             justify-self: center;
-            align-self: end;
+            align-self: center;
 
             @media only screen and (max-width: $bp-large) {
                 align-self: center;

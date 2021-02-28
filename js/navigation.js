@@ -8,12 +8,14 @@ navBarToggle.addEventListener("click", event => {
     navBarToggle.classList.toggle('toggle');
 
     if (activeB) {
+    mainNav.style.backgroundColor = "#FFF6E8";
     bar.style.backgroundColor = "#FFF6E8";
     bar.style.zIndex = "2";
     bar.style.height = "70%"
 
     } else {
     bar.style.backgroundColor = "transparent";
+    mainNav.style.backgroundColor = "transparent";
     bar.style.height = "10%"
     }
 });

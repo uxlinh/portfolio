@@ -1,133 +1,128 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  font-size: 2rem;
+  font-weight: 200;
+  background-color: none;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  font-family: 'merriweather', sans-serif;
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.underline{
+    color: $primary-color;
+}
+
+a.underline::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0.1rem;
+  background: $primary-color;
+  transition: .6s;
+}   
+a.underline:hover::after {
+  width: 100%; 
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 3.5rem;
+  margin-left: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.main-nav li {
+  text-align: center;
+  padding: 1rem 2.5rem;
+
+  @media only screen and (max-width: $bp-small){
+    padding: 4rem 0;
+  }
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+  cursor: pointer;
+  color: $primary-color;
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+#kontakt{
+  background-color: $secondary-color;
+  border-radius: 5rem;
+}
+
+@media screen and (min-width: 720px) {
   .navbar {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    font-size: 2rem;
-    font-weight: 200;
-    background-color: none;
-    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+  .logo {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 3rem;
   }
 
   .main-nav {
-    list-style-type: none;
-    display: none;
-  }
-  
-  .nav-links,
-  .logo {
-    font-family: 'merriweather', sans-serif;
-    text-decoration: none;
-    color: $primary-color;
-  }
-
-  .nav-links--white{
-      color: white;
-  }
-
-  .underline{
-      color: $primary-color;
-  }
-
-  a.underline::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0.1rem;
-    background: $primary-color;
-    transition: .6s;
-  }   
-  a.underline:hover::after {
-    width: 100%; 
-  }
-
-  .logo {
-    display: inline-block;
-    margin-top: 3.5rem;
-    margin-left: 20px;
-    font-size: 2rem;
-    font-weight: 600;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   .main-nav li {
-    text-align: center;
-    padding: 1rem 2.5rem;
-    @media only screen and (max-width: $bp-small){
-      padding: 4rem 0;
-    }
+    margin-top: 1.2rem;
   }
-  
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
   .navbar-toggle {
-    position: absolute;
-    top: 3rem;
-    right: 4rem;
-    cursor: pointer;
-    color: $primary-color;
-    font-size: 24px;
-  }
-  
-  .active {
-    display: block;
+    display: none;
+    transition: transform .8s ease-in;
   }
 
-  #kontakt{
-    background-color: $secondary-color;
-    border-radius: 5rem;
-  }
-  
-  @media screen and (min-width: 720px) {
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 0;
-      height: 70px;
-      align-items: center;
-      z-index: 1;
-    }
-    .logo {
-      display: inline-block;
-      margin-top: 1rem;
-      margin-left: 3rem;
-    }
-  
-    .main-nav {
-      display: flex;
-      margin-right: 30px;
-      flex-direction: row;
-      justify-content: flex-end;
-    }
-  
-    .main-nav li {
-      margin-top: 1.2rem;
-    }
-  
-    .nav-links {
-      margin-left: 40px;
-    }
-  
-    .navbar-toggle {
-      display: none;
-      transition: transform .8s ease-in;
-    }
-  
-  }
-  
-  .burgerline{
-    background-color: $primary-color;
-    border-radius: 10rem;
-    height: 2px;
-    width: 3rem;
-    margin-top: .7rem;
-    margin-bottom: .8rem;
-    transition: transform .2s ease-in;
-  }
+}
 
-  .toggle .burgerline1{
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-  .toggle .burgerline2{
-      opacity: 0;
-  }
-  .toggle .burgerline3{
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
+.burgerline{
+  background-color: $primary-color;
+  border-radius: 10rem;
+  height: 2px;
+  width: 3rem;
+  margin-top: .7rem;
+  margin-bottom: .8rem;
+  transition: transform .2s ease-in;
+}
+
+.toggle .burgerline1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .burgerline2{
+    opacity: 0;
+}
+.toggle .burgerline3{
+  transform: rotate(45deg) translate(-5px, -6px);
+}
 

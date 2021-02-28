@@ -22,10 +22,11 @@ a{
 }
 .hero-heading2{
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: .5rem;
+    line-height: 2;
     color: $primary-color;
     @media only screen and (max-width: $bp-largest) {
         font-size: 2.4rem;
@@ -50,37 +51,24 @@ a{
     font-family: 'Merriweather', serif;
     font-size: 2.8rem;
     font-weight: 700;
-    color: #0a003f;
+    color: $primary-color;
+    //color: $jeghardeg-color;
+    padding-bottom: 1rem;
     @media only screen and (max-width: $bp-small){
         font-size: 3rem;
     }
 }
 .box__h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 200;
-    color: #0E034E;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.9;
+    color: $primary-color;
+    // color: #0E034E;
     padding-bottom: .3rem;
 }
-.box__h2:after {
-    // content: ' \2192';
-    content: ' \279D';
-  }
 
 
-
-.footer {
-    color: $secondary-color;
-    font-weight: 200;
-
-    &__paragraph{
-        font-size: 2.2rem;
-        line-height: 4.2rem;
-    }
-    &__copyright{
-        font-size: 1.5rem;
-    }
-}
 
 // Modus
 .heading-modus1{
@@ -121,4 +109,19 @@ a{
     line-height: 1.8;
     font-weight: 200;
     margin-bottom: 4rem;
+}
+
+
+
+.footer {
+    color: $secondary-color;
+    font-weight: 300;
+
+    &__paragraph{
+        font-size: 2.2rem;
+        line-height: 4.2rem;
+    }
+    &__copyright{
+        font-size: 1.5rem;
+    }
 }
