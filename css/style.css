@@ -530,7 +530,7 @@ a.underline:hover::after {
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(17, 14vh);
+  grid-template-rows: repeat(16, 14vh);
   grid-gap: 2.5rem;
   padding: 12rem 14vw; }
   @media only screen and (max-width: 80em) {
