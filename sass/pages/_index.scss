@@ -14,6 +14,7 @@
         top: 6%;
         padding: 10vw 21vw;
         text-align: center;
+        z-index: 3;
 
         @media only screen and (max-width: $bp-largest) {
             top: 12%;
@@ -32,7 +33,7 @@
     &__heroimg {
         width: 85vw;
         margin-bottom: 10rem;
-
+    
         @media only screen and (max-width: $bp-large) {
             width: 95vw;
         }
@@ -195,41 +196,44 @@
     }
 }
 
-
+main{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
 
 .indexcontainer {
-    width: 100vw;
+    max-width: 145rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(16, 13rem);
     grid-gap: 2.5rem;
-    padding: 12rem 14vw;
+    padding: 10rem 10rem;
 
     @media only screen and (max-width: $bp-largest) {
+        grid-template-rows: repeat(16, 14rem);
         padding: 12rem 5vw;
     }
-
     @media only screen and (max-width: $bp-large) {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(24, 18rem);
-        padding: 12rem 10vw;
+        grid-template-rows: repeat(24, 15rem);
+        padding: 12rem 15vw;
     }
 
     @media only screen and (max-width: $bp-medium) {
-        grid-gap: 4rem;
-        grid-template-rows: repeat(24, 14rem);
+        grid-template-rows: repeat(24, 15rem);
+        padding: 12rem 12vw;
     }
 
     @media only screen and (max-width: $bp-small) {
         padding: 12rem 3vw;
-        grid-gap: 2rem;
     }
 
 
     &__box {
+        display: grid;
         border-radius: 1rem;
         padding: 5rem;
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, min-content) 1fr;
         grid-gap: 1.1rem;
