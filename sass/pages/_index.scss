@@ -201,22 +201,23 @@
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(16, 14vh);
+    grid-template-rows: repeat(16, 13rem);
     grid-gap: 2.5rem;
     padding: 12rem 14vw;
 
     @media only screen and (max-width: $bp-largest) {
-        padding: 12rem 7vw;
+        padding: 12rem 5vw;
     }
 
     @media only screen and (max-width: $bp-large) {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(24, 14vh);
-        padding: 12rem 8vw;
+        grid-template-rows: repeat(24, 18rem);
+        padding: 12rem 10vw;
     }
 
     @media only screen and (max-width: $bp-medium) {
         grid-gap: 4rem;
+        grid-template-rows: repeat(24, 14rem);
     }
 
     @media only screen and (max-width: $bp-small) {

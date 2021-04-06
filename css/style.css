@@ -369,7 +369,7 @@ a.underline:hover::after {
 
 .footer {
   width: 100vw;
-  height: 50vh;
+  height: 50rem;
   background-color: #0E004E;
   display: flex;
   flex-direction: column;
@@ -530,20 +530,21 @@ a.underline:hover::after {
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(16, 14vh);
+  grid-template-rows: repeat(16, 13rem);
   grid-gap: 2.5rem;
   padding: 12rem 14vw; }
   @media only screen and (max-width: 80em) {
     .indexcontainer {
-      padding: 12rem 7vw; } }
+      padding: 12rem 5vw; } }
   @media only screen and (max-width: 62.5em) {
     .indexcontainer {
       grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(24, 14vh);
-      padding: 12rem 8vw; } }
+      grid-template-rows: repeat(24, 18rem);
+      padding: 12rem 10vw; } }
   @media only screen and (max-width: 50em) {
     .indexcontainer {
-      grid-gap: 4rem; } }
+      grid-gap: 4rem;
+      grid-template-rows: repeat(24, 14rem); } }
   @media only screen and (max-width: 37.5em) {
     .indexcontainer {
       padding: 12rem 3vw;
