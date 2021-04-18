@@ -7,11 +7,20 @@
 @import "base/utilities";
 
 @import "components/buttons";
+@import "components/geometricforms";
 @import "components/navigation";
 @import "components/references";
 @import "components/tags";
 
 @import "layout/footer";
+
+@import "layout-project/imgbox";
+@import "layout-project/project-grid";
+@import "layout-project/project-intro";
+@import "layout-project/project-paragraph";
+@import "layout-project/slider-persona";
+@import "layout-project/slider-product";
+@import "layout-project/typography";
 
 @import "pages/about";
 @import "pages/apenhet";
@@ -20,3 +29,5 @@
 @import "pages/modus";
 @import "pages/oslofortwo";
 @import "pages/projects";
+
+

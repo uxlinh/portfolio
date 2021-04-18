@@ -1,0 +1,30 @@
+.projectIntro{
+    width: 100vw;
+    min-height: 40rem;
+    padding-left:6vw;
+    padding-right:6vw;
+    padding-top: 5.5vh;
+    padding-bottom: 3vh;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    &--modus{
+        background-color: #18076A;
+    }
+    &--jeghardeg{
+        background-color: #600327;
+    }
+
+    &__container {
+        display: grid;
+        align-items: center;
+        max-width: 85rem;
+        min-height: 55rem;
+
+        grid-template-columns: repeat(2, 1fr);
+        @media only screen and (max-width: $bp-small) {grid-template-columns: repeat(1,1fr);}
+        grid-gap: 4rem;
+    }
+}

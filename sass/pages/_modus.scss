@@ -1,7 +1,7 @@
 .header {
     &__modus {
         position: relative;
-        height: 155vh;
+        height: 130rem;
         background: rgb(74, 81, 230);
         background: linear-gradient(218deg, rgba(74, 81, 230, 1) 0%, rgba(74, 17, 165, 1) 100%);
 
@@ -41,8 +41,8 @@
                 background-image: url("../img/modus/phone.svg");
                 background-size: 100%;
                 background-repeat: no-repeat;
-                max-width: 48rem;
-                height: 95rem;
+                max-width: 45rem;
+                min-height: 80rem;
                 margin: 2rem;
 
                 @media only screen and (max-width: $bp-small) {
@@ -59,99 +59,14 @@
         }
     }
 
-
 }
+
+
 
 .main {
     width: 100vw;
     display: grid;
-    justify-content: center;
-    align-items: center;
     justify-items: center;
-
-
-
-    &__resultscontainer {
-        max-width: 160rem;
-        display: flex;
-        align-items: center;
-        flex-flow: column;
-        padding-top: 10rem;
-
-        &--flow-normal,
-        &--flow-reverse {
-            display: flex;
-            width: 100%;
-            justify-content: center;
-            margin-bottom: 10rem;
-            align-items: center;
-        }
-
-        &--flow-intro {
-            display: flex;
-            width: 60%;
-            height: 60vh;
-            align-items: flex-start;
-            justify-content: space-between;
-            padding-bottom: 6vh;
-
-            @media only screen and (max-width: $bp-large) {
-                flex-flow: row wrap;
-            }
-
-            &-box2 {
-                margin-left: 2.5vw;
-                margin-right: 2.5vw;
-            }
-
-        }
-        &--flow-normal {
-            @media only screen and (max-width: $bp-large) {
-                flex-flow: row wrap;
-            }
-        }
-
-        &--flow-reverse {
-            @media only screen and (max-width: $bp-large) {
-                flex-flow: row wrap-reverse;
-            }
-        }
-
-        &__text {
-            max-width: 50rem;
-            padding-left: 2vw;
-        }
-
-        &__img-container {
-            position: relative;
-            max-width: 40rem;
-            height: 70rem;
-            padding: 1vh 0;
-
-            @media only screen and (max-width: $bp-small) {
-                max-height: 70rem;
-            }
-
-            background-image: url("../img/modus/phone.svg");
-            background-size: 100%;
-            background-repeat: no-repeat;
-
-
-
-            .img-phone {
-                width: 100%;
-                position: relative;
-                padding: 0 7rem;
-                top: 8.6rem;
-            }
-        }
-    }
-
-    &__text-intro {
-        max-width: 60rem;
-        padding-left: 2vw;
-    }
+    margin-top: 8rem;
 
 }
-
-
