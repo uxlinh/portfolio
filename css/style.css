@@ -526,7 +526,7 @@ a.underline:hover::after {
 
 .projectParagraph {
   max-width: 85rem;
-  margin: 10rem auto 0 auto; }
+  margin: 12rem auto 0 auto; }
   @media only screen and (max-width: 50em) {
     .projectParagraph {
       margin-left: 5vw;
@@ -540,7 +540,7 @@ a.underline:hover::after {
   align-items: center;
   justify-items: center;
   align-content: center;
-  margin: 1rem auto; }
+  margin: 5rem auto; }
 
 .personaSlide {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.062); }
