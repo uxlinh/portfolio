@@ -1,0 +1,17 @@
+.product-container{
+    max-width: 100%;
+    
+    display: grid;
+    grid-column: 1 / 9;
+    grid-template-columns: min-content 1fr min-content;
+    grid-template-rows: min-content min-content 1fr;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin: 3rem auto;
+}
+
+.product-dots{
+    grid-column: 1 / 4;
+    margin-top: 3rem;
+}

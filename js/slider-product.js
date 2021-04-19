@@ -1,18 +1,18 @@
 var slideIndex = 1;
-        showKonk(slideIndex);
+        showProduct(slideIndex);
 
-        function plusSlides(n) {
-            showKonk(slideIndex += n);
+        function plussSlides(n) {
+            showProduct(slideIndex += n);
         }
 
         function currentSlide(n) {
-            showKonk(slideIndex = n);
+            showProduct(slideIndex = n);
         }
 
-        function showKonk(n) {
+        function showProduct(n) {
             var i;
-            var slides = document.getElementsByClassName("konkurrentSlide");
-            var dots = document.getElementsByClassName("dot2");
+            var slides = document.getElementsByClassName("productSlide");
+            var dots = document.getElementsByClassName("dot3");
             if (n > slides.length) {
                 slideIndex = 1
             }
@@ -28,9 +28,3 @@ var slideIndex = 1;
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
-
-
-
-
-
-        

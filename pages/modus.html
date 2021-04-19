@@ -135,7 +135,7 @@
 
             <div class="persona-container">
                 <!-- 1 -->
-                <a class="btn-prev" onclick="plusSlides(-1)"></a>
+                <a class="btn-prev" onclick="pluSlides(-1)"></a>
                 <!-- 2 -->
                 <div>
                     <div class="personaSlide">
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <!-- 3 -->
-                <a class="btn-next" onclick="plusSlides(1)"></a>
+                <a class="btn-next" onclick="pluSlides(1)"></a>
                 <!-- 4 -->
                 <div class="persona-dots" style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
@@ -172,7 +172,8 @@
 
             <div class="persona-container">
                 <!-- 1 -->
-                <a class="btn-prev" onclick="plussSlides(-1)"></a>
+                <a class="btn-prev" onclick="plusSlides(-1)"></a>
+
                 <!-- 2 -->
                 <div>
                     <div class="konkurrentSlide">
@@ -183,8 +184,10 @@
                         <img src="../img/modus/konkurrenter-resten.svg" style="width:100%">
                     </div>
                 </div>
+
                 <!-- 3 -->
-                <a class="btn-next" onclick="plussSlides(1)"></a>
+                <a class="btn-next" onclick="plusSlides(1)"></a>
+
                 <!-- 4 -->
                 <div class="persona-dots" style="text-align:center">
                     <span class="dot2" onclick="currentSlide(1)"></span>
@@ -215,8 +218,37 @@
                     Vi følger en iterativ designprosess som betyr at vi underveis i designprosessen tester ulike versjoner av prototypene på målgruppen for å få rask feedback. Etter hver brukertest kan vi justere og forbedre designet vårt. I bildegalleriet har vi dokumentert hvordan noen av våre wireframes har utviklet fra low-fi, mid-fi og til slutt high-fi.
                 </p> 
             </section>
-            <div class="project-imgbox-large">
-                <img class="project-imgbox-large__img" src="../img/modus/wireframes-brukertest.svg" alt="">
+            
+            <div class="product-container">
+                <!-- 1 -->
+                <a class="btn-prev" onclick="plussSlides(-1)"></a>
+
+                <!-- 2 -->
+                <div>
+                    <div class="productSlide">
+                        <h3 class="project-h3">Low-Fi</h3>
+                        <img src="../img/modus/wireframes-lofi.svg" style="width:100%">
+                    </div>
+
+                    <div class="productSlide">
+                        <h3 class="project-h3">Mid-Fi</h3>
+                        <img src="../img/modus/wireframes-midfi.svg" style="width:100%">
+                    </div>
+
+                    <div class="productSlide">
+                        <h3 class="project-h3">High-Fi</h3>
+                        <img src="../img/modus/wireframes-highfi.svg" style="width:100%">
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <a class="btn-next" onclick="plussSlides(1)"></a>
+                <!-- 4 -->
+                <div class="product-dots" style="text-align:center">
+                    <span class="dot3" onclick="currentSlide(1)"></span>
+                    <span class="dot3" onclick="currentSlide(2)"></span>
+                    <span class="dot3" onclick="currentSlide(3)"></span>
+                </div>
             </div>
 
             <section class="projectParagraph">
@@ -288,5 +320,6 @@
 
 <script type="text/javascript" src="../js/slider-persona.js"></script>
 <script type="text/javascript" src="../js/slider-konkurrenter.js"></script>
+<script type="text/javascript" src="../js/slider-product.js"></script>
 
 </html>
