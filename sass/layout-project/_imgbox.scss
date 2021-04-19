@@ -7,11 +7,10 @@
       }
 }
 .project-imgbox-large{
-    max-width: 98rem;
+    max-width: 100%;
     grid-column: 1 / 9;
     margin: 3rem auto;
     text-align: center;
-    border: 1px solid;
     @media only screen and (max-width: $bp-small) {
         margin: 2rem;
     }
