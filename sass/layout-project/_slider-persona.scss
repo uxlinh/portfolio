@@ -1,16 +1,19 @@
 .persona-container{
     max-width: 120rem;
+    
     display: grid;
+    grid-column: 1 / 9;
     grid-template-columns: min-content 1fr min-content;
     grid-template-rows: min-content 1fr;
     align-items: center;
     justify-items: center;
     align-content: center;
-    margin: 5rem auto;
+    margin: 3rem auto;
 }
 
-.personaSlide{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.062);
+.personaSlide,
+.konkurrentSlide{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.062); 
 }
 
 .persona-dots{
@@ -25,5 +28,8 @@
     border-radius: 50rem;
     cursor: pointer;
     margin: 2rem;
+    @media only screen and (max-width: $bp-small) {
+        margin: 1rem;
+    }
     background-color: $primary-color;
 }

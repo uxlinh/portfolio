@@ -1,8 +1,11 @@
 .projectParagraph{
-    max-width: 85rem;
-    margin: 12rem auto 0 auto;
-    @media only screen and (max-width: $bp-medium) {
-        margin-left:5vw;
-        margin-right:5vw;
+    grid-column: 2 / 8;
+    @media only screen and (max-width: $bp-small) {
+        grid-column: 1 / 9;
+        margin-left: 6vw;
+        margin-right: 6vw;
     }
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 10rem;
 }

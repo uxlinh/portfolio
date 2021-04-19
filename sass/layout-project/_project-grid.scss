@@ -1,3 +1,7 @@
-.main{
-    
+article{
+    max-width: 112rem;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0rem;   
 }
