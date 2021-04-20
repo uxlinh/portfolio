@@ -509,12 +509,15 @@ body {
   overflow-x: hidden;
   /* Hide scrollbar horisontal */ }
 
+.modus-main {
+  margin-top: 6rem;
+  margin-bottom: 20rem; }
+
 article {
   max-width: 120rem;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-gap: 0rem;
-  margin-bottom: 20rem; }
+  grid-gap: 0rem; }
 
 .projectIntro {
   width: 100vw;
@@ -541,8 +544,8 @@ article {
 
 .projectParagraph {
   grid-column: 2 / 8;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   margin-top: 10rem; }
   @media only screen and (max-width: 37.5em) {
     .projectParagraph {
@@ -559,7 +562,7 @@ article {
   align-items: center;
   justify-items: center;
   align-content: center;
-  margin: 3rem auto; }
+  margin: 4rem auto; }
 
 .personaSlide,
 .konkurrentSlide {
@@ -633,6 +636,9 @@ article {
     color: #151515; }
   .project-p--light {
     color: #f5f5f5; }
+  @media only screen and (max-width: 37.5em) {
+    .project-p {
+      line-height: 30px; } }
 
 #blog_container {
   display: grid;
