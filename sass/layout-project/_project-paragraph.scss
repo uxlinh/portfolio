@@ -9,3 +9,13 @@
     // margin-right: 3vw;
     margin-top: 10rem;
 } 
+
+.projectSubParagraph{
+    grid-column: 2 / 8;
+    margin-bottom: 1rem;
+    @media only screen and (max-width: $bp-small) {
+        grid-column: 1 / 9;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+} 
