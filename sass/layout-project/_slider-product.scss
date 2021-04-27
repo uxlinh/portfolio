@@ -1,6 +1,6 @@
-.product-container{
+.product-container {
     max-width: 100%;
-    
+
     display: grid;
     grid-column: 1 / 9;
     grid-template-columns: min-content 1fr min-content;
@@ -11,13 +11,34 @@
     margin: 4rem 0 8rem 0;
 }
 
-.product-dots{
+.product-dots {
     grid-column: 1 / 4;
     margin-top: 0rem;
 }
-.productSlide{
+
+.productSlide {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     align-items: center;
-    padding: 0 2rem 0 0;
+    // padding: 0 2rem 0 0;
+    // height: 85rem;
+}
+
+.phone-img {
+    position: relative;
+    background-image: url("../img/modus/phone.svg");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    width: 45rem;
+    height:77rem;
+
+}
+
+.product-video {
+    position: relative;
+    width: 98%;
+    padding-left: 7.6rem;
+    padding-right: 6.8rem;
+    top: 10rem;
 }
