@@ -105,7 +105,8 @@
 /* The dots/bullets/indicators */
 .dot,
 .dot2,
-.dot3 {
+.dot3,
+.dot4 {
     cursor: pointer;
     height: 1.5rem;
     width: 1.5rem;
@@ -119,6 +120,8 @@
 
 .active,
 .dot:hover
-.dot2:hover {
+.dot2:hover
+.dot3:hover
+.dot4:hover {
     background-color: $primary-color;
 }

@@ -1,18 +1,18 @@
 var slideIndex = 1;
-        showProduct(slideIndex);
+        showWireframe(slideIndex);
 
-        function plussaSlides(n) {
-            showProduct(slideIndex += n);
+        function plussSlides(n) {
+            showWireframe(slideIndex += n);
         }
 
-        function currentaSlide(n) {
-            showProduct(slideIndex = n);
+        function currentSlide(n) {
+            showWireframe(slideIndex = n);
         }
 
-        function showProduct(n) {
+        function showWireframe(n) {
             var i;
-            var slides = document.getElementsByClassName("productSlide");
-            var dots = document.getElementsByClassName("dot4");
+            var slides = document.getElementsByClassName("wireframeSlide");
+            var dots = document.getElementsByClassName("dot3");
             if (n > slides.length) {
                 slideIndex = 1
             }
@@ -25,6 +25,6 @@ var slideIndex = 1;
             for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
-            slides[slideIndex - 1].style.display = "grid";
+            slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }

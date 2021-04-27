@@ -1,8 +1,9 @@
 .persona-container{
     max-width: 100%;
-    
     display: grid;
     grid-column: 1 / 9;
+
+    // Grid in container
     grid-template-columns: min-content 1fr min-content;
     grid-template-rows: min-content 1fr;
     align-items: center;

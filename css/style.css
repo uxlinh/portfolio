@@ -423,7 +423,8 @@ a.underline:hover::after {
 /* The dots/bullets/indicators */
 .dot,
 .dot2,
-.dot3 {
+.dot3,
+.dot4 {
   cursor: pointer;
   height: 1.5rem;
   width: 1.5rem;
@@ -435,7 +436,9 @@ a.underline:hover::after {
 
 .active,
 .dot:hover
-.dot2:hover {
+.dot2:hover
+.dot3:hover
+.dot4:hover {
   background-color: #0E004E; }
 
 .indexcontainer__tags {
@@ -681,9 +684,30 @@ article {
   align-items: center;
   justify-items: center;
   align-content: center;
-  margin: 4rem auto; }
+  margin: 2rem auto; }
 
 .product-dots {
+  grid-column: 1 / 4;
+  margin-top: 0rem; }
+
+.productSlide {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: center;
+  padding: 0 2rem 0 0; }
+
+.wireframe-container {
+  max-width: 100%;
+  display: grid;
+  grid-column: 1 / 9;
+  grid-template-columns: min-content 1fr min-content;
+  grid-template-rows: min-content min-content 1fr;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  margin: 4rem auto; }
+
+.wireframe-dots {
   grid-column: 1 / 4;
   margin-top: 3rem; }
 

@@ -1,4 +1,4 @@
-.product-container{
+.wireframe-container{
     max-width: 100%;
     
     display: grid;
@@ -8,16 +8,10 @@
     align-items: center;
     justify-items: center;
     align-content: center;
-    margin: 2rem auto;
+    margin: 4rem auto;
 }
 
-.product-dots{
+.wireframe-dots{
     grid-column: 1 / 4;
-    margin-top: 0rem;
-}
-.productSlide{
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    align-items: center;
-    padding: 0 2rem 0 0;
+    margin-top: 3rem;
 }
