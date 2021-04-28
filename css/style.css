@@ -735,6 +735,8 @@ article {
       top: 8rem; } }
 
 .productText {
+  padding-left: 2rem;
+  padding-right: 2rem;
   align-self: center; }
   @media only screen and (max-width: 50em) {
     .productText {
