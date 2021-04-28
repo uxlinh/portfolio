@@ -697,7 +697,7 @@ article {
   @media only screen and (max-width: 50em) {
     .productSlide {
       justify-items: center;
-      grid-template-columns: 1.2fr;
+      grid-template-columns: 1fr;
       grid-template-rows: 70rem 30rem; } }
   @media only screen and (max-width: 37.5em) {
     .productSlide {
@@ -705,7 +705,7 @@ article {
       justify-items: center;
       justify-content: center;
       grid-template-columns: 1.2fr;
-      grid-template-rows: 70rem 35rem; } }
+      grid-template-rows: 52rem 32rem; } }
 
 .phone-img {
   align-items: center;
@@ -717,7 +717,8 @@ article {
   height: 77rem; }
   @media only screen and (max-width: 37.5em) {
     .phone-img {
-      width: 40rem;
+      align-self: center;
+      max-width: 30rem;
       height: 100%; } }
 
 .product-video {
@@ -728,10 +729,10 @@ article {
   top: 10rem; }
   @media only screen and (max-width: 37.5em) {
     .product-video {
-      width: 90%;
-      padding-left: 7rem;
-      padding-right: 3rem;
-      top: 9.5rem; } }
+      width: 92%;
+      padding-left: 6.2rem;
+      padding-right: 3.2rem;
+      top: 9rem; } }
 
 .productText {
   padding-left: 5rem;

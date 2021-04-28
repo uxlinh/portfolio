@@ -22,7 +22,7 @@
 
     @media only screen and (max-width: $bp-medium) {
         justify-items: center;
-        grid-template-columns: 1.2fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 70rem 30rem;
     }
 
@@ -31,7 +31,7 @@
         justify-items: center;
         justify-content: center;
         grid-template-columns: 1.2fr;
-        grid-template-rows: 70rem 35rem;
+        grid-template-rows: 52rem 32rem;
     }
 
     // padding: 0 2rem 0 0;
@@ -53,7 +53,8 @@
     height: 77rem;
 
     @media only screen and (max-width: $bp-small) {
-        width: 40rem;
+        align-self: center;
+        max-width: 30rem;
         height: 100%;
     }
 
@@ -67,10 +68,10 @@
     top: 10rem;
 
     @media only screen and (max-width: $bp-small) {
-        width: 90%;
-        padding-left: 7rem;
-        padding-right: 3rem;
-        top: 9.5rem;
+        width: 92%;
+        padding-left: 6.2rem;
+        padding-right: 3.2rem;
+        top: 9rem;
     }
 }
 
