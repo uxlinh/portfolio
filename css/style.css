@@ -694,14 +694,31 @@ article {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   align-items: center; }
+  @media only screen and (max-width: 50em) {
+    .productSlide {
+      justify-items: center;
+      grid-template-columns: 1.2fr;
+      grid-template-rows: 70rem 30rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .productSlide {
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+      grid-template-columns: 1.2fr;
+      grid-template-rows: 70rem 35rem; } }
 
 .phone-img {
+  align-items: center;
   position: relative;
   background-image: url("../img/modus/phone.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 45rem;
   height: 77rem; }
+  @media only screen and (max-width: 37.5em) {
+    .phone-img {
+      width: 40rem;
+      height: 100%; } }
 
 .product-video {
   position: relative;
@@ -709,6 +726,22 @@ article {
   padding-left: 7.6rem;
   padding-right: 6.8rem;
   top: 10rem; }
+  @media only screen and (max-width: 37.5em) {
+    .product-video {
+      width: 90%;
+      padding-left: 7rem;
+      padding-right: 3rem;
+      top: 9.5rem; } }
+
+.productText {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  align-self: center; }
+  @media only screen and (max-width: 37.5em) {
+    .productText {
+      align-self: start;
+      padding-left: 0rem;
+      padding-right: 0rem; } }
 
 .wireframe-container {
   max-width: 100%;
