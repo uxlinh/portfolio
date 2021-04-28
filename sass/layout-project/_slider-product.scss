@@ -31,7 +31,7 @@
         justify-items: center;
         justify-content: center;
         grid-template-columns: 1.2fr;
-        grid-template-rows: 52rem 32rem;
+        grid-template-rows: 52rem 36rem;
     }
 
     // padding: 0 2rem 0 0;
@@ -69,17 +69,22 @@
 
     @media only screen and (max-width: $bp-small) {
         width: 92%;
-        padding-left: 6.2rem;
-        padding-right: 3.2rem;
-        top: 9rem;
+        padding-left: 5.5rem;
+        padding-right: 3rem;
+        top: 8rem;
     }
 }
 
 .productText {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    align-self: center;
     
+    align-self: center;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        text-align: center;
+    }
+
     @media only screen and (max-width: $bp-small) {
         align-self: start;
         padding-left: 0rem;

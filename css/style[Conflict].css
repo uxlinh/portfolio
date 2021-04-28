@@ -735,12 +735,12 @@ article {
       top: 8rem; } }
 
 .productText {
+  text-align: center;
   align-self: center; }
   @media only screen and (max-width: 50em) {
     .productText {
       padding-left: 5rem;
-      padding-right: 5rem;
-      text-align: center; } }
+      padding-right: 5rem; } }
   @media only screen and (max-width: 37.5em) {
     .productText {
       align-self: start;
