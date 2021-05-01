@@ -5,7 +5,7 @@
     padding-left: 6vw;
     padding-right: 6vw;
     padding-top: 5.5vh;
-    padding-bottom: 3vh;
+    padding-bottom: 5.5vh;
 
     display: grid;
     justify-content: center;
@@ -22,7 +22,7 @@
         max-width: 84rem;
         grid-template-columns: repeat(2, 1fr);
         display: grid;
-        grid-gap: 2rem;
+        grid-gap: 5rem;
 
         @media only screen and (max-width: $bp-small) {
             grid-template-columns: repeat(1, 1fr);

@@ -1,56 +1,82 @@
-$primary-title: 'Merriweather', serif;
-$secondary-title: 'Merriweather', serif;
-$paragraph: 'Poppins', sans-serif;
+$primary-title: 'Merriweather',
+serif;
+$secondary-title: 'Merriweather',
+serif;
+$paragraph: 'Poppins',
+sans-serif;
 
 $primary-fontcolor-dark: #222222;
 $primary-fontcolor-grey: #151515;
 $primary-fontcolor-light: #f5f5f5;
 
+.text-bold {
+    font-weight: 600;
+}
+
+.linkResetter--white {
+    text-decoration: underline;
+    color: white;
+}
+
 .project-h1,
 .project-h2,
-.project-h3{
+.project-h3 {
     font-family: $primary-title;
     font-weight: 700;
     color: $primary-fontcolor-dark;
 
-    &--light{
+    &--light {
         color: $primary-fontcolor-light;
     }
 }
 
-.project-h1{
+.project-h1 {
     font-size: 3.2rem;
     margin-bottom: 2.5rem;
     margin-top: 2.5rem;
 }
-.project-h2{
+
+.project-h2 {
     font-size: 2.2rem;
     margin-top: 5.5rem;
     margin-bottom: 1.2rem;
 }
-.project-h3{
+
+.project-h3 {
     font-size: 2.2rem;
     margin-bottom: 3rem;
     text-align: center;
 }
-.project-h5{
+
+.project-h5 {
     font-size: 1.4rem;
     text-align: center;
     line-height: 3rem;
     margin-top: 1rem;
 }
-.project-p{
+
+.projectIntro-p {
+    font-family: $paragraph;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: $primary-fontcolor-light;
+    margin-bottom: 2rem;
+}
+
+.project-p {
     font-family: $paragraph;
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 3.4rem;
     color: $primary-fontcolor-grey;
     margin-bottom: 2.5rem;
-    
-    &--dark{
+
+    &--dark {
         color: $primary-fontcolor-grey;
     }
-    &--light{
+
+    &--light {
         color: $primary-fontcolor-light;
     }
 
@@ -59,7 +85,8 @@ $primary-fontcolor-light: #f5f5f5;
     }
 }
 
-.p-description-small{
+
+.p-description-small {
     font-family: $paragraph;
     font-weight: 300;
     font-size: 1.4rem;

@@ -528,7 +528,7 @@ article {
   padding-left: 6vw;
   padding-right: 6vw;
   padding-top: 5.5vh;
-  padding-bottom: 3vh;
+  padding-bottom: 5.5vh;
   display: grid;
   justify-content: center;
   align-items: center; }
@@ -540,7 +540,7 @@ article {
     max-width: 84rem;
     grid-template-columns: repeat(2, 1fr);
     display: grid;
-    grid-gap: 2rem; }
+    grid-gap: 5rem; }
     @media only screen and (max-width: 37.5em) {
       .projectIntro__container {
         grid-template-columns: repeat(1, 1fr); } }
@@ -764,6 +764,13 @@ article {
   grid-column: 1 / 4;
   margin-top: 3rem; }
 
+.text-bold {
+  font-weight: 600; }
+
+.linkResetter--white {
+  text-decoration: underline;
+  color: white; }
+
 .project-h1,
 .project-h2,
 .project-h3 {
@@ -795,6 +802,14 @@ article {
   text-align: center;
   line-height: 3rem;
   margin-top: 1rem; }
+
+.projectIntro-p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: #f5f5f5;
+  margin-bottom: 2rem; }
 
 .project-p {
   font-family: "Poppins", sans-serif;
