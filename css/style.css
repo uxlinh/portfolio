@@ -492,14 +492,16 @@ a.underline:hover::after {
 .project-imgbox-small {
   max-width: 98rem;
   grid-column: 1 / 9;
-  width: 100%; }
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
   .project-imgbox-small__img {
     width: 100%; }
 
 .project-imgbox-large {
   max-width: 100%;
   grid-column: 1 / 9;
-  margin: 3rem auto;
+  margin: 0rem 1rem;
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
     .project-imgbox-large {
