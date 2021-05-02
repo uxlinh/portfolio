@@ -3,14 +3,13 @@ body{
     overflow-x: hidden; /* Hide scrollbar horisontal */
 }
 
-.modus-main{
+.projectMain{
     margin-top: 6rem;
     margin-bottom: 20rem;
 }
 
-article{
+.projectArticle{
     max-width: 105rem;
-
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 0rem;
