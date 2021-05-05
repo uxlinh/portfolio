@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="599.277" height="102.943" viewBox="0 0 599.277 102.943">
-  <g id="Group_360" data-name="Group 360" transform="translate(-921 -3315.057)">
+<svg xmlns="http://www.w3.org/2000/svg" width="602" height="108.943" viewBox="0 0 602 108.943">
+  <g id="Group_365" data-name="Group 365" transform="translate(-920 -3315.057)">
     <g id="Figma-logo" transform="translate(921 3315.057)">
       <path id="path0_fill" d="M13.533,227.065a13.537,13.537,0,0,0,13.533-13.533V200H13.533a13.533,13.533,0,1,0,0,27.065Z" transform="translate(0 -145.87)" fill="#0acf83"/>
       <path id="path1_fill" d="M0,113.533A13.537,13.537,0,0,1,13.533,100H27.065v27.065H13.533A13.538,13.538,0,0,1,0,113.533Z" transform="translate(0 -72.935)" fill="#a259ff"/>
@@ -7,7 +7,7 @@
       <path id="path2_fill" d="M100,0h13.533a13.533,13.533,0,1,1,0,27.065H100Z" transform="translate(-72.935 0)" fill="#ff7262"/>
       <path id="path3_fill" d="M127.065,113.533A13.533,13.533,0,1,1,113.533,100,13.538,13.538,0,0,1,127.065,113.533Z" transform="translate(-72.935 -72.935)" fill="#1abcfe"/>
     </g>
-    <g id="Adobe_InDesign_CC_icon" transform="translate(1028 3315.057)">
+    <g id="Adobe_InDesign_CC_icon" transform="translate(1031 3315.057)">
       <path id="Path_247" data-name="Path 247" d="M14.747,0H68.53A14.735,14.735,0,0,1,83.277,14.747v51.7A14.735,14.735,0,0,1,68.53,81.2H14.747A14.735,14.735,0,0,1,0,66.448v-51.7A14.735,14.735,0,0,1,14.747,0Z" transform="translate(0 0)" fill="#49021f"/>
       <g id="Outlined_Mnemonics_Logos" transform="translate(22.52 17.795)">
         <g id="Id">
@@ -16,7 +16,7 @@
         </g>
       </g>
     </g>
-    <g id="Layer_2_1_" transform="translate(1437 3315.057)">
+    <g id="Layer_2_1_" transform="translate(1428 3315.057)">
       <g id="Surfaces" transform="translate(0 0)">
         <g id="Video_Audio_Surface">
           <g id="Outline_no_shadow">
@@ -31,7 +31,7 @@
         </g>
       </g>
     </g>
-    <g id="Layer_2_1_2" data-name="Layer_2_1_" transform="translate(1164 3315.057)">
+    <g id="Layer_2_1_2" data-name="Layer_2_1_" transform="translate(1168.723 3315.057)">
       <g id="Surfaces-2" data-name="Surfaces" transform="translate(0 0)">
         <g id="Drawing_Surface">
           <g id="Outline_no_shadow-2" data-name="Outline_no_shadow">
@@ -46,7 +46,7 @@
         </g>
       </g>
     </g>
-    <g id="Layer_2_1_3" data-name="Layer_2_1_" transform="translate(1301 3315.057)">
+    <g id="Layer_2_1_3" data-name="Layer_2_1_" transform="translate(1300 3315.057)">
       <g id="Surfaces-3" data-name="Surfaces" transform="translate(0 0)">
         <g id="Photo_Surface">
           <g id="Outline_no_shadow-3" data-name="Outline_no_shadow">
@@ -61,10 +61,10 @@
         </g>
       </g>
     </g>
-    <text id="Indesign" transform="translate(1044 3414)" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Indesign</tspan></text>
-    <text id="Indesign-2" data-name="Indesign" transform="translate(929 3414)" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Figma</tspan></text>
-    <text id="Indesign-3" data-name="Indesign" transform="translate(1177 3414)" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Illustrator</tspan></text>
-    <text id="Indesign-4" data-name="Indesign" transform="translate(1310 3414)" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Photoshop</tspan></text>
-    <text id="Indesign-5" data-name="Indesign" transform="translate(1440 3414)" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Premiere Pro</tspan></text>
+    <text id="Indesign" transform="translate(1073 3418)" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-34.48" y="0">Indesign</tspan></text>
+    <text id="Indesign-2" data-name="Indesign" transform="translate(946 3418)" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-25.264" y="0">Figma</tspan></text>
+    <text id="Indesign-3" data-name="Indesign" transform="translate(1210.723 3418)" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-38.496" y="0">Illustrator</tspan></text>
+    <text id="Indesign-4" data-name="Indesign" transform="translate(1342 3418)" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-43.232" y="0">Photoshop</tspan></text>
+    <text id="Indesign-5" data-name="Indesign" transform="translate(1470 3418)" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-51.184" y="0">Premiere Pro</tspan></text>
   </g>
 </svg>

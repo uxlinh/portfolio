@@ -40,9 +40,24 @@
 .paragraph-1fr-2fr{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 2rem;
-    align-items: center;
-    justify-items: center;
+    grid-template-columns: 1fr .8fr;
+
+    .col-1-to-3{
+        grid-column: 1 / 3;
+     }
+
+     .col-stretched{
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-columns: 1fr;
+        grid-column: 1 / 3;
+    }
+    }
+
+    .verktoy-img{
+        padding-left: 3rem;
+        @media only screen and (max-width: $bp-medium) {
+            padding-left: 0rem;
+            margin-bottom: 2.4rem;
+        }
+    }
 }
