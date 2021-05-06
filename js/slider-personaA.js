@@ -1,18 +1,18 @@
 var slideIndex = 1;
-        showKonk(slideIndex);
+        showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showKonk(slideIndex += n);
+        function pluSlides(n) {
+            showSlides(slideIndex += n);
         }
 
-        function currentSlideKonk(n) {
-            showKonk(slideIndex = n);
+        function currentSlideA(n) {
+            showSlides(slideIndex = n);
         }
 
-        function showKonk(n) {
+        function showSlides(n) {
             var i;
-            var slides = document.getElementsByClassName("konkurrentSlide");
-            var dots = document.getElementsByClassName("dot2");
+            var slides = document.getElementsByClassName("personaSlide");
+            var dots = document.getElementsByClassName("dot");
             if (n > slides.length) {
                 slideIndex = 1
             }
@@ -28,9 +28,3 @@ var slideIndex = 1;
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
-
-
-
-
-
-        

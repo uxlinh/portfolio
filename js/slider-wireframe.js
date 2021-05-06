@@ -5,7 +5,7 @@ var slideIndex = 1;
             showWireframe(slideIndex += n);
         }
 
-        function currentSlide(n) {
+        function currentSlideW(n) {
             showWireframe(slideIndex = n);
         }
 

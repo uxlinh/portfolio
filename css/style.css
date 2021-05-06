@@ -442,7 +442,8 @@ a.underline:hover::after {
 .dot,
 .dot2,
 .dot3,
-.dot4 {
+.dot4,
+.dotB {
   cursor: pointer;
   height: 1.5rem;
   width: 1.5rem;
@@ -456,7 +457,8 @@ a.underline:hover::after {
 .dot:hover
 .dot2:hover
 .dot3:hover
-.dot4:hover {
+.dot4:hover
+.dotB:hover {
   background-color: #0E004E; }
 
 .indexcontainer__tags {

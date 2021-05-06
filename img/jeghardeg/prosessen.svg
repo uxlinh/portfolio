@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1205" height="293.641" viewBox="0 0 1205 293.641">
-  <g id="Group_350" data-name="Group 350" transform="translate(-400 -3695.179)">
-    <g id="Rectangle_129" data-name="Rectangle 129" transform="translate(761 3855)" fill="#fff" stroke="#121212" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="1215" height="293.642" viewBox="0 0 1215 293.642">
+  <g id="Group_368" data-name="Group 368" transform="translate(-390 -4415.178)">
+    <g id="Rectangle_129" data-name="Rectangle 129" transform="translate(761 4575)" fill="#fff" stroke="#121212" stroke-width="1">
       <rect width="139" height="62" rx="15" stroke="none"/>
       <rect x="0.5" y="0.5" width="138" height="61" rx="14.5" fill="none"/>
     </g>
-    <g id="Rectangle_131" data-name="Rectangle 131" transform="translate(938 3855)" fill="#fff" stroke="#121212" stroke-width="1">
+    <g id="Rectangle_131" data-name="Rectangle 131" transform="translate(938 4575)" fill="#fff" stroke="#121212" stroke-width="1">
       <rect width="111" height="62" rx="15" stroke="none"/>
       <rect x="0.5" y="0.5" width="110" height="61" rx="14.5" fill="none"/>
     </g>
-    <g id="Rectangle_132" data-name="Rectangle 132" transform="translate(1099 3855)" fill="#fff" stroke="#121212" stroke-width="1">
+    <g id="Rectangle_132" data-name="Rectangle 132" transform="translate(1099 4575)" fill="#fff" stroke="#121212" stroke-width="1">
       <rect width="115" height="62" rx="15" stroke="none"/>
       <rect x="0.5" y="0.5" width="114" height="61" rx="14.5" fill="none"/>
     </g>
-    <g id="Rectangle_216" data-name="Rectangle 216" transform="translate(1433 3855)" fill="#fff" stroke="#121212" stroke-width="1">
+    <g id="Rectangle_216" data-name="Rectangle 216" transform="translate(1433 4575)" fill="#fff" stroke="#121212" stroke-width="1">
       <rect width="172" height="62" rx="15" stroke="none"/>
       <rect x="0.5" y="0.5" width="171" height="61" rx="14.5" fill="none"/>
     </g>
-    <g id="Rectangle_133" data-name="Rectangle 133" transform="translate(1260 3855)" fill="#fff" stroke="#121212" stroke-width="1">
+    <g id="Rectangle_133" data-name="Rectangle 133" transform="translate(1260 4575)" fill="#fff" stroke="#121212" stroke-width="1">
       <rect width="130" height="62" rx="15" stroke="none"/>
       <rect x="0.5" y="0.5" width="129" height="61" rx="14.5" fill="none"/>
     </g>
-    <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(592 3855)" fill="#fff" stroke="#121212" stroke-width="1">
+    <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(592 4575)" fill="#fff" stroke="#121212" stroke-width="1">
       <rect width="123" height="62" rx="15" stroke="none"/>
       <rect x="0.5" y="0.5" width="122" height="61" rx="14.5" fill="none"/>
     </g>
-    <g id="Rectangle_215" data-name="Rectangle 215" transform="translate(400 3855)" fill="#fff" stroke="#121212" stroke-width="1">
-      <rect width="150" height="62" rx="15" stroke="none"/>
-      <rect x="0.5" y="0.5" width="149" height="61" rx="14.5" fill="none"/>
+    <g id="Rectangle_215" data-name="Rectangle 215" transform="translate(390 4575)" fill="#fff" stroke="#121212" stroke-width="1">
+      <rect width="160" height="62" rx="15" stroke="none"/>
+      <rect x="0.5" y="0.5" width="159" height="61" rx="14.5" fill="none"/>
     </g>
     <text id="Research_Innsikt" data-name="Research &amp;
-Innsikt" transform="translate(654 3881)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-39.445" y="0">Research &amp;</tspan><tspan x="-22.743" y="21">Innsikt</tspan></text>
-    <text id="Brainstorming_Temavalg" data-name="Brainstorming &amp;
-Temavalg" transform="translate(475 3881)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-56.602" y="0">Brainstorming &amp;</tspan><tspan x="-35.441" y="21">Temavalg</tspan></text>
-    <text id="Konseptutvikling" transform="translate(772 3891)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Konseptutvikling</tspan></text>
-    <text id="Brukerreise" transform="translate(954 3891)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Brukerreise</tspan></text>
-    <text id="Wireframing" transform="translate(1113 3891)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Wireframing</tspan></text>
-    <text id="Digital_Markedføring" data-name="Digital  Markedføring" transform="translate(1432 3876)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="13.637" y="15" xml:space="preserve">Digital  Markedføring</tspan></text>
-    <text id="Webutvikling" transform="translate(1280 3891)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Webutvikling</tspan></text>
-    <path id="Path_124" data-name="Path 124" d="M3989,5069.964s6.849-59.964,85.668-59.964,85.667,59.964,85.667,59.964" transform="translate(-2839.146 -1229.328)" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="5"/>
-    <path id="Path_129" data-name="Path 129" d="M3989,5010s6.822,59.964,85.327,59.964S4159.654,5010,4159.654,5010" transform="translate(-2838.465 -1082.145)" fill="#fff" stroke="#121212" stroke-width="2" stroke-dasharray="5"/>
-    <path id="Path_126" data-name="Path 126" d="M3989,5154.458s6.907-144.687,330.635-144.458,330.634,144.458,330.634,144.458" transform="translate(-3329.079 -1313.822)" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="5"/>
-    <path id="Path_127" data-name="Path 127" d="M2897.5,4878.367l7.427,7.927,6.846-7.927" transform="translate(-2244.716 -1045.656)" fill="none" stroke="#18076a" stroke-linecap="round" stroke-width="2"/>
-    <path id="Path_128" data-name="Path 128" d="M2897.5,4878.367l7.427,7.927,6.846-7.927" transform="translate(-1754.101 -1045.656)" fill="none" stroke="#121212" stroke-linecap="round" stroke-width="2"/>
-    <path id="Path_130" data-name="Path 130" d="M2897.5,4886.294l7.427-7.927,6.846,7.927" transform="translate(-1584.614 -954.475)" fill="#fff" stroke="#121212" stroke-linecap="round" stroke-width="2"/>
-    <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(721.022 3870.098)" fill="#121212"/>
-    <path id="Icon_ionic-ios-arrow-round-forward-2" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(555.967 3870.098)" fill="#121212"/>
-    <path id="Icon_ionic-ios-arrow-round-forward-3" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(903.53 3870.098)" fill="#121212"/>
-    <path id="Icon_ionic-ios-arrow-round-forward-4" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(1057.121 3870.098)" fill="#121212"/>
-    <path id="Icon_ionic-ios-arrow-round-forward-5" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(1221.09 3870.148)" fill="#121212"/>
-    <path id="Icon_ionic-ios-arrow-round-forward-6" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(1397.342 3874.699)" fill="#121212"/>
+Innsikt" transform="translate(654 4601)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-39.445" y="0">Research &amp;</tspan><tspan x="-22.743" y="21">Innsikt</tspan></text>
+    <text id="Brainstorming_støttekampanjevalg" data-name="Brainstorming &amp;
+støttekampanjevalg" transform="translate(470 4601)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-56.602" y="0">Brainstorming &amp;</tspan><tspan x="-71.729" y="21">støttekampanjevalg</tspan></text>
+    <text id="Konseptutvikling" transform="translate(772 4611)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Konseptutvikling</tspan></text>
+    <text id="Brukerreise" transform="translate(954 4611)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Brukerreise</tspan></text>
+    <text id="Wireframing" transform="translate(1113 4611)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Wireframing</tspan></text>
+    <text id="Digital_Markedføring" data-name="Digital  Markedføring" transform="translate(1432 4596)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="13.637" y="15" xml:space="preserve">Digital  Markedføring</tspan></text>
+    <text id="Webutvikling" transform="translate(1280 4611)" fill="#121212" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Webutvikling</tspan></text>
+    <path id="Path_124" data-name="Path 124" d="M3989,5069.964s6.849-59.964,85.668-59.964,85.667,59.964,85.667,59.964" transform="translate(-2839.146 -509.328)" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="5"/>
+    <path id="Path_129" data-name="Path 129" d="M3989,5010s6.822,59.964,85.327,59.964S4159.654,5010,4159.654,5010" transform="translate(-2838.465 -362.145)" fill="#fff" stroke="#121212" stroke-width="2" stroke-dasharray="5"/>
+    <path id="Path_126" data-name="Path 126" d="M3989,5154.458s8.983-144.687,430.04-144.458,430.039,144.458,430.039,144.458" transform="translate(-3329.079 -593.822)" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="5"/>
+    <path id="Path_127" data-name="Path 127" d="M2897.5,4878.367l7.427,7.927,6.846-7.927" transform="translate(-2244.716 -325.656)" fill="none" stroke="#18076a" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_128" data-name="Path 128" d="M2897.5,4878.367l7.427,7.927,6.846-7.927" transform="translate(-1754.101 -325.656)" fill="none" stroke="#121212" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_130" data-name="Path 130" d="M2897.5,4886.294l7.427-7.927,6.846,7.927" transform="translate(-1584.614 -234.475)" fill="#fff" stroke="#121212" stroke-linecap="round" stroke-width="2"/>
+    <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(721.022 4590.098)" fill="#121212"/>
+    <path id="Icon_ionic-ios-arrow-round-forward-2" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(555.967 4590.098)" fill="#121212"/>
+    <path id="Icon_ionic-ios-arrow-round-forward-3" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(903.53 4590.098)" fill="#121212"/>
+    <path id="Icon_ionic-ios-arrow-round-forward-4" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(1057.121 4590.098)" fill="#121212"/>
+    <path id="Icon_ionic-ios-arrow-round-forward-5" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(1221.09 4590.148)" fill="#121212"/>
+    <path id="Icon_ionic-ios-arrow-round-forward-6" data-name="Icon ionic-ios-arrow-round-forward" d="M16.672,11.428a.626.626,0,0,0,0,.882l2.913,2.918H8.493a.623.623,0,0,0,0,1.246H19.575l-2.913,2.918a.631.631,0,0,0,0,.882.62.62,0,0,0,.877,0l3.948-3.977h0a.7.7,0,0,0,.129-.2.594.594,0,0,0,.048-.24.624.624,0,0,0-.177-.436l-3.948-3.977A.61.61,0,0,0,16.672,11.428Z" transform="translate(1397.342 4594.699)" fill="#121212"/>
   </g>
 </svg>

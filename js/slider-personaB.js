@@ -1,18 +1,18 @@
 var slideIndex = 1;
-        showSlides(slideIndex);
+        showSlidesB(slideIndex);
 
-        function pluSlides(n) {
-            showSlides(slideIndex += n);
+        function plusSlidesB(n) {
+            showSlidesB(slideIndex += n);
         }
 
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
+        function currentSlideB(n) {
+            showSlidesB(slideIndex = n);
         }
 
-        function showSlides(n) {
+        function showSlidesB(n) {
             var i;
-            var slides = document.getElementsByClassName("personaSlide");
-            var dots = document.getElementsByClassName("dot");
+            var slides = document.getElementsByClassName("personaSlideB");
+            var dots = document.getElementsByClassName("dotB");
             if (n > slides.length) {
                 slideIndex = 1
             }

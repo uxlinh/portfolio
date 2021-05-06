@@ -93,8 +93,7 @@
                 <div class="paragraph-1fr-2fr">
                     <h2 class="project-h2 margin-top-medium col-1-to-3">Design</h2>
 
-                    <p class="project-p col-stretched">Disse designverktøyene brukte vi til wireframing, videoklipping
-                        og lage markedsføringsinnhold og prosessdokumentasjon.</p>
+                    <p class="project-p col-stretched">Disse designverktøyene brukte vi til wireframing, videoklipping, markedsføringsinnhold og prosessdokumentasjon.</p>
 
                     <figure class="col-stretched verktoy-img" style="width: 100%;">
                         <img style="width: 100%;" src="../img/jeghardeg/verktoy-design.svg" alt="">
@@ -104,8 +103,7 @@
                 <div class="paragraph-1fr-2fr">
                     <h2 class="project-h2 margin-top-medium col-1-to-3">Webutvikling</h2>
 
-                    <p class="project-p col-stretched">Vi kodet nettsiden med SCSS i språkene html, css og javascript.
-                        Deretter brukte mapbbox-api.</p>
+                    <p class="project-p col-stretched">Vi kodet kampanjenettsiden med Mapbox-api og SCSS i språkene HTML, CSS og Javascript.</p>
 
                     <figure class="col-stretched verktoy-img" style="width: 100%;">
                         <img style="width: 100%;" src="../img/jeghardeg/verktoy-webutvikling.svg" alt="">
@@ -221,9 +219,67 @@
             <section class="projectParagraph">
                 <h1 class="project-h1">Personas - Primærmålgruppen</h1>
             </section>
+
+            <section class="persona-container">
+                <!-- Previous button -->
+                <a class="btn-prev" onclick="pluSlides(-1)"></a>
+
+                <!-- Slides Start -->
+                <div>
+                    <div class="personaSlide">
+                        <img src="../img/jeghardeg/personas1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="personaSlide">
+                        <img src="../img/jeghardeg/personas2.jpg" style="width:100%">
+                    </div>
+                </div>
+                <!-- Slides END-->
+
+                 <!-- Next button -->
+                <a class="btn-next" onclick="pluSlides(1)"></a>
+
+               <!-- Dots -->
+                <div class="persona-dots" style="text-align:center">
+                    <span class="dot" onclick="currentSlideA(1)"></span>
+                    <span class="dot" onclick="currentSlideA(2)"></span>
+                </div>
+            </section>
+
+
+
+
             <section class="projectParagraph">
                 <h1 class="project-h1">Personas - Sekundærmålgruppen </h1>
             </section>
+
+
+            <section class="persona-container">
+                <!-- Previous button -->
+                <a class="btn-prev" onclick="plusSlidesB(-1)"></a>
+
+                <!-- Slides Start -->
+                <div>
+                    <div class="personaSlideB">
+                        <img src="../img/jeghardeg/personas3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="personaSlideB">
+                        <img src="../img/jeghardeg/personas4.jpg" style="width:100%">
+                    </div>
+                </div>
+                <!-- Slides END-->
+
+                 <!-- Next button -->
+                <a class="btn-next" onclick="plusSlidesB(1)"></a>
+
+               <!-- Dots -->
+                <div class="persona-dots" style="text-align:center">
+                    <span class="dotB" onclick="currentSlideB(1)"></span>
+                    <span class="dotB" onclick="currentSlideB(2)"></span>
+                </div>
+            </section>
+
 
 
             <section class="projectParagraph">
@@ -237,6 +293,39 @@
             <section class="projectParagraph">
                 <h1 class="project-h1">Wireframes</h1>
             </section>
+
+            <div class="wireframe-container">
+                <!-- Button Previous -->
+                <a class="btn-prev" onclick="plussSlides(-1)"></a>
+
+                <!-- Wireframe Slides -->
+                <div>
+                    <div class="wireframeSlide">
+                        <h3 class="project-h3">Low-Fi</h3>
+                        <img src="../img/modus/wireframes-lofi.svg" style="width:100%">
+                    </div>
+
+                    <div class="wireframeSlide">
+                        <h3 class="project-h3">Mid-Fi</h3>
+                        <img src="../img/modus/wireframes-midfi.svg" style="width:100%">
+                    </div>
+
+                    <div class="wireframeSlide">
+                        <h3 class="project-h3">High-Fi</h3>
+                        <img src="../img/modus/wireframes-highfi.svg" style="width:100%">
+                    </div>
+                </div>
+
+                <!-- Button Next -->
+                <a class="btn-next" onclick="plussSlides(1)"></a>
+
+                <!-- 4 -->
+                <div class="wireframe-dots" style="text-align:center">
+                    <span class="dot3" onclick="currentSlideW(1)"></span>
+                    <span class="dot3" onclick="currentSlideW(2)"></span>
+                    <span class="dot3" onclick="currentSlideW(3)"></span>
+                </div>
+            </div>
             <!-- Wireframes END -->
 
 
@@ -306,5 +395,8 @@
 
 
 <script type="text/javascript" src="../js/navigation.js"></script>
+<script type="text/javascript" src="../js/slider-personaA.js"></script>
+<script type="text/javascript" src="../js/slider-personaB.js"></script>
+<script type="text/javascript" src="../js/slider-wireframe.js"></script>
 
 </html>
