@@ -124,7 +124,7 @@ a {
   margin-top: 1.5rem; }
 
 .margin-top-medium {
-  margin-top: 2.5rem; }
+  margin-top: 3.5rem; }
 
 .margin-top-large {
   margin-top: 5.5rem; }
@@ -521,7 +521,6 @@ a.underline:hover::after {
 .project-imgbox-large {
   max-width: 100%;
   grid-column: 1 / 9;
-  margin: 0rem 1rem;
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
     .project-imgbox-large {
