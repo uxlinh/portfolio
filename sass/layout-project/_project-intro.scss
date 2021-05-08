@@ -4,22 +4,23 @@
     min-height: 48rem;
     padding-left: 6vw;
     padding-right: 6vw;
-    padding-top: 5.5vh;
-    padding-bottom: 5.5vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 
     display: grid;
     justify-content: center;
     align-items: center;
+    // text-align: center;
 
     &--modus {
         background-color: #18076A;
     }
     &--jeghardeg {
-        background-color: #600327;
+        background-color: #41021a;
     }
 
     &__container {
-        max-width: 84rem;
+        max-width: 80rem;
         grid-template-columns: repeat(2, 1fr);
         display: grid;
         grid-gap: 5rem;

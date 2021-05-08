@@ -1,8 +1,8 @@
 .header {
     &__jeghardeg {
         position: relative;
-        height: 155vh;
-        background: #D96464;
+        height: 110vh;
+        background: #5f0327;
 
         &__hero-container {
             position: relative;
@@ -14,27 +14,17 @@
             text-align: center;
             z-index: 1;
 
-            &--img {
-                // background-image: url("../img/phone-jeghardeg.svg");
-                // background-size: 100%;
-                // background-repeat: no-repeat;
-                // max-width: 48rem;
-                // height: 95rem;
-                // margin: 2rem;
-
-                @media only screen and (max-width: $bp-small) {
-                    height: 80rem;
-                }
-            }
-
-            &--gif {
-                position: relative;
-                width: 90%;
-                padding: 6rem;
-                top: 4.8rem;
-            }
         }
     }
+
+    .jeghardeg-heroimg-container{
+        width: 95rem;
+
+        .jeghardeg-heroimg{
+            width: 100%;
+        }
+    }
+    
 }
 
 .paragraph-1fr-2fr{

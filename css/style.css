@@ -133,10 +133,13 @@ a {
   margin-bottom: 1.2rem; }
 
 .margin-bottom-medium {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 3.5rem; }
 
 .margin-bottom-large {
   margin-bottom: 5.5rem; }
+
+.margin-bottom-largest {
+  margin-bottom: 8.5rem; }
 
 .btn1 {
   background-color: #0E004E;
@@ -522,9 +525,6 @@ a.underline:hover::after {
   max-width: 100%;
   grid-column: 1 / 9;
   text-align: center; }
-  @media only screen and (max-width: 37.5em) {
-    .project-imgbox-large {
-      margin: 2rem; } }
   .project-imgbox-large__img {
     width: 100%; }
 
@@ -548,17 +548,17 @@ body {
   min-height: 48rem;
   padding-left: 6vw;
   padding-right: 6vw;
-  padding-top: 5.5vh;
-  padding-bottom: 5.5vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
   display: grid;
   justify-content: center;
   align-items: center; }
   .projectIntro--modus {
     background-color: #18076A; }
   .projectIntro--jeghardeg {
-    background-color: #600327; }
+    background-color: #41021a; }
   .projectIntro__container {
-    max-width: 84rem;
+    max-width: 80rem;
     grid-template-columns: repeat(2, 1fr);
     display: grid;
     grid-gap: 5rem; }
@@ -788,24 +788,31 @@ body {
 .text-bold {
   font-weight: 600; }
 
+.text-highlight {
+  background-color: #fff5c3d7;
+  padding: 0 .5rem; }
+
 .linkResetter--white {
   text-decoration: underline;
   color: white; }
 
 .project-h1,
 .project-h2,
-.project-h3 {
+.project-h3,
+.project-h5 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   color: #222222; }
   .project-h1--light,
   .project-h2--light,
-  .project-h3--light {
+  .project-h3--light,
+  .project-h5--light {
     color: #f5f5f5; }
   @media only screen and (max-width: 50em) {
     .project-h1,
     .project-h2,
-    .project-h3 {
+    .project-h3,
+    .project-h5 {
       -webkit-hyphens: manual;
       -ms-hyphens: manual;
       hyphens: manual; } }
@@ -834,7 +841,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
-  line-height: 2.5rem;
+  line-height: 2.6rem;
   color: #f5f5f5;
   margin-bottom: 2rem; }
 
@@ -852,6 +859,15 @@ body {
   @media only screen and (max-width: 37.5em) {
     .project-p {
       line-height: 30px; } }
+
+.project-highlight {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  color: #1f1f1f;
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem; }
 
 .p-description-small {
   font-family: "Poppins", sans-serif;
@@ -1065,8 +1081,8 @@ main {
 
 .header__jeghardeg {
   position: relative;
-  height: 155vh;
-  background: #D96464; }
+  height: 110vh;
+  background: #5f0327; }
   .header__jeghardeg__hero-container {
     position: relative;
     top: 20rem;
@@ -1076,14 +1092,11 @@ main {
     flex-flow: column;
     text-align: center;
     z-index: 1; }
-    @media only screen and (max-width: 37.5em) {
-      .header__jeghardeg__hero-container--img {
-        height: 80rem; } }
-    .header__jeghardeg__hero-container--gif {
-      position: relative;
-      width: 90%;
-      padding: 6rem;
-      top: 4.8rem; }
+
+.header .jeghardeg-heroimg-container {
+  width: 95rem; }
+  .header .jeghardeg-heroimg-container .jeghardeg-heroimg {
+    width: 100%; }
 
 .paragraph-1fr-2fr {
   width: 100%;
