@@ -823,7 +823,7 @@ body {
   margin-top: 2.5rem; }
 
 .project-h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 1.2rem; }
 
 .project-h3 {
@@ -1020,7 +1020,7 @@ main {
         .indexcontainer__jeghardeg--img {
           align-self: center; } }
     .indexcontainer__jeghardeg:hover {
-      background-color: #B42639; }
+      background-color: #870134; }
   .indexcontainer__oslofortwo {
     background-color: #FFECE6;
     grid-row: 7 / 11;
