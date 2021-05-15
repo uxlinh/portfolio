@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="566.954" height="415.504" viewBox="0 0 566.954 415.504">
+  <defs>
+    <filter id="Rectangle_46" x="0" y="0" width="566.954" height="415.504" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.5" x2="0.5" y2="-1.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d8d5d5"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_44" data-name="Group 44" transform="translate(17.321 65)">
+    <g transform="matrix(1, 0, 0, 1, -17.32, -65)" filter="url(#Rectangle_46)">
+      <path id="Rectangle_46-2" data-name="Rectangle 46" d="M20,0H396.954a20,20,0,0,1,20,20V265.5a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(65 65)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_47" data-name="Rectangle 47" width="514.181" height="10.284" transform="translate(0 264.569)" fill="url(#linear-gradient)"/>
+    <g id="Group_43" data-name="Group 43" transform="translate(5.525 275.465)">
+      <path id="Subtraction_1" data-name="Subtraction 1" d="M251.566,4.342h0L11.3,3.188h0a.069.069,0,0,1-.026,0A36.46,36.46,0,0,1,6.4,2.575,23.378,23.378,0,0,1,2.766,1.6,7.555,7.555,0,0,1,0,0H251.566V4.342Z" transform="translate(0 0)" fill="#ededed"/>
+      <path id="Subtraction_2" data-name="Subtraction 2" d="M251.566,0h0L11.3,1.154h0a.069.069,0,0,0-.026,0A36.459,36.459,0,0,0,6.4,1.767a23.378,23.378,0,0,0-3.635.975A7.555,7.555,0,0,0,0,4.342H251.566V0Z" transform="translate(503.132 4.342) rotate(180)" fill="#ededed"/>
+    </g>
+  </g>
+</svg>

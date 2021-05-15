@@ -1,8 +1,14 @@
 .header {
     &__jeghardeg {
         position: relative;
-        height: 110vh;
+        height: 104rem;
         background: #5f0327;
+        @media only screen and (max-width: $bp-largest) {
+            height: 100rem;
+        }
+        @media only screen and (max-width: $bp-medium) {
+            height: 65rem;
+        }
 
         &__hero-container {
             position: relative;
@@ -14,18 +20,136 @@
             text-align: center;
             z-index: 1;
 
+            .jeghardeg-heroText{
+                font-family: Merriweather;
+                font-size: 2rem;
+                color: rgb(237, 192, 192);
+                margin-bottom: 2rem;
+                font-weight: 700;
+            }
+
         }
     }
 
     .jeghardeg-heroimg-container{
-        width: 95rem;
+        width: 65vw;
+        @media only screen and (max-width: $bp-medium) {
+            width: 90vw;
+        }
+        @media only screen and (max-width: $bp-small) {
+            width: 100vw;
+        }
 
         .jeghardeg-heroimg{
             width: 100%;
         }
     }
+
+    .product-container {
+        max-width: 100%;
+        display: grid;
+        grid-column: 1 / 9;
+        grid-template-columns: min-content 1fr min-content;
+        grid-template-rows: min-content min-content 1fr;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        margin: 4rem 0 8rem 0;
+    }
+    
+    .product-dots {
+        grid-column: 1 / 4;
+        margin-top: 0rem;
+    }
+    
+    .productSlide {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        align-items: center;
+    
+        @media only screen and (max-width: $bp-medium) {
+            justify-items: center;
+            grid-template-columns: 1fr;
+            grid-template-rows: 70rem 30rem;
+        }
+    
+        @media only screen and (max-width: $bp-small) {
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            grid-template-columns: 1.2fr;
+            grid-template-rows: 52rem 36rem;
+        }
+    
+        // padding: 0 2rem 0 0;
+        // height: 85rem;
+    }
+    
+    
+    
+    
+    
+    
     
 }
+
+
+.jeghardegLaptop {
+    grid-column: 1 / 9;
+    position: relative;
+
+    display: grid;
+    align-items: center;
+
+    background-image: url("../img/jeghardeg/pc.svg");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70rem;
+
+    @media only screen and (max-width: $bp-small) {
+        height: 60rem;
+    }
+    @media only screen and (max-width: $bp-medium) {
+        height: 65rem;
+    }
+    
+}
+
+.jeghardegVideo {
+    position: relative;
+    width: 90%;
+    padding-left: 14.5rem;
+    padding-right: 8rem;
+    top: 40px;
+    @media only screen and (max-width: $bp-largest) {
+
+    }
+    
+ 
+    // @media only screen and (max-width: $bp-large) {
+    //     top: 2px;
+    //     // padding-left: 19rem;
+    //     // padding-right: 19.5rem;
+    // }
+
+       @media only screen and (max-width: $bp-medium) {
+        top: 1px;
+        padding-left: 12rem;
+        padding-right: 6rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+        top: 1px;
+        padding-left: 2rem;
+        padding-right: 2.5rem;
+    }
+}
+
+
+
+
+
 
 .paragraph-1fr-2fr{
     width: 100%;
