@@ -4,12 +4,18 @@
         height: 105rem;
         background-image: url("../img/smertebert/hero-background.jpg");
         // background-color: $smertebert-color;
+            @media only screen and (max-width: $bp-small) {
+                height: 90rem;
+            }
         }
 }
 
 .heroContainer{
     &__smertebert{
         top: 18rem;
+        @media only screen and (max-width: $bp-small) {
+            top: 30rem;
+        }
     } 
 }
 
@@ -21,3 +27,5 @@
         color: #573025;
     }
 }
+
+// Målgruppe

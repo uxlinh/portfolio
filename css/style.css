@@ -473,7 +473,7 @@ a.underline:hover::after {
   flex-wrap: wrap; }
   .indexcontainer__tags--tag {
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 400;
     padding-top: .5rem;
     padding-bottom: .4rem;
     padding-left: 1.2rem;
@@ -550,6 +550,15 @@ body {
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 0rem; }
 
+.projectGrid-2col-1row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .projectGrid-2col-1row {
+      grid-template-columns: 1fr; } }
+
 .projectHeader {
   width: 100%; }
 
@@ -563,7 +572,7 @@ body {
   z-index: 1; }
 
 .heroImgContainer--smertebert {
-  width: 80rem; }
+  max-width: 80rem; }
 
 .heroImg {
   width: 100%; }
@@ -1244,9 +1253,15 @@ main {
   position: relative;
   height: 105rem;
   background-image: url("../img/smertebert/hero-background.jpg"); }
+  @media only screen and (max-width: 37.5em) {
+    .projectHeader__smertebert {
+      height: 90rem; } }
 
 .heroContainer__smertebert {
   top: 18rem; }
+  @media only screen and (max-width: 37.5em) {
+    .heroContainer__smertebert {
+      top: 30rem; } }
 
 .heroText--smertebert {
   font-size: 2.5rem;
