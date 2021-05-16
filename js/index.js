@@ -117,25 +117,25 @@ let apenhetH2 = document.querySelector('.apenhet__h2');
 let apenhetTag1 = document.querySelector('.tagapenhet1');
 let apenhetTag3 = document.querySelector('.tagapenhet3');
 
-apenhetBox.addEventListener('mouseover', event=> {
-    apenhetImg.style.transform = 'rotate(0deg)';
-    apenhetImg.style.transform = 'scale(1.2)';  
-    apenhetH1.style.color = 'white';
-    apenhetH2.style.color = 'white';
-    apenhetTag1.style.backgroundColor = 'white';
-    apenhetTag3.style.backgroundColor = 'white';
-    apenhetTag1.style.color = '#064398';
-    apenhetTag3.style.color = '#064398';
-});
-apenhetBox.addEventListener('mouseout', event=> {
-    apenhetImg.style.transform = 'rotate(14deg)';
-    apenhetH1.style.color = '#0E034E';
-    apenhetH2.style.color = '#0E034E';
-    apenhetTag1.style.backgroundColor = '#06439823';
-    apenhetTag3.style.backgroundColor = '#06439823';
-    apenhetTag1.style.color = '#1d447a';
-    apenhetTag3.style.color = '#1d447a';
-});
+// apenhetBox.addEventListener('mouseover', event=> {
+//     apenhetImg.style.transform = 'rotate(0deg)';
+//     apenhetImg.style.transform = 'scale(1.2)';  
+//     apenhetH1.style.color = 'white';
+//     apenhetH2.style.color = 'white';
+//     apenhetTag1.style.backgroundColor = 'white';
+//     apenhetTag3.style.backgroundColor = 'white';
+//     apenhetTag1.style.color = '#064398';
+//     apenhetTag3.style.color = '#064398';
+// });
+// apenhetBox.addEventListener('mouseout', event=> {
+//     apenhetImg.style.transform = 'rotate(14deg)';
+//     apenhetH1.style.color = '#0E034E';
+//     apenhetH2.style.color = '#0E034E';
+//     apenhetTag1.style.backgroundColor = '#06439823';
+//     apenhetTag3.style.backgroundColor = '#06439823';
+//     apenhetTag1.style.color = '#1d447a';
+//     apenhetTag3.style.color = '#1d447a';
+// });
 
 // Researchpaper
 let researchpaperBox = document.querySelector('.indexcontainer__researchpaper');
@@ -146,12 +146,12 @@ let researchpaperTag1 = document.querySelector('.tagresearchpaper1');
 let researchpaperTag2 = document.querySelector('.tagresearchpaper2');
 
 researchpaperBox.addEventListener('mouseover', event=> {
-    researchpaperImg.style.transform = 'rotate(0deg)';
-    researchpaperImg.style.transform = 'scale(1.4)';  
-    researchpaperH1.style.color = 'white';
-    researchpaperH2.style.color = 'white';
-    researchpaperTag1.style.backgroundColor = 'white';
-    researchpaperTag2.style.backgroundColor = 'white';
+    researchpaperImg.style.transform = 'rotate(0eg)';
+    researchpaperImg.style.transform = 'scale(1.1)';  
+    researchpaperH1.style.color = '#44390a';
+    researchpaperH2.style.color = '#44390a';
+    researchpaperTag1.style.backgroundColor = '#f8eec9';
+    researchpaperTag2.style.backgroundColor = '#f8eec9';
     researchpaperTag1.style.color = '#8D7100';
     researchpaperTag2.style.color = '#8D7100';
 });

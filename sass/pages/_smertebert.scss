@@ -3,7 +3,7 @@
         position: relative;
         height: 105rem;
         background-image: url("../img/smertebert/hero-background.jpg");
-        // background-color: $smertebert-color;
+        // background-color: #faded9;
             @media only screen and (max-width: $bp-small) {
                 height: 90rem;
             }
@@ -28,4 +28,27 @@
     }
 }
 
-// Målgruppe
+// Designverktøy
+
+.verktoy--smertebert{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-gap: 2rem;
+    @media only screen and (max-width: $bp-small) {
+        grid-template-columns: 1fr;
+        margin-bottom: 6rem;
+    }
+
+    // Bilde
+    .verktoy-smertebertImg{
+        padding-left: 3rem;
+        @media only screen and (max-width: $bp-medium) {
+            padding-top: 0rem;
+            padding-left: 0rem;
+        }
+        .verktoy-icon{
+            width: 7rem;
+        }
+    }
+}   
