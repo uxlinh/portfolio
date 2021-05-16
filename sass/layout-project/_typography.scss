@@ -18,13 +18,20 @@ $primary-fontcolor-light: #f4f4f4;
 }
 .linkResetter{
     text-decoration: underline;
-    color: $primary-fontcolor-dark;
+
+    &--grey{
+        color: $primary-fontcolor-dark;
+    }
+
+    &--white{
+        color: white; 
+    }
+
+    &--smertebert{
+        color: #573025;
+    }
 }
 
-.linkResetter--white {
-    text-decoration: underline;
-    color: white;
-}
 
 .project-h1,
 .project-h2,
@@ -54,6 +61,10 @@ $primary-fontcolor-light: #f4f4f4;
 .project-h2 {
     font-size: 2.3rem;
     margin-bottom: 1.2rem;
+
+    &--smertebert{
+        color: #573025;
+    }
 }
 
 .project-h3 {
@@ -76,7 +87,12 @@ $primary-fontcolor-light: #f4f4f4;
     line-height: 2.6rem;
     color: $primary-fontcolor-light;
     margin-bottom: 2rem;
+
+    &--smertebert{
+        color: #66392d;
+    }
 }
+
 
 .project-p {
     font-family: $paragraph;

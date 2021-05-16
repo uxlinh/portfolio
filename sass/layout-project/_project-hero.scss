@@ -1,0 +1,30 @@
+.projectHeader {
+    width: 100%;
+}
+
+.heroContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    z-index: 1;
+}
+
+.heroText{
+    &--smertebert{
+
+    }
+}
+
+.heroImgContainer{
+    &--smertebert{
+        width: 80rem;
+    }
+}
+
+.heroImg{
+    width: 100%; 
+}
+

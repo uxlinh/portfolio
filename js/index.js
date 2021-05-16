@@ -59,28 +59,55 @@ jeghardegBox.addEventListener('mouseout', event=> {
     jeghardegTag4.style.color = '$primary-color';
 });
 
-// OsloForTwo
-let oslofortwoBox = document.querySelector('.indexcontainer__oslofortwo');
-let oslofortwoImg = document.querySelector('.indexcontainer__oslofortwo--img');
-let oslofortwoH1 = document.querySelector('.oslofortwo__h1');
-let oslofortwoH2 = document.querySelector('.oslofortwo__h2');
-let oslofortwoTag1 = document.querySelector('.tagoslofortwo1');
 
-oslofortwoBox.addEventListener('mouseover', event=> {
-    oslofortwoImg.style.transform = 'rotate(0deg)';
-    oslofortwoImg.style.transform = 'scale(1.2)'; 
-    oslofortwoH1.style.color = 'white';
-    oslofortwoH2.style.color = 'white';
-    oslofortwoTag1.style.backgroundColor = 'white';
-    oslofortwoTag1.style.color = '#D96464';
+// // OsloForTwo
+// let oslofortwoBox = document.querySelector('.indexcontainer__oslofortwo');
+// let oslofortwoImg = document.querySelector('.indexcontainer__oslofortwo--img');
+// let oslofortwoH1 = document.querySelector('.oslofortwo__h1');
+// let oslofortwoH2 = document.querySelector('.oslofortwo__h2');
+// let oslofortwoTag1 = document.querySelector('.tagoslofortwo1');
+
+// oslofortwoBox.addEventListener('mouseover', event=> {
+//     oslofortwoImg.style.transform = 'rotate(0deg)';
+//     oslofortwoImg.style.transform = 'scale(1.2)'; 
+//     oslofortwoH1.style.color = 'white';
+//     oslofortwoH2.style.color = 'white';
+//     oslofortwoTag1.style.backgroundColor = 'white';
+//     oslofortwoTag1.style.color = '#D96464';
+// });
+// oslofortwoBox.addEventListener('mouseout', event=> {
+//     oslofortwoImg.style.transform = 'rotate(-14deg)';
+//     oslofortwoH1.style.color = '#0E034E';
+//     oslofortwoH2.style.color = '#0E034E';
+//     oslofortwoTag1.style.backgroundColor = '#d9646425';
+//     oslofortwoTag1.style.color = '#c44d4d';
+// });
+
+
+// OsloForTwo
+let smertebertBox = document.querySelector('.indexcontainer__smertebert');
+let smertebertImg = document.querySelector('.indexcontainer__smertebert--img');
+let smertebertH1 = document.querySelector('.smertebert__h1');
+let smertebertH2 = document.querySelector('.smertebert__h2');
+let smertebertTag1 = document.querySelector('.tagsmertebert1');
+
+smertebertBox.addEventListener('mouseover', event=> {
+    smertebertImg.style.transform = 'rotate(0deg)';
+    smertebertImg.style.transform = 'scale(1.2)'; 
+    smertebertH1.style.color = '#c44d4d';
+    smertebertH2.style.color = '#c44d4d';
+    smertebertTag1.style.backgroundColor = '#fbd9d3';
+    // smertebertTag1.style.color = '#D96464';
 });
-oslofortwoBox.addEventListener('mouseout', event=> {
-    oslofortwoImg.style.transform = 'rotate(-14deg)';
-    oslofortwoH1.style.color = '#0E034E';
-    oslofortwoH2.style.color = '#0E034E';
-    oslofortwoTag1.style.backgroundColor = '#d9646425';
-    oslofortwoTag1.style.color = '#c44d4d';
+smertebertBox.addEventListener('mouseout', event=> {
+    smertebertImg.style.transform = 'rotate(-14deg)';
+    smertebertH1.style.color = '#0E034E';
+    smertebertH2.style.color = '#0E034E';
+    smertebertTag1.style.backgroundColor = '#d9646425';
+    smertebertTag1.style.color = '#c44d4d';
 });
+
+
 
 // APENHET
 let apenhetBox = document.querySelector('.indexcontainer__apenhet');

@@ -1,0 +1,23 @@
+.projectHeader{
+    &__smertebert{
+        position: relative;
+        height: 105rem;
+        background-image: url("../img/smertebert/hero-background.jpg");
+        // background-color: $smertebert-color;
+        }
+}
+
+.heroContainer{
+    &__smertebert{
+        top: 18rem;
+    } 
+}
+
+.heroText{
+    
+    &--smertebert{
+        font-size: 2.5rem;
+        font-family: merriweather, serif;
+        color: #573025;
+    }
+}

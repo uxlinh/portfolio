@@ -497,6 +497,9 @@ a.underline:hover::after {
   .indexcontainer__tags--oslofortwo {
     color: #c44d4d;
     background-color: #d9646425; }
+  .indexcontainer__tags--smertebert {
+    color: #c44d4d;
+    background-color: #d9646425; }
   .indexcontainer__tags--researchpaper {
     color: #806c10;
     background-color: #d6af002c; }
@@ -547,6 +550,24 @@ body {
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 0rem; }
 
+.projectHeader {
+  width: 100%; }
+
+.heroContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  z-index: 1; }
+
+.heroImgContainer--smertebert {
+  width: 80rem; }
+
+.heroImg {
+  width: 100%; }
+
 .projectIntro {
   width: 100vw;
   min-height: 48rem;
@@ -560,8 +581,9 @@ body {
   .projectIntro--modus {
     background-color: #18076A; }
   .projectIntro--jeghardeg {
-    background-color: #41021a;
-    color: #a87689; }
+    background-color: #41021a; }
+  .projectIntro--smertebert {
+    background-color: #fdc9ba; }
   .projectIntro__container {
     max-width: 80rem;
     grid-template-columns: repeat(2, 1fr);
@@ -798,12 +820,13 @@ body {
   padding: 0 .5rem; }
 
 .linkResetter {
-  text-decoration: underline;
-  color: #292929; }
-
-.linkResetter--white {
-  text-decoration: underline;
-  color: white; }
+  text-decoration: underline; }
+  .linkResetter--grey {
+    color: #292929; }
+  .linkResetter--white {
+    color: white; }
+  .linkResetter--smertebert {
+    color: #573025; }
 
 .project-h1,
 .project-h2,
@@ -834,6 +857,8 @@ body {
 .project-h2 {
   font-size: 2.3rem;
   margin-bottom: 1.2rem; }
+  .project-h2--smertebert {
+    color: #573025; }
 
 .project-h3 {
   font-size: 2.2rem;
@@ -853,6 +878,8 @@ body {
   line-height: 2.6rem;
   color: #f4f4f4;
   margin-bottom: 2rem; }
+  .projectIntro-p--smertebert {
+    color: #66392d; }
 
 .project-p {
   font-family: "Poppins", sans-serif;
@@ -972,7 +999,7 @@ main {
   .indexcontainer__box {
     display: grid;
     border-radius: 1rem;
-    padding: 5rem;
+    padding: 5rem 5rem 2rem 5rem;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, min-content) 1fr;
     grid-gap: 1.1rem;
@@ -1002,7 +1029,7 @@ main {
       align-self: center; }
       @media only screen and (max-width: 62.5em) {
         .indexcontainer__modus--img {
-          width: 30%; } }
+          width: 40%; } }
       @media only screen and (max-width: 37.5em) {
         .indexcontainer__modus--img {
           width: 45%; } }
@@ -1019,7 +1046,7 @@ main {
         grid-column: 1 / -1; } }
     .indexcontainer__jeghardeg--img {
       width: 75%;
-      padding-top: 5rem;
+      padding-top: 1rem;
       max-height: 100%;
       transform: rotate(-14deg);
       transition: .8s ease-in-out;
@@ -1046,6 +1073,25 @@ main {
       transition: .8s ease-in-out;
       justify-self: center;
       align-self: start; }
+  .indexcontainer__smertebert {
+    background-color: #fbded5;
+    grid-row: 7 / 11;
+    grid-column: 1 / 2; }
+    @media only screen and (max-width: 62.5em) {
+      .indexcontainer__smertebert {
+        grid-row: 10/ 14;
+        grid-column: 1 / -1; } }
+    .indexcontainer__smertebert:hover {
+      background-color: #fdc9ba; }
+    .indexcontainer__smertebert--img {
+      width: 60%;
+      transform: rotate(-24deg);
+      transition: .8s ease-in-out;
+      justify-self: center; }
+      @media only screen and (max-width: 37.5em) {
+        .indexcontainer__smertebert--img {
+          width: 70%;
+          padding-top: 6rem; } }
   .indexcontainer__apenhet {
     background-color: #E5F1FA;
     grid-row: 6 / 11;
@@ -1125,72 +1171,6 @@ main {
   .header .jeghardeg-heroimg-container .jeghardeg-heroimg {
     width: 100%; }
 
-.header .product-container {
-  max-width: 100%;
-  display: grid;
-  grid-column: 1 / 9;
-  grid-template-columns: min-content 1fr min-content;
-  grid-template-rows: min-content min-content 1fr;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
-  margin: 4rem 0 8rem 0; }
-
-.header .product-dots {
-  grid-column: 1 / 4;
-  margin-top: 0rem; }
-
-.header .productSlide {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  align-items: center; }
-  @media only screen and (max-width: 50em) {
-    .header .productSlide {
-      justify-items: center;
-      grid-template-columns: 1fr;
-      grid-template-rows: 70rem 30rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .header .productSlide {
-      align-items: center;
-      justify-items: center;
-      justify-content: center;
-      grid-template-columns: 1.2fr;
-      grid-template-rows: 52rem 36rem; } }
-
-.jeghardegLaptop {
-  grid-column: 1 / 9;
-  position: relative;
-  display: grid;
-  align-items: center;
-  background-image: url("../img/jeghardeg/pc.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 70rem; }
-  @media only screen and (max-width: 37.5em) {
-    .jeghardegLaptop {
-      height: 60rem; } }
-  @media only screen and (max-width: 50em) {
-    .jeghardegLaptop {
-      height: 65rem; } }
-
-.jeghardegVideo {
-  position: relative;
-  width: 90%;
-  padding-left: 14.5rem;
-  padding-right: 8rem;
-  top: 40px; }
-  @media only screen and (max-width: 50em) {
-    .jeghardegVideo {
-      top: 1px;
-      padding-left: 12rem;
-      padding-right: 6rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .jeghardegVideo {
-      top: 1px;
-      padding-left: 2rem;
-      padding-right: 2.5rem; } }
-
 .paragraph-1fr-2fr {
   width: 100%;
   display: grid;
@@ -1259,3 +1239,16 @@ main {
   display: grid;
   justify-items: center;
   margin-top: 8rem; }
+
+.projectHeader__smertebert {
+  position: relative;
+  height: 105rem;
+  background-image: url("../img/smertebert/hero-background.jpg"); }
+
+.heroContainer__smertebert {
+  top: 18rem; }
+
+.heroText--smertebert {
+  font-size: 2.5rem;
+  font-family: merriweather, serif;
+  color: #573025; }
