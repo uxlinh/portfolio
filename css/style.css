@@ -1099,8 +1099,7 @@ main {
       justify-self: center; }
       @media only screen and (max-width: 37.5em) {
         .indexcontainer__smertebert--img {
-          width: 70%;
-          padding-top: 6rem; } }
+          width: 70%; } }
   .indexcontainer__researchpaper {
     background-color: #FFFBEA;
     grid-row: 6 / 11;
