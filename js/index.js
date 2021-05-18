@@ -13,10 +13,10 @@ let modusTag1 = document.querySelector('.tagmodus1');
 modusBox.addEventListener('mouseover', event=> {
     modusImg.style.transform = 'rotate(0deg)';  
     modusImg.style.transform = 'scale(1.2)';  
-    modusH1.style.color = 'white';
-    modusH2.style.color = 'white';
-    modusTag1.style.backgroundColor = 'white';
-    modusTag1.style.color = '#4A51E6';
+    modusH1.style.color = '#EAEBFF';
+    modusH2.style.color = '#EAEBFF';
+    modusTag1.style.backgroundColor = '#6363D6';
+    modusTag1.style.color = '#EAEBFF';
 });
 modusBox.addEventListener('mouseout', event=> {
     modusImg.style.transform = 'rotate(24deg)';
@@ -38,14 +38,14 @@ let jeghardegTag4 = document.querySelector('.tagjeghardeg4');
 jeghardegBox.addEventListener('mouseover', event=> {
     jeghardegImg.style.transform = 'rotate(0deg)';
     jeghardegImg.style.transform = 'scale(1.2)';  
-    jeghardegH1.style.color = 'white';
-    jeghardegH2.style.color = 'white';
-    jeghardegTag1.style.backgroundColor = 'white';
-    jeghardegTag3.style.backgroundColor = 'white';
-    jeghardegTag4.style.backgroundColor = 'white';
-    jeghardegTag1.style.color = '#B5293B';
-    jeghardegTag3.style.color = '#B5293B';
-    jeghardegTag4.style.color = '#B5293B';
+    jeghardegH1.style.color = '#fbdadf';
+    jeghardegH2.style.color = '#fbdadf';
+    jeghardegTag1.style.backgroundColor = '#ad4f5d';
+    jeghardegTag3.style.backgroundColor = '#ad4f5d';
+    jeghardegTag4.style.backgroundColor = '#ad4f5d';
+    jeghardegTag1.style.color = '#fbdadf';
+    jeghardegTag3.style.color = '#fbdadf';
+    jeghardegTag4.style.color = '#fbdadf';
 });
 jeghardegBox.addEventListener('mouseout', event=> {
     jeghardegImg.style.transform = 'rotate(-14deg)';
@@ -54,9 +54,9 @@ jeghardegBox.addEventListener('mouseout', event=> {
     jeghardegTag1.style.backgroundColor = '#d1193215';
     jeghardegTag3.style.backgroundColor = '#d1193215';
     jeghardegTag4.style.backgroundColor = '#d1193215';
-    jeghardegTag1.style.color = '$primary-color';
-    jeghardegTag3.style.color = '$primary-color';
-    jeghardegTag4.style.color = '$primary-color';
+    jeghardegTag1.style.color = '#B5293B';
+    jeghardegTag3.style.color = '#B5293B';
+    jeghardegTag4.style.color = '#B5293B';
 });
 
 
@@ -96,8 +96,9 @@ smertebertBox.addEventListener('mouseover', event=> {
     smertebertImg.style.transform = 'scale(1.2)'; 
     smertebertH1.style.color = '#c44d4d';
     smertebertH2.style.color = '#c44d4d';
-    smertebertTag1.style.backgroundColor = '#fbd9d3';
-    // smertebertTag1.style.color = '#D96464';
+    smertebertTag1.style.backgroundColor = '#d87979';
+    // smertebertTag1.style.backgroundColor = '#c44d4d86';
+    smertebertTag1.style.color = '#F8E7EA';
 });
 smertebertBox.addEventListener('mouseout', event=> {
     smertebertImg.style.transform = 'rotate(-14deg)';
@@ -150,10 +151,10 @@ researchpaperBox.addEventListener('mouseover', event=> {
     researchpaperImg.style.transform = 'scale(1.1)';  
     researchpaperH1.style.color = '#44390a';
     researchpaperH2.style.color = '#44390a';
-    researchpaperTag1.style.backgroundColor = '#f8eec9';
-    researchpaperTag2.style.backgroundColor = '#f8eec9';
-    researchpaperTag1.style.color = '#8D7100';
-    researchpaperTag2.style.color = '#8D7100';
+    researchpaperTag1.style.backgroundColor = '#7c681056';
+    researchpaperTag2.style.backgroundColor = '#7c681056';
+    researchpaperTag1.style.color = '#f8eec9';
+    researchpaperTag2.style.color = '#f8eec9';
 });
 researchpaperBox.addEventListener('mouseout', event=> {
     researchpaperImg.style.transform = 'rotate(24deg)';

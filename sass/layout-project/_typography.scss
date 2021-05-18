@@ -30,9 +30,13 @@ $primary-fontcolor-light: #f4f4f4;
     &--smertebert{
         color: #573025;
     }
+    &--jeghardeg{
+        color: #edc0c0;
+    }
 }
 .project-list-ul{
     padding-left: 2rem;
+    margin-bottom: 2.4rem;
 }
 .project-list{
     font-family: $paragraph;
@@ -75,6 +79,9 @@ $primary-fontcolor-light: #f4f4f4;
     &--smertebert{
         color: #573025;
     }
+    &--jeghardeg{
+        color: #edc0c0;
+    }
 }
 
 .project-h3 {
@@ -101,6 +108,9 @@ $primary-fontcolor-light: #f4f4f4;
     &--smertebert{
         color: #66392d;
     }
+    &--jeghardeg{
+        color: #edc0c0;
+    }
 }
 
 
@@ -110,7 +120,7 @@ $primary-fontcolor-light: #f4f4f4;
     font-size: 1.8rem;
     line-height: 3.4rem;
     color: $primary-fontcolor-grey;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.4rem;
 
     &--dark {
         color: $primary-fontcolor-grey;

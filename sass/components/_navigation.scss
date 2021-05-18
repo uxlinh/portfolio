@@ -5,6 +5,19 @@
   font-size: 2rem;
   font-weight: 200;
   background-color: none;
+  z-index: 1000;
+  &--index{
+    color: $primary-color;
+  }
+  &--modus{
+      
+  }
+  &--jeghardeg{
+    color: #edc0c0; 
+  }
+  &--smertebert{
+    color: #573025; 
+  }
 }
 
 .main-nav {
@@ -16,11 +29,36 @@
 .logo {
   font-family: 'merriweather', sans-serif;
   text-decoration: none;
-  color: $primary-color;
+}
+
+.logo{
+  &--index{
+    color: $primary-color;
+  }
+  &--modus{
+    
+  }
+  &--jeghardeg{
+    color: #edc0c0; 
+  }
+  &--smertebert{
+    color: #573025; 
+  }
 }
 
 .underline{
-    color: $primary-color;
+    &--index{
+      color: $primary-color;
+    }
+    &--modus{
+      
+    }
+    &--jeghardeg{
+      color: #edc0c0; 
+    }
+    &--smertebert{
+      color: #573025; 
+    }
 }
 
 a.underline::after {
@@ -28,9 +66,18 @@ a.underline::after {
   display: block;
   width: 0;
   height: 0.1rem;
-  background: $primary-color;
   transition: .6s;
+  background: $primary-color;
 }   
+
+a.underline--jeghardeg::after{
+  background: #edc0c0;
+}
+a.underline--smertebert::after{
+  background: #573025; 
+}
+
+
 a.underline:hover::after {
   width: 100%; 
 }
@@ -57,7 +104,7 @@ a.underline:hover::after {
   top: 3rem;
   right: 4rem;
   cursor: pointer;
-  color: $primary-color;
+  // color: $primary-color;
   font-size: 24px;
 }
 
@@ -68,6 +115,11 @@ a.underline:hover::after {
 #kontakt{
   background-color: $secondary-color;
   border-radius: 5rem;
+}
+.kontakt{
+  &--jeghardeg{
+
+  }
 }
 
 @media screen and (min-width: 720px) {

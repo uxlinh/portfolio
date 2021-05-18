@@ -12,9 +12,9 @@
 
 .heroContainer{
     &__smertebert{
-        top: 18rem;
+        top: 18%;
         @media only screen and (max-width: $bp-small) {
-            top: 30rem;
+            // top: 30rem;
         }
     } 
 }

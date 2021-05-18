@@ -21,6 +21,30 @@
 
 <!-- Header START-->
 <header class="projectHeader projectHeader__smertebert">
+     <!-- Navigasjon -->
+     <nav class="navbar navbar--smertebert" id="bar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <div class="burgerline burgerline1"></div>
+            <div class="burgerline burgerline2"></div>
+            <div class="burgerline burgerline3"></div>
+        </span>
+        <a href="../index.html" class="logo logo--smertebert">Linh.</a>
+
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a class="underline underline--smertebert" href="../index.html" class="nav-links">Prosjekter</a>
+            </li>
+            <li>
+                <a class="underline underline--smertebert" href="../blog.html" target="_blank" class="nav-links">Blogg</a>
+            </li>
+            <li>
+                <a class="underline underline--smertebert" href="../img/CV_2021.pdf" target="_blank" class="nav-links">CV</a>
+            </li>
+            <li id="kontakt">
+                <a class="underline underline--smertebert" href="mailto:linh.tn94@gmail.com" target="_blank"  class="nav-links">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="heroContainer heroContainer__smertebert">
         <h1 class="heroText--smertebert">Et interaktivt læringsverktøy
@@ -131,8 +155,7 @@
                 <h2 class="project-h2 margin-top-small">Prosjekthåndtering</h2>
                 <div class="verktoy--smertebert margin-bottom-small">
                     <p class="project-p">
-                        Vi har brukt Notion til å lage en fremdriftsplan og for å få
-                        oversikt over statusen på arbeidsoppgavene.
+                        Vi har brukt Notion til å lage en fremdriftsplan og for å få oversikt over statusen på arbeidsoppgavene.
                     </p>
 
                     <figure class="verktoy-smertebertImg">
@@ -144,10 +167,13 @@
             <!-- Prosjektprosessen -->
             <section class="projectParagraph">
                 <h1 class="project-h1">Prosjektprosessen</h1>
+                <p class="project-p">
+                    Bildet under viser vår prosjektprosess hvor vi følger en design thinking prosess og smidige metoder. I dette prosjektet samarbeidet vi (UX team) med illustratør team. Vi startet med å bli kjent med hverandre, måten vi jobber på og hvilke forventninger vi hadde til hverandre og oppgaven. Videre ble vi enige om hvilke design spesifikasjoner vi må levere og hva som må til. Vi startet hele prosessen med en brainstorming session og derfra rett til research og innsiktsarbeid. Underveis hadde begge teamene en uformell og kontinuerlig kommunikasjon hvor vi gav hverandre statusoppdateringer flere ganger i uken over chat og korte telefonmøter på discord.
+                </p>
             </section>
-            <!-- <figure class="project-imgbox-large">
-                <img class="project-imgbox-large__img margin-top-large" src="../img/jeghardeg/prosessen.svg" alt="">
-            </figure> -->
+            <figure class="project-imgbox-large margin-bottom-small">
+                <img class="project-imgbox-large__img margin-top-large" src="../img/smertebert/prosess.svg" alt="">
+            </figure>
 
 
             <!-- Research og innsikt -->
@@ -163,15 +189,11 @@
                     osteopater jobber med.
                 </p>
 
-                <h2 class="project-h2 margin-top-large">Hva er smerte hos barn og hvordan måler man smerter hos barn?
+                <h2 class="project-h2 margin-top-large">Hvordan vurderer man smerte hos barn og hvordan håndterer barn smerte?
                 </h2>
                 <p class="project-p">
                     Smertevurderingen er mest krevende hos de minste barna eller barn som ikke er i stand til å uttrykke
-                    seg. Til denne jobben benyttes vanligvis et verktøy som kalles FLACC(Face, Legs, Activity, Cry,
-                    Consolability) der helsepersonell vurderer smerter ut fra barnets kroppsspråk og atferd. Kjennskap
-                    til barnets erfaringer og bruk av smertescoringsverktøy som kan systematisere og konkretisere
-                    smerten gjør det enklere for helsepersonell å identifisere hvor det gjør vondt, hvor intense
-                    smertene er og vurdere effekten av smertelindrende tiltak. Når man skal tolke smerter hos barn er
+                    seg. Når man skal tolke smerter hos barn er
                     det viktig med trygghet og tillit for å få barnet til å åpne seg. Mange barn skjuler smertene sine,
                     i frykt for at det skal skje noe vondt hvis de sier ifra, mens andre barn gjør det også for å
                     beskytte foreldrene. Noen synes det er helt forferdelig med et stikk i fingeren når man skal ta en
@@ -197,7 +219,12 @@
             <section class="projectParagraph">
                 <h1 class="project-h1">Konsept: Barn og forebygging </h1>
                 <p class="project-p">
-                    Vårt konsept er å lage en app med interaktive fortellinger som lærer barn om smerte. Foreldrene skal kunne bruke appen sammen med barnet, hvor barnet kan navigere seg rundt i appen, mens foreldre er tilstede. Våre målgrupper er da følgende:
+                    Fra innsiktsarbeidet viser studier at barn som vet om hva som skjer med dem, opplever
+                    mindre redsel og smerte. Vårt konsept er derfor å lage en forebyggende app med interaktive fortellinger som hjelper barn å forstå smerte og gi tips til hva man kan gjøre for å lindre smerter i hverdagen, f.eks det å være i aktivitet og bevegelse. 
+                </p>
+                <p class="project-p">
+                    Vi har også funnet ut at det er lurt å ha et familieperspektiv ved utredning og behandling av smerte. Vi ønsker derfor at foreldre skal bruke appen sammen med barnet for å skape en samtale rundt temaet smerte. I praksis vil foreldre 
+                    være tilstede mens barnet kan navigere seg rundt om i appen.  Våre målgrupper er derfor barn i aldersgruppen 3 til 6 år og foreldrene til disse barna.
                 </p>
 
                 <div class="projectGrid-2col-1row margin-top-large">
@@ -220,10 +247,11 @@
                     <img class="project-imgbox-large__img" src="../img/smertebert/malgruppe.jpg"
                         alt="Bilde av målgruppen barn og foreldre">
                 </figure>
-                
+
                 <h2 class="project-h2 margin-top-large">Smertebert</h2>
                 <p class="project-p">
-                    For å engasjere barn, fant vi opp Smertebert som skulle representere barnets smerte i fortellingen. Smerteberts
+                    For å engasjere barn, fant vi opp Smertebert som skulle representere barnets smerte i fortellingen.
+                    Smerteberts
                     skal hjelpe barnet å forstå hvordan kroppen signaliserer smerte og oppfordrer til lek og aktivitet.
                 </p>
                 <figure class="project-imgbox-large">
@@ -233,17 +261,18 @@
 
                 <h2 class="project-h2 margin-top-large">Konseptpitch og feedback fra kunden</h2>
                 <p class="project-p">
-                    Etter vår første konseptpitch fikk vi bekreftet at man i utgangspunktet ikke ønsker å behandle små barn hvis
-                    det ikke er helt ytterst nødvendig. Små barn er i kontinuerlig utvikling og vekst, noe som gjør det utfordrende å behandle, samt utrede. 
+                    Etter vår første konseptpitch fikk vi bekreftet at man i utgangspunktet ikke ønsker å behandle små
+                    barn hvis
+                    det ikke er helt ytterst nødvendig. Små barn er i kontinuerlig utvikling og vekst, noe som gjør det
+                    utfordrende å behandle, samt utrede.
 
-                    Osteopater og andre helsepersonell ønsker derfor å <span class="text-bold">fokusere på forebygging</span> i form av at barn skal
+                    Osteopater og andre helsepersonell ønsker derfor å <span class="text-bold">fokusere på
+                        forebygging</span> i form av at barn skal
                     være i <span class="text-bold">aktivitet og bevegelse</span>.
-
-                    I tillegg har vi funnet studier som viser at barn som vet om hva som skjer med dem, opplever
-                    mindre redsel og smerte.
                 </p>
                 <p class="project-p">
-                    Kunden likte derfor Smertebert og ville at vi skulle fortsette å forklare smerte på en enkel måte til barn.
+                    Kunden likte derfor Smertebert og ville at vi skulle fortsette å forklare smerte på en enkel måte
+                    til barn.
                 </p>
 
             </section>
@@ -252,13 +281,17 @@
             <section class="projectParagraph">
                 <h1 class="project-h1">Storyboard</h1>
                 <p class="project-p">
-                    Etter feedback fra kundepitch og en brainstorming møte, har illustratørene illustrert en storyboard
-                    som vi har tatt utgangspunkt i når vi designer wireframes og videreutvikler på historien.
+                    Etter feedback fra kundepitch, utviklet vi en fortelling som passer til konseptet:  
+                </p>
+                <p class="project-p">
+                    I fortellingen følger vi en karakter gjennom en hel dag, hvor ulike typer av smerter kan oppstå og Smertebert er til stede for å hjelpe barnet til å forstå smerten og ta valg som lindrer smerten. På morgenen kan barnet kjenne på det å være sulten eller det å måtte gå på do, hvor Smertebert foreslår om barnet vil spise frokost eller gå på do. Vi følger barnet videre til barnehagen hvor barnet slår kneet sitt. Smertebert er heldigvis tilstede og hjelper barnet til å få hjelp fra en barnehageansatt. Videre på ettermiddagen er barnet hjemme og spiller på en Ipad. Nakkesmerter oppstår hos barnet og Smertebert  oppfordrer barnet til å bli med på lek og aktivitet. 
+                
+                <p class="project-p">
+                    Ut ifra fortellingen, skisserte illustratørene en storyboard som vi har tatt i bruk når vi designer wireframes og videreutvikler på historien.
                 </p>
             </section>
-            <figure class="project-imgbox-large">
-                <img class="project-imgbox-large__img" src="../img/smertebert/storyboard.jpg"
-                    alt="Bilde av Smertebert">
+            <figure class="project-imgbox-large margin-bottom-medium">
+                <img class="project-imgbox-large__img" src="../img/smertebert/storyboard.jpg" alt="Bilde av Smertebert">
             </figure>
 
 
@@ -278,7 +311,9 @@
             <!-- lofi -->
             <section class="projectSubParagraph margin-top-medium">
                 <h2 class="project-h2">Low-fi</h2>
-                <p class="project-p">Med illustratørenes storyboard begynte vi å utforske ulike interaksjoner som et barn kan samhandle med i appen, samt videreutvikle fortellingen og skrive et passende manus til Smertebert og hovedkarakteren.</p>
+                <p class="project-p">Med illustratørenes storyboard begynte vi å utforske ulike interaksjoner som et
+                    barn kan samhandle med i appen, samt videreutvikle fortellingen og skrive et passende manus til
+                    Smertebert og hovedkarakteren.</p>
             </section>
             <figure class="project-imgbox-large">
                 <img class="project-imgbox-large__img" src="../img/smertebert/wireframe-lofi.jpg"
@@ -288,7 +323,11 @@
             <!-- midfi -->
             <section class="projectSubParagraph margin-top-large">
                 <h2 class="project-h2">Mid-fi</h2>
-                <p class="project-p">I denne iterasjonen fikk vi placeholder illustrasjoner med farge og komposisjon fra illustratørene. Dette gjorde det mulig for oss å finne ut av hvor vi kunne plassere tekst, knapper og ulike interaksjoner. Vi hadde en kontinuerlig dialog med illustratørene om hvordan fortellingen skulle utarte seg og diskuterte hvilken “tone of voice” Smertebert skulle ha og hvordan foreldrene og barna skulle bruke appen.</p>
+                <p class="project-p">I denne iterasjonen fikk vi placeholder illustrasjoner med farge og komposisjon fra
+                    illustratørene. Dette gjorde det mulig for oss å finne ut av hvor vi kunne plassere tekst, knapper
+                    og ulike interaksjoner. Vi hadde en kontinuerlig dialog med illustratørene om hvordan fortellingen
+                    skulle utarte seg og diskuterte hvilken “tone of voice” Smertebert skulle ha og hvordan foreldrene
+                    og barna skulle bruke appen.</p>
             </section>
             <figure class="project-imgbox-large">
                 <img class="project-imgbox-large__img" src="../img/smertebert/wireframe-midfi.jpg"
@@ -299,7 +338,9 @@
             <!-- hifi -->
             <section class="projectSubParagraph margin-top-large">
                 <h2 class="project-h2">High-fi</h2>
-                <p class="project-p">I high-fi iterasjonen fikk vi ferdigstilte illustrasjoner fra illustratørene, interaksjonene ble også ferdigstilt i denne iterasjonen. På de neste paragrafene går vi nærmere inn på hvordan interaksjonene har endret seg underveis.</p>
+                <p class="project-p">I high-fi iterasjonen fikk vi ferdigstilte illustrasjoner fra illustratørene,
+                    interaksjonene ble også ferdigstilt i denne iterasjonen. På de neste paragrafene går vi nærmere inn
+                    på hvordan interaksjonene har endret seg underveis.</p>
             </section>
             <figure class="project-imgbox-large margin-bottom-large">
                 <img class="project-imgbox-large__img" src="../img/smertebert/wireframe-hifi.jpg"
@@ -308,9 +349,12 @@
 
 
             <!-- Designutvikling - Utformingen -->
-            <section class="projectSubParagraph margin-top-large">
+            <section class="projectSubParagraph margin-top-medium">
                 <h2 class="project-h2">Designutvikling - Utformingen</h2>
-                <p class="project-p">I første skisse ønsket vi at det skulle se ut som en bok med et midtskille, der f.eks tekst var på en side og illustrasjoner på en side. Etter hvert ble det riktignok ganske naturlig å endre det til å ha illustrasjonene over hele skjermen, med tekst oppå, da vi ønsket at dette skulle bli et læringsverktøy som fungerte som en hybrid mellom en bok og et spill.</p>
+                <p class="project-p">I første skisse ønsket vi at det skulle se ut som en bok med et midtskille, der
+                    f.eks tekst var på en side og illustrasjoner på en side. Etter hvert ble det riktignok ganske
+                    naturlig å endre det til å ha illustrasjonene over hele skjermen, med tekst oppå, da vi ønsket at
+                    dette skulle bli et læringsverktøy som fungerte som en hybrid mellom en bok og et spill.</p>
             </section>
             <figure class="project-imgbox-large margin-top-medium margin-bottom-large">
                 <img class="project-imgbox-large__img" src="../img/smertebert/designutvikling-utforming.jpg"
@@ -319,40 +363,101 @@
             <!-- Wireframes iterasjoner END-->
 
 
-            <!-- VDesignutvikling - Utformingen-->
-            <section class="projectSubParagraph margin-top-large">
+            <!-- Designutvikling - Utformingen-->
+            <section class="projectSubParagraph margin-top-medium">
                 <h2 class="project-h2">Designutvikling - Svarknapper</h2>
                 <p class="project-p">
-                    Når det gjelder svarknapper, så startet vi først med knapper under snakkeboblen til Smertebert, før vi itererte videre til å ha de inni snakkeboblen. På ferdig resultat, har vi imidlertid valgt å ha de i et eget skjermbilde, for å gjøre det hele tydeligere. Vi valgte også å bytte ikoner for å gjøre det lettere for målgruppen å forstå.
+                    Når det gjelder svarknapper, så startet vi først med knapper under snakkeboblen til Smertebert, før
+                    vi itererte videre til å ha de inni snakkeboblen. På ferdig resultat, har vi imidlertid valgt å ha
+                    de i et eget skjermbilde, for å gjøre det hele tydeligere. Vi valgte også å bytte ikoner for å gjøre
+                    det lettere for målgruppen å forstå.
                 </p>
             </section>
-            <figure class="project-imgbox-large margin-top-large margin-bottom-large">
+            <figure class="project-imgbox-large margin-top-large margin-bottom-medium">
                 <img class="project-imgbox-large__img" src="../img/smertebert/designutvikling-svarknapper.jpg" alt="">
             </figure>
 
 
             <!-- Designutvikling - Utformingen -->
             <section class="projectParagraph margin-top-large">
-                <h1 class="project-h1">Interaksjon & Mekanikk</h1>
-                <h2 class="project-h2">Designutvikling - Navigasjonsknapper</h2>
+                <h1 class="project-h1">Mekanikk og interaksjon</h1>
                 <p class="project-p">
-                Underveis i itereringene våre, måtte vi finne et navigasjonssystem som er konsistent og forutsigbart for barn. Hvilke objekter skal være trykkbare og når skal man kunne trykke på de, og hvordan skal barnet forstå ate visse objekter er klikkbare? Vi valgte å gjøre 
+                    Mekanikk er et begrep fra spilldesign som betyr regler og systemer i et spill. Vår app er en
+                    interaktiv bok med mange elementer fra spilldesign som skal bidra til aktiv læring og gjøre det å
+                    lære om smerte blir gøy. Derfor tar vi i bruk begrepet mekanikk for å beskrive hvordan reglene og systemene i interaksjonsdesignet i appen fungerer. Vi har prøvd å balansere følgende mekanikker i appen:
+                </p>
+                <ul class="project-list-ul margin-bottom-medium">
+                    <li class="project-list">Kort vs lang fortelling</li>
+                    <li class="project-list">Progresjon og motivasjon</li>
+                    <!-- <li class="project-list">Symmetri vs asymmetri</li> -->
+                </ul>
+
+                <h2 class="project-h2 margin-top-medium">Kort vs lang fortelling </h2>
+                <p class="project-p">
+                    Fortellingen i appen skal være kort for å sørge for at barnet ikke sitter for lenge foran en skjerm.
+                    Likevel avhenger lesetiden av lesehastigheten til barnet og foreldrene. Med navigasjonsknappene har
+                    barna og foreldrene muligheten til å bla seg seg videre i fortellingen i sitt eget tempo, noe som
+                    gir foreldrene en mulighet til å stoppe opp og ha samtaler med barnet underveis i fortellingen.
+                </p>
+                <figure class="project-imgbox-large margin-bottom-large">
+                    <img class="project-imgbox-large__img" src="../img/smertebert/mekanikk-knapper.png" alt="">
+                </figure>
+
+                
+                <h2 class="project-h2">Progresjon og motivasjon</h2>
+                <p class="project-p">
+                    For å få frem følelsen av progresjon når barnet bruker appen har vi prøvd å besvare spørsmålet: Hva motiverer barnet? For å motivere barnet har vi sørget for å vekke nysgjerrighet gjennom:
+                    spørsmål og svaralternativer, blinkeeffekter og animasjoner.
                 </p>
 
+                <p class="project-p margin-top-small">
+                    <span class="text-bold">Spørsmål og svaralternativer:</span> For at barnet skal oppleve appen som et slags spill der de kan være med å bestemme historien videre, så har vi inkludert spørsmål med svaralternativer. Dette bidrar også til at barnet lærer om grunner til smerter, og det skaper et samtaleemne mellom forelder og barn. I og med at barn lærer best når de har det gøy, så er dette også en fin effekt for å skape engasjement rundt læringen.
+                </p>
+                <figure class="project-imgbox-large margin-bottom-large">
+                    <img class="project-imgbox-large__img" src="../img/smertebert/mekanikk-spm.jpg" alt="">
+                </figure>
+
+                <p class="project-p">
+                    <span class="text-bold">Blinkeeffekter:</span> Vi har valgt å bruke en blinkeeffekt for å signalisere at barnet skal trykke på Smertebert. Dette er en effekt som barn er vant til både fra tv-programmer og andre barne-apper.
+                </p>
+                <figure class="project-imgbox-large margin-bottom-large">
+                    <img class="project-imgbox-large__img" src="../img/smertebert/mekanikk-blinke.jpg" alt="">
+                </figure>
+
+                <p class="project-p">
+                    <span class="text-bold">Animasjon og overganger:</span> Vi har tatt i bruk både auto-animate og transitions for å skape liv til historien.
+                    På pilene som skifter mellom morgen, barnehage og kveld, og mellom forskjellige bakgrunnsillustrasjoner så har vi brukt transition med dissolve og ease-in-out på 0.6 sekunder. Når vi har valgt antall millisekunder, så har vi tatt målgruppen i betraktning, med tanke på at det ikke skulle gå for fort.
+                </p>
+                <p class="project-p">
+                    Mellom skjermbilder med samme bakgrunnsillustrasjoner, der kun Smertebert eller karakteren skal bevege litt på seg, så har vi brukt auto-animate med ease-in-out og 0.6 sekunder, dette gjør at bevegelsene skjer i et passende tempo for et barn. 
+                </p>
+                <p class="project-p">
+                    I tilfeller der elementene skal bevege seg over lengre tid, har vi brukt en timer mellom skjermbildene, samt økt antall sekunder for å få et mest mulig realistisk resultat.
+                </p>
             </section>
-            <figure class="project-imgbox-large margin-bottom-large">
-                <!-- <img class="project-imgbox-large__img" src="../img/jeghardeg/styleguide.svg" alt=""> -->
-            </figure>
+            
+             <!-- Brukertesting og feedback -->
+             <section class="projectParagraph">
+                <h1 class="project-h1">Designsystem</h1>
+                <p class="project-p">
+                </p>
+                
+                
+            </section>
+
 
             <!-- Brukertesting og feedback -->
-            <section class="projectParagraph margin-bottom-large">
+            <section class="projectParagraph">
                 <h1 class="project-h1">Brukertesting og feedback</h1>
                 <p class="project-p">
-                    Vi brukertestet på til sammen 8 barn, i aldersgruppen 2 og helt opp til 8 år. Som forventet ble det litt for lett for 8-åringen, men han likte uansett godt handlingen som foregikk og skulle ønske det var lengre. Fellestrekkene rundt opplevelsene ungene hadde var:
-                   
+                    Vi brukertestet på til sammen 8 barn, i aldersgruppen 2 og helt opp til 8 år. Som forventet ble det
+                    litt for lett for 8-åringen, men han likte uansett godt handlingen som foregikk og skulle ønske det
+                    var lengre. Fellestrekkene rundt opplevelsene ungene hadde var:
+
                 </p>
                 <ul class="project-list-ul">
                     <li class="project-list">At de likte godt karakteren og historien</li>
+                    <li class="project-list">At de likte Smertebert veldig godt</li>
                     <li class="project-list">Barna som testet forsto veldig fort navigasjonen</li>
                     <li class="project-list">Tjenesten ble oppfattet intuitivt</li>
                     <li class="project-list">Barna forstod at dette handlet om smerte</li>
@@ -361,22 +466,22 @@
 
 
 
-            <!-- Brukergrensesnitt -->
+            <!-- Video -->
             <section class="projectParagraph">
                 <h1 class="project-h1">Video av sluttresultatet</h1>
-                <div class="project-imgbox-large">
-                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/zenKxD7Cctk">
+                <div class="project-imgbox-small">
+                    <iframe width="100%" height="590" src="https://www.youtube.com/embed/zenKxD7Cctk">
                     </iframe>
                 </div>
             </section>
 
-            <!-- Brukertesting og feedback -->
-            <section class="projectParagraph margin-bottom-large">
+
+            <section class="projectParagraph">
                 <h1 class="project-h1">Muligheter for videreutvikling</h1>
                 <ul class="project-list-ul">
                     <li class="project-list">Historier tilpasset flere aldersgrupper</li>
                     <li class="project-list">Flere historier / scenarioer</li>
-                    <li class="project-list">Flere karakterer  / mulighet til å sette sammen sin egen karakter</li>
+                    <li class="project-list">Flere karakterer / mulighet til å sette sammen sin egen karakter</li>
                     <li class="project-list">Mulighet til å velge kapitler og historier gjennom en menyknapp</li>
                     <li class="project-list">Stemmestyring f.eks at man kan si neste og så kommer til neste slide</li>
                 </ul>
@@ -385,9 +490,10 @@
             <!-- Hva har jeg lært fra prosjektet?-->
             <section class="projectParagraph">
                 <h1 class="project-h1">Hva har jeg lært fra prosjektet?</h1>
-                <p class="project-p">Samarbeid med illustrasjon</p>
-                <p class="project-p">Storyboard story</p>
-                <p class="project-p">Premiere pro </p>
+                <p class="project-p">At smidige metoder er gull verdt i samarbeid med ulike disipliner, hvor hyppig og uformell kommunikasjon mellom to ulike teams er viktig for å få til et godt resultat. Jeg følte at samarbeidet med illustratørene var vellykket på grunn av kontinuerlig kommunikasjon og god forventningsstyring fra begge parter. </p>
+                <p class="project-p">Innsikt og research er essensielt for å kunne begrunne designvalg. Gjennom prosjektet har jeg lært mye via deskresearch og via kundekontakt om hvilke hensyn man bør ta til betraktning når man utvikler design for barn. Jeg føler at dette er en god erfaring å ta med videre dersom jeg skulle jobbe på flere prosjekter som skal lages for barn.</p>
+                <p class="project-p">Video og lyd gjør prototypen levende. Jeg har ikke jobbbet så mye med å klippe lyd og video sammen før denne oppgaven, men har absolutt lyst til å lære meg å lage flere showcase videoer av fremtidige designprototyper. Jeg føler at video og lyd kan hjelpe til å gjøre prototypen mer levende for kunden, slik at kunden kan få et innblikk i hva vi egentlig ønsker å formidle enn kun en Adobe XD prototype.</p>
+                
             </section>
 
         </article>
@@ -401,7 +507,7 @@
     <!-- Footer START -->
     <footer class="footer">
         <div footer__text>
-            <p class="footer__paragraph">Lyst til å bli bedre kjent?</p>∏
+            <p class="footer__paragraph">Lyst til å bli bedre kjent?</p>
             <p class="footer__paragraph">Ta gjerne kontakt!</p>
         </div>
         <div class="footer__iconcontainer">

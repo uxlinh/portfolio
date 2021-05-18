@@ -15,7 +15,7 @@
         top: 6%;
         padding: 10vw 21vw;
         text-align: center;
-        z-index: 3;
+        z-index: 1;
 
         @media only screen and (max-width: $bp-largest) {
             top: 12%;
@@ -217,7 +217,7 @@ main{
         }
 
         &:hover {
-            background-color: #fdc9ba;
+            background-color: #fdd7cd;
         }
 
         &--img {
