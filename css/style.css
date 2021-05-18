@@ -837,6 +837,16 @@ body {
   .linkResetter--smertebert {
     color: #573025; }
 
+.project-list-ul {
+  padding-left: 2rem; }
+
+.project-list {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 4.6rem;
+  color: #181818; }
+
 .project-h1,
 .project-h2,
 .project-h3,
@@ -1064,22 +1074,6 @@ main {
           align-self: center; } }
     .indexcontainer__jeghardeg:hover {
       background-color: #870134; }
-  .indexcontainer__oslofortwo {
-    background-color: #FFECE6;
-    grid-row: 7 / 11;
-    grid-column: 1 / 2; }
-    @media only screen and (max-width: 62.5em) {
-      .indexcontainer__oslofortwo {
-        grid-row: 10/ 14;
-        grid-column: 1 / -1; } }
-    .indexcontainer__oslofortwo:hover {
-      background-color: #D96464; }
-    .indexcontainer__oslofortwo--img {
-      width: 35%;
-      transform: rotate(-24deg);
-      transition: .8s ease-in-out;
-      justify-self: center;
-      align-self: start; }
   .indexcontainer__smertebert {
     background-color: #fbded5;
     grid-row: 7 / 11;

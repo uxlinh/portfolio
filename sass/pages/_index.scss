@@ -180,29 +180,29 @@ main{
         }
     }
 
-    // Oslo for two
-    &__oslofortwo {
-        background-color: #FFECE6;
-        grid-row: 7 / 11;
-        grid-column: 1 / 2;
+    // // Oslo for two
+    // &__oslofortwo {
+    //     background-color: #FFECE6;
+    //     grid-row: 7 / 11;
+    //     grid-column: 1 / 2;
 
-        @media only screen and (max-width: $bp-large) {
-            grid-row: 10/ 14;
-            grid-column: 1 / -1;
-        }
+    //     @media only screen and (max-width: $bp-large) {
+    //         grid-row: 10/ 14;
+    //         grid-column: 1 / -1;
+    //     }
 
-        &:hover {
-            background-color: #D96464;
-        }
+    //     &:hover {
+    //         background-color: #D96464;
+    //     }
 
-        &--img {
-            width: 35%;
-            transform: rotate(-24deg);
-            transition: .8s ease-in-out;
-            justify-self: center;
-            align-self: start;
-        }
-    }
+    //     &--img {
+    //         width: 35%;
+    //         transform: rotate(-24deg);
+    //         transition: .8s ease-in-out;
+    //         justify-self: center;
+    //         align-self: start;
+    //     }
+    // }
 
      // Smertebert
      &__smertebert{
