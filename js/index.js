@@ -148,7 +148,7 @@ let researchpaperTag2 = document.querySelector('.tagresearchpaper2');
 
 researchpaperBox.addEventListener('mouseover', event=> {
     researchpaperImg.style.transform = 'rotate(0eg)';
-    researchpaperImg.style.transform = 'scale(1.1)';  
+    researchpaperImg.style.transform = 'scale(1.2)';  
     researchpaperH1.style.color = '#44390a';
     researchpaperH2.style.color = '#44390a';
     researchpaperTag1.style.backgroundColor = '#7c681056';
