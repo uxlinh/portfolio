@@ -1,0 +1,41 @@
+
+.projectHeader{
+    &__ommeg{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    }
+}
+.profileContainer--ommeg{
+   
+        width: 60rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr 1fr 1fr;
+        padding: 12rem 0 2rem 0;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+.heroImgContainer--ommeg{
+    .heroImg{
+        &--ommeg{
+            width: 20%;
+        }
+    }
+}
+
+.heroText--ommeg{
+    text-align: center;
+}
+
+.ommegIcon{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        &__icon{
+            width: 4rem;
+            margin-right: 1rem;
+        }
+}

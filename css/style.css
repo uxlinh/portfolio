@@ -600,7 +600,7 @@ body {
 .heroImgContainer--smertebert {
   max-width: 80rem; }
 
-.heroImg {
+.heroImg--smertebert {
   width: 100%; }
 
 .projectIntro {
@@ -1197,6 +1197,35 @@ main {
       .paragraph-1fr-2fr .verktoy-img {
         padding-left: 0rem;
         margin-bottom: 2.4rem; } }
+
+.projectHeader__ommeg {
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+
+.profileContainer--ommeg {
+  width: 60rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+  padding: 12rem 0 2rem 0;
+  align-items: center;
+  justify-content: center;
+  justify-items: center; }
+
+.heroImgContainer--ommeg .heroImg--ommeg {
+  width: 20%; }
+
+.heroText--ommeg {
+  text-align: center; }
+
+.ommegIcon {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .ommegIcon__icon {
+    width: 4rem;
+    margin-right: 1rem; }
 
 .header {
   width: 100vw; }

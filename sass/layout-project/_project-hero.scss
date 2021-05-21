@@ -13,9 +13,6 @@
 }
 
 .heroText{
-    &--smertebert{
-
-    }
 }
 
 .heroImgContainer{
@@ -25,6 +22,8 @@
 }
 
 .heroImg{
-    width: 100%; 
+    &--smertebert{
+        width: 100%; 
+    }
 }
 
