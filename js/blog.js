@@ -25,8 +25,8 @@ app.content.get({
 		html += `
 		<a class="blog-listing" href="./blogpost.html?id=${proj.id}">
 			<h2>${proj.blogTitle}</h2>
-			<img class="img-thumbnail" src="${ proj.mainImage[0].url }">
 			<p>${ proj.textArea }</p>
+			<img src="${proj.mainImage[0].url}" class="img-thumbnail">
 		</a>
 		`;
 	}
@@ -34,4 +34,3 @@ app.content.get({
 	blogContainer.innerHTML = html;
 })
 .catch(error => {console.error('Det skjedde en feil', error);})
-
