@@ -1,0 +1,38 @@
+.mainBlogPost{
+    margin-bottom: 10rem;
+}
+#blogpost_container{
+    margin-bottom: 5rem;
+}
+
+.blogcontent{
+    width: 80rem;
+
+    font-family: 'poppins', sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    overflow: hidden;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 10rem 10vw;
+        width: 100%;
+    }
+    @media only screen and (max-width: $bp-small) {
+        padding: 10rem 5vw;
+        width: 100%;
+    }
+}
+
+.blogPostImgContainer{
+    max-width: 90rem;
+    .blogPostImg{
+        width: 100%;
+    }
+}
+
+.blogPost{
+    overflow: hidden;
+    margin: 15rem 0;
+}
+
+

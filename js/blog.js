@@ -1,12 +1,12 @@
 // Flamelink-oppsettet ligger i egen fil (init-flamelink.js)
 
 // hent inn referanser til html-elementer
-let blogContainer = document.querySelector('#blog_container');
+let blogContainer = document.querySelector('#blogPostContainer');
 
 app.content.get({
 		schemaKey: 'blog', // navnet på schema-et ditt
 		populate: [{
-			field: 'mainImage',
+			field: 'thumbnailImg',
 			size: {
 				height: 9999,
 				quality: 1,
@@ -23,10 +23,12 @@ app.content.get({
 			let blogPostThumbnail = blog[property];
 
 			html += `
-			<a class="blog-listing" href="./blogpost.html?id=${blogPostThumbnail.id}">
-				<img src="${blogPostThumbnail.mainImage[0].url}" class="imgThumbnail">
-				<h2>${blogPostThumbnail.blogTitle}</h2>
-				<p>${ blogPostThumbnail.textArea }</p>
+			<a class="blogPostThumbnail" href="./blogpost.html?id=${blogPostThumbnail.id}">
+				<div class="imgThumbnailContainer">
+					<img src="${ blogPostThumbnail.thumbnailImg[0].url }" class="imgThumbnail">
+				</div>
+				<h1 class="h1-thumbnail">${ blogPostThumbnail.blogTitle }</h1>
+				<p class="p-thumbnail">${ blogPostThumbnail.thumbnailIntro }</p>
 			</a>
 			`;
 		}
