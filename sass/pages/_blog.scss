@@ -1,16 +1,22 @@
+#headerBlog{
+    width: 100vw;
+}
+#mainBlog{
+    width: 100vw;
+}
+.sectionBlog{
+    width: 100vw;
+    padding: 10rem 20vw;
+}
 
 #blog_container {
 	display: grid;
-	// grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	grid-template-columns: repeat(3, 1fr 1fr 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 	gap: 14px;
 }
 .blog-listing{
     background-color: aquamarine;
 }
-.img-thumbnail{
-    max-width: 200px;
-}
-.kevin{
-    padding: 10rem;
+.imgThumbnail{
+    max-width: 100%;
 }
