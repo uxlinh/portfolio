@@ -28,7 +28,7 @@ if (id) {
       let html = `
         <article class="blogPost">
           <figure class="blogPostImgContainer"><img src="${blogPost.mainImage[0].url}" class="blogPostImg"></figure>
-          <a class="photoCredit" href=" ${blogPost.photoCreditLink} ">Bilde tatt av <span class="photoUnderline">${blogPost.photoCreditName}</span></a>
+          <a class="photoCredit" href=" ${blogPost.photoCreditLink} ">Bilde: <span class="photoUnderline">${blogPost.photoCreditName}</span></a>
           <h1 class="blogTitle-h1">${blogPost.blogTitle}</h1>
           <h3 class="date-h3">${ blogPost.date}</h3>
           <p class="leadParagraph">${ blogPost.leadParagraph }</p>
