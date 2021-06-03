@@ -969,7 +969,9 @@ body {
   width: 100vw; }
 
 #mainBlog {
-  width: 100vw; }
+  width: 100vw;
+  height: 130vh;
+  display: grid; }
 
 .sectionBlog {
   width: 100vw;
@@ -982,13 +984,14 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 3rem;
-  margin: 5rem 0rem; }
+  margin: 0rem 0rem; }
 
 .blogPostThumbnail {
   display: grid;
+  grid-template-rows: min-content min-content min-content;
   grid-gap: 1rem;
   border-radius: 1rem;
-  align-items: flex-start;
+  align-items: start;
   background-color: #fef6e8af;
   padding-bottom: 3rem;
   text-decoration: none; }
