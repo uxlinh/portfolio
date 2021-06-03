@@ -3,14 +3,13 @@
 }
 #mainBlog{
     width: 100vw;
-    height: 130vh;
     display: grid;
 }
 .sectionBlog{
     width: 100vw;
     padding: 20rem 20vw;
     @media only screen and (max-width: $bp-medium) {
-        padding: 20rem 10vw;
+        padding: 20rem 20vw;
     }
 }
 
@@ -26,9 +25,9 @@
     grid-template-rows: min-content min-content min-content;
     grid-gap: 1rem;
     border-radius: 1rem;
-    // box-shadow: 1px 5px 10px 1px #88888838;
     align-items: start;
     background-color: #fef6e8af;
+    // background-color: #f3f3f3af;
     padding-bottom: 3rem;
     text-decoration: none;
 }

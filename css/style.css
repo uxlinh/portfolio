@@ -970,7 +970,6 @@ body {
 
 #mainBlog {
   width: 100vw;
-  height: 130vh;
   display: grid; }
 
 .sectionBlog {
@@ -978,7 +977,7 @@ body {
   padding: 20rem 20vw; }
   @media only screen and (max-width: 50em) {
     .sectionBlog {
-      padding: 20rem 10vw; } }
+      padding: 20rem 20vw; } }
 
 #blogPostContainer {
   display: grid;
@@ -1043,6 +1042,10 @@ body {
   font-weight: 400;
   overflow: hidden;
   color: #252525; }
+  @media only screen and (max-width: 37.5em) {
+    .blogcontent {
+      padding: 10rem 5vw;
+      width: 300; } }
   @media only screen and (max-width: 50em) {
     .blogcontent {
       padding: 10rem 10vw;
