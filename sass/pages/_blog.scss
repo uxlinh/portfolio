@@ -16,14 +16,16 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 	gap: 3rem;
-    margin: 5rem 0;
+    margin: 5rem 0rem;
 }
 
 .blogPostThumbnail{
     display: grid;
     grid-gap: 1rem;
     border-radius: 1rem;
-    box-shadow: 1px 1px 10px 1px #88888838;
+    // box-shadow: 1px 5px 10px 1px #88888838;
+    align-items: flex-start;
+    background-color: #fef6e8af;
     padding-bottom: 3rem;
     text-decoration: none;
 }

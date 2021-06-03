@@ -1,38 +1,79 @@
-.mainBlogPost{
+.mainBlogPost {
     margin-bottom: 10rem;
 }
-#blogpost_container{
+
+#blogpost_container {
     margin-bottom: 5rem;
+    max-width: 80rem;
 }
 
-.blogcontent{
+.blogcontent {
     width: 80rem;
+    padding: 0 5rem;
+    margin: 0;
 
     font-family: 'poppins', sans-serif;
     font-size: 1.8rem;
     line-height: 3.2rem;
+    font-weight: 400;
     overflow: hidden;
+    color: rgb(37, 37, 37);
 
     @media only screen and (max-width: $bp-medium) {
         padding: 10rem 10vw;
         width: 100%;
     }
+
     @media only screen and (max-width: $bp-small) {
         padding: 10rem 5vw;
         width: 100%;
     }
 }
 
-.blogPostImgContainer{
-    max-width: 90rem;
-    .blogPostImg{
+.blogPostImgContainer {
+    max-width: 80rem;
+
+    .blogPostImg {
         width: 100%;
     }
 }
 
-.blogPost{
+.blogPost {
     overflow: hidden;
     margin: 15rem 0;
 }
 
+.blogTitle-h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    padding: 4rem 5rem 1rem 5rem;
+    font-size: 3.8rem;
+    line-height: 6rem;
+}
+.date-h3 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    padding: .5rem 5rem 3rem 5rem;
+    color: rgba(87, 87, 87, 0.801);
+    font-size: 1.4rem;
+}
+.leadParagraph{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    padding: .3rem 5rem 3rem 5rem;
+    color: rgba(87, 87, 87, 0.801);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+.photoCredit {
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: rgba(87, 87, 87, 0.671);
+}
+.photoUnderline{
+    text-decoration: underline;
+}
 

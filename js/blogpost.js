@@ -28,11 +28,10 @@ if (id) {
       let html = `
         <article class="blogPost">
           <figure class="blogPostImgContainer"><img src="${blogPost.mainImage[0].url}" class="blogPostImg"></figure>
-          <h1 class="h1-blogpost">${blogPost.blogTitle}</h1>
-          <h3 class="h3-author">${ blogPost.author}</h3>
-          <h3 class="h3-date">${ blogPost.date}</h3>
-
-          <p>${ blogPost.leadParagraph }</p>
+          <a class="photoCredit" href=" ${blogPost.photoCreditLink} ">Bilde tatt av <span class="photoUnderline">${blogPost.photoCreditName}</span></a>
+          <h1 class="blogTitle-h1">${blogPost.blogTitle}</h1>
+          <h3 class="date-h3">${ blogPost.date}</h3>
+          <p class="leadParagraph">${ blogPost.leadParagraph }</p>
 
           <div class="blogcontent">${ blogPost.blogPostContent }</div>
             
