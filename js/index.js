@@ -9,6 +9,7 @@ let modusImg = document.querySelector('.indexcontainer__modus--img');
 let modusH1 = document.querySelector('.modus__h1');
 let modusH2 = document.querySelector('.modus__h2');
 let modusTag1 = document.querySelector('.tagmodus1');
+let modusTag2 = document.querySelector('.tagmodus2');
 
 modusBox.addEventListener('mouseover', event=> {
     modusImg.style.transform = 'rotate(0deg)';  
@@ -16,14 +17,18 @@ modusBox.addEventListener('mouseover', event=> {
     modusH1.style.color = '#EAEBFF';
     modusH2.style.color = '#EAEBFF';
     modusTag1.style.backgroundColor = '#6363D6';
+    modusTag2.style.backgroundColor = '#6363D6';
     modusTag1.style.color = '#EAEBFF';
+    modusTag2.style.color = '#EAEBFF';
 });
 modusBox.addEventListener('mouseout', event=> {
     modusImg.style.transform = 'rotate(24deg)';
     modusH1.style.color = '#0E034E';
     modusH2.style.color = '#0E034E';
     modusTag1.style.backgroundColor = '#4a52e622';
+    modusTag2.style.backgroundColor = '#4a52e622';
     modusTag1.style.color = '#2c329d';
+    modusTag2.style.color = '#2c329d';
 });
 
 // JEGHARDEG
@@ -32,6 +37,7 @@ let jeghardegImg = document.querySelector('.indexcontainer__jeghardeg--img');
 let jeghardegH1 = document.querySelector('.jeghardeg__h1');
 let jeghardegH2 = document.querySelector('.jeghardeg__h2');
 let jeghardegTag1 = document.querySelector('.tagjeghardeg1');
+let jeghardegTag2 = document.querySelector('.tagjeghardeg2');
 let jeghardegTag3 = document.querySelector('.tagjeghardeg3');
 let jeghardegTag4 = document.querySelector('.tagjeghardeg4');
 
@@ -41,9 +47,11 @@ jeghardegBox.addEventListener('mouseover', event=> {
     jeghardegH1.style.color = '#fbdadf';
     jeghardegH2.style.color = '#fbdadf';
     jeghardegTag1.style.backgroundColor = '#ad4f5d';
+    jeghardegTag2.style.backgroundColor = '#ad4f5d';
     jeghardegTag3.style.backgroundColor = '#ad4f5d';
     jeghardegTag4.style.backgroundColor = '#ad4f5d';
     jeghardegTag1.style.color = '#fbdadf';
+    jeghardegTag2.style.color = '#fbdadf';
     jeghardegTag3.style.color = '#fbdadf';
     jeghardegTag4.style.color = '#fbdadf';
 });
@@ -52,9 +60,11 @@ jeghardegBox.addEventListener('mouseout', event=> {
     jeghardegH1.style.color = '#0E034E';
     jeghardegH2.style.color = '#0E034E';
     jeghardegTag1.style.backgroundColor = '#d1193215';
+    jeghardegTag2.style.backgroundColor = '#d1193215';
     jeghardegTag3.style.backgroundColor = '#d1193215';
     jeghardegTag4.style.backgroundColor = '#d1193215';
     jeghardegTag1.style.color = '#B5293B';
+    jeghardegTag2.style.color = '#B5293B';
     jeghardegTag3.style.color = '#B5293B';
     jeghardegTag4.style.color = '#B5293B';
 });
@@ -90,6 +100,7 @@ let smertebertImg = document.querySelector('.indexcontainer__smertebert--img');
 let smertebertH1 = document.querySelector('.smertebert__h1');
 let smertebertH2 = document.querySelector('.smertebert__h2');
 let smertebertTag1 = document.querySelector('.tagsmertebert1');
+let smertebertTag2 = document.querySelector('.tagsmertebert2');
 
 smertebertBox.addEventListener('mouseover', event=> {
     smertebertImg.style.transform = 'rotate(0deg)';
@@ -97,15 +108,18 @@ smertebertBox.addEventListener('mouseover', event=> {
     smertebertH1.style.color = '#c44d4d';
     smertebertH2.style.color = '#c44d4d';
     smertebertTag1.style.backgroundColor = '#d87979';
-    // smertebertTag1.style.backgroundColor = '#c44d4d86';
+    smertebertTag2.style.backgroundColor = '#d87979';
     smertebertTag1.style.color = '#F8E7EA';
+    smertebertTag2.style.color = '#F8E7EA';
 });
 smertebertBox.addEventListener('mouseout', event=> {
     smertebertImg.style.transform = 'rotate(-14deg)';
     smertebertH1.style.color = '#0E034E';
     smertebertH2.style.color = '#0E034E';
     smertebertTag1.style.backgroundColor = '#d9646425';
+    smertebertTag2.style.backgroundColor = '#d9646425';
     smertebertTag1.style.color = '#c44d4d';
+    smertebertTag2.style.color = '#c44d4d';
 });
 
 
@@ -144,7 +158,6 @@ let researchpaperImg = document.querySelector('.indexcontainer__researchpaper--i
 let researchpaperH1 = document.querySelector('.researchpaper__h1');
 let researchpaperH2 = document.querySelector('.researchpaper__h2');
 let researchpaperTag1 = document.querySelector('.tagresearchpaper1');
-let researchpaperTag2 = document.querySelector('.tagresearchpaper2');
 
 researchpaperBox.addEventListener('mouseover', event=> {
     researchpaperImg.style.transform = 'rotate(0eg)';
@@ -152,18 +165,14 @@ researchpaperBox.addEventListener('mouseover', event=> {
     researchpaperH1.style.color = '#44390a';
     researchpaperH2.style.color = '#44390a';
     researchpaperTag1.style.backgroundColor = '#7c681056';
-    researchpaperTag2.style.backgroundColor = '#7c681056';
     researchpaperTag1.style.color = '#f8eec9';
-    researchpaperTag2.style.color = '#f8eec9';
 });
 researchpaperBox.addEventListener('mouseout', event=> {
     researchpaperImg.style.transform = 'rotate(24deg)';
     researchpaperH1.style.color = '#0E034E';
     researchpaperH2.style.color = '#0E034E';
     researchpaperTag1.style.backgroundColor = '#d6af002c';
-    researchpaperTag2.style.backgroundColor = '#d6af002c';
     researchpaperTag1.style.color = '#806c10';
-    researchpaperTag2.style.color = '#806c10';
 });
 
 
